@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipes · The Greener Table</title>
+  <meta name="description" content="Plant-forward recipes from The Greener Table cooking experiences in San Francisco.">
+  <link rel="icon" href="brand/monogram.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="recipe.css">
+</head>
+<body class="recipe-page">
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="The Greener Table home"><img src="brand/logo-horizontal.svg" alt="The Greener Table"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <ul>
+      <li><a href="index.html#experience">The Experience</a></li>
+      <li><a href="index.html#philosophy">Philosophy</a></li>
+      <li><a href="index.html#hosts">Your Hosts</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="index.html#how">How It Works</a></li>
+      <li><a class="btn" href="index.html#book">Book a Class</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="rx-hero">
+    <div class="wrap">
+      <p class="eyebrow">From our table to yours</p>
+      <h1>Recipes</h1>
+      <p class="lede">Plant-forward dishes from around the world, the same recipes we cook together in class.</p>
+    </div>
+  </section>
+  <div class="wrap">
+    <ul class="rx-grid" id="recipe-list"></ul>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="brand/logo.svg" alt="The Greener Table">
+    <p class="tag">Cheers to a life full of food, friends and fun.</p>
+    <nav>
+      <a href="index.html#experience">The Experience</a>
+      <a href="index.html#philosophy">Philosophy</a>
+      <a href="index.html#hosts">Your Hosts</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="index.html#how">How It Works</a>
+      <a href="index.html#book">Book</a>
+    </nav>
+    <small>© 2026 The Greener Table · San Francisco</small>
+  </div>
+</footer>
+
+<script src="recipes/recipes.js"></script>
+<script>
+  // Lists every recipe in recipes/recipes.js.
+  const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  document.getElementById('recipe-list').innerHTML = (window.RECIPES || []).map(r => `
+    <li class="rx-card"><a href="recipe.html?r=${encodeURIComponent(r.slug)}">
+      <span class="eyebrow">${esc(r.region)}</span>
+      <h2>${esc(r.title)}</h2>
+      <span class="r-sub">${esc(r.subtitle)}</span>
+      <p>${esc(r.intro)}</p>
+      <span class="rx-meta">Prep ${esc(r.glance.prep)} min · Cook ${esc(r.glance.cook)} min · Serves ${esc(r.glance.serves)}</span>
+    </a></li>`).join('');
+
+  const header = document.querySelector('.site-header');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  const toggle = document.querySelector('.menu-toggle');
+  const links = document.querySelector('.nav ul');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>
