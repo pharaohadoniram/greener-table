@@ -5,6 +5,5 @@
 !/README.md
 !/netlify.toml
 !/site/
-!/logo-source/
 .DS_Store
 .netlify/
