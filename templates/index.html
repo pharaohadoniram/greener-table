@@ -61,11 +61,11 @@
       <div class="head reveal">
         <p class="eyebrow">{{what_to_expect.eyebrow}}</p>
         <h2>{{what_to_expect.heading}}</h2>
+        {{#if what_to_expect.intro}}<p class="steps-intro">{{what_to_expect.intro}}</p>{{/if}}
       </div>
       <div class="step-grid">
         {{#each what_to_expect.steps as s}}
         <div class="step reveal">
-          <div class="num">{{@roman}}.</div>
           <h3>{{s.title}}</h3>
           <p>{{s.text}}</p>
         </div>
@@ -208,26 +208,17 @@
         <p class="eyebrow">{{booking.eyebrow}}</p>
         <h2>{{booking.heading}}</h2>
         <p class="lede">{{booking.intro}}</p>
-        <p class="contact">Prefer email? Write to <a href="mailto:{{attr:booking.email}}">{{booking.email}}</a></p>
+        {{#if booking.schedule}}<p class="schedule">{{booking.schedule}}</p>{{/if}}
       </div>
-      <form class="reveal" id="booking-form" name="booking" method="POST" action="{{attr:settings.booking_form_action}}">
-        <input type="hidden" name="_subject" value="New Greener Table inquiry">
-        <p class="hidden"><label>Leave this empty <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
-        <div><label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name"></div>
-        <div><label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
-        <div>
-          <label for="f-occasion">Occasion</label>
-          <select id="f-occasion" name="occasion">
-            {{#each booking.occasions as o}}<option>{{o}}</option>{{/each}}
-          </select>
-        </div>
-        <div><label for="f-size">Group size</label><input id="f-size" name="group_size" type="number" min="1" inputmode="numeric"></div>
-        <div class="full"><label for="f-dates">Preferred dates</label><input id="f-dates" name="dates"></div>
-        <div class="full"><label for="f-diet">Allergies or dietary needs</label><input id="f-diet" name="dietary"></div>
-        <div class="full"><label for="f-msg">Anything else we should know?</label><textarea id="f-msg" name="message"></textarea></div>
-        <button class="btn full" type="submit">Send inquiry</button>
-        <p class="full form-status" id="form-status" role="status" hidden></p>
-      </form>
+      <div class="contact-card reveal">
+        <p class="eyebrow">{{booking.note_title}}</p>
+        <ul>
+          {{#each booking.note_items as n}}<li>{{n}}</li>{{/each}}
+        </ul>
+        <a class="btn" href="mailto:{{attr:booking.email}}?subject=A%20Greener%20Table%20Crew">{{booking.button_label}}</a>
+        <p class="contact-email"><a href="mailto:{{attr:booking.email}}">{{booking.email}}</a></p>
+        {{#if booking.signoff}}<p class="signoff">{{booking.signoff}}</p>{{/if}}
+      </div>
     </div>
   </section>
 
@@ -282,27 +273,6 @@
     });
   });
   if (tabs.length) show(tabs[0].id);
-
-  // Booking form: sends to the form service in the background and thanks the guest in place.
-  const form = document.getElementById('booking-form');
-  const status = document.getElementById('form-status');
-  form.addEventListener('submit', async e => {
-    e.preventDefault();
-    const say = msg => { status.hidden = false; status.textContent = msg; };
-    if (!form.action || form.getAttribute('action') === '') { say('The booking form is not connected yet. Please email us instead.'); return; }
-    const button = form.querySelector('button[type=submit]');
-    button.disabled = true;
-    try {
-      const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
-      if (!res.ok) throw new Error();
-      form.reset();
-      say('Thank you! Stacy will be in touch soon to plan your experience.');
-    } catch {
-      say('Sorry, something went wrong. Please email us instead.');
-    } finally {
-      button.disabled = false;
-    }
-  });
 
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });

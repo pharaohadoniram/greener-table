@@ -5,9 +5,18 @@
     "headline_line_2": "*Gather* around the table.",
     "intro": "A hands-on cooking class hosted by Stacy and Noah in their San Francisco kitchen. Cook global, plant-forward dishes side by side with friends, then sit down to share the meal you made together.",
     "facts": [
-      { "title": "Hands-on", "text": "you cook, in pairs" },
-      { "title": "Plant-forward", "text": "bold, global recipes" },
-      { "title": "Shared table", "text": "an afternoon with friends" }
+      {
+        "title": "Hands-on",
+        "text": "you cook, in pairs"
+      },
+      {
+        "title": "Plant-forward",
+        "text": "bold, global recipes"
+      },
+      {
+        "title": "Shared table",
+        "text": "an afternoon with friends"
+      }
     ],
     "photo": "assets/market.jpg",
     "photo_description": "Baskets of strawberries, apricots, plums and figs at a farmers’ market",
@@ -16,10 +25,20 @@
   "what_to_expect": {
     "eyebrow": "What to expect",
     "heading": "An afternoon in *three courses*",
+    "intro": "Every class is a Crew: a small group of friends, family, or colleagues who cook, laugh, and eat together.",
     "steps": [
-      { "title": "Cook together", "text": "Pair up and take on one recipe per pair, with Stacy and Noah guiding every chop, simmer and taste." },
-      { "title": "Share the meal", "text": "Every pair brings their dish to the table, and together it becomes a full plant-forward feast." },
-      { "title": "Leave inspired", "text": "Go home with the recipes, new techniques, and a fresh way of seeing what plants can do." }
+      {
+        "title": "Cook together",
+        "text": "Pair up and take on one recipe per pair, with Stacy and Noah guiding every chop, simmer and taste."
+      },
+      {
+        "title": "Share the meal",
+        "text": "Every pair brings their dish to the table, and together it becomes a full plant-forward feast."
+      },
+      {
+        "title": "Leave inspired",
+        "text": "Go home with the recipes, new techniques, and a fresh way of seeing what plants can do."
+      }
     ]
   },
   "purpose": {
@@ -49,10 +68,22 @@
         "quote": "Exercise, hydration, sleep.",
         "question": "What are the essential choices for healthy living?",
         "choices": [
-          { "title": "You are what you eat", "text": "A balanced diet rich in nutrients from a variety of foods supports overall health and reduces the risk of chronic disease." },
-          { "title": "Water", "text": "Staying well hydrated is essential for maintaining bodily functions, sharpening cognitive performance, and supporting overall well-being." },
-          { "title": "Sleep", "text": "Adequate sleep is crucial for physical recovery, mental clarity, and a healthy metabolism." },
-          { "title": "Exercise & balance", "text": "Regular physical activity, combined with rest and balance in life, builds strength, supports heart health, and promotes mental well-being." }
+          {
+            "title": "You are what you eat",
+            "text": "A balanced diet rich in nutrients from a variety of foods supports overall health and reduces the risk of chronic disease."
+          },
+          {
+            "title": "Water",
+            "text": "Staying well hydrated is essential for maintaining bodily functions, sharpening cognitive performance, and supporting overall well-being."
+          },
+          {
+            "title": "Sleep",
+            "text": "Adequate sleep is crucial for physical recovery, mental clarity, and a healthy metabolism."
+          },
+          {
+            "title": "Exercise & balance",
+            "text": "Regular physical activity, combined with rest and balance in life, builds strength, supports heart health, and promotes mental well-being."
+          }
         ],
         "outcomes": [
           "Understand lean eating and a plant-forward diet",
@@ -68,10 +99,22 @@
         "quote": "Vegan? Ohhh… that can’t taste good.",
         "question": "What are the “ingredients” for healthy eating?",
         "choices": [
-          { "title": "Nutritious experiments", "text": "Trying new recipes and food combinations makes eating exciting." },
-          { "title": "Patience & persistence", "text": "Healthy eating habits take time and consistent effort." },
-          { "title": "Healthy choices, healthier living", "text": "Conscious decisions about what you eat can significantly improve your well-being and quality of life." },
-          { "title": "Focus on taste", "text": "Delicious, satisfying meals keep healthy eating a pleasure you can sustain." }
+          {
+            "title": "Nutritious experiments",
+            "text": "Trying new recipes and food combinations makes eating exciting."
+          },
+          {
+            "title": "Patience & persistence",
+            "text": "Healthy eating habits take time and consistent effort."
+          },
+          {
+            "title": "Healthy choices, healthier living",
+            "text": "Conscious decisions about what you eat can significantly improve your well-being and quality of life."
+          },
+          {
+            "title": "Focus on taste",
+            "text": "Delicious, satisfying meals keep healthy eating a pleasure you can sustain."
+          }
         ],
         "outcomes": [
           "Encourage creativity",
@@ -87,10 +130,22 @@
         "quote": "Pause, simmer, adjust, listen, and you will improve.",
         "question": "Where else can the benefits be observed?",
         "choices": [
-          { "title": "Focus", "text": "A nutrient-rich diet supports brain health, sharpening focus and concentration for better listening and teamwork." },
-          { "title": "Agility", "text": "Nutrient-dense foods improve physical health and agility, helping you act quickly and effectively." },
-          { "title": "Decision making", "text": "A diet rich in omega-3s and antioxidants boosts cognitive function and supports better decisions." },
-          { "title": "Taking risks", "text": "Good nutrition supports mental clarity and emotional stability, building the confidence to take calculated risks." }
+          {
+            "title": "Focus",
+            "text": "A nutrient-rich diet supports brain health, sharpening focus and concentration for better listening and teamwork."
+          },
+          {
+            "title": "Agility",
+            "text": "Nutrient-dense foods improve physical health and agility, helping you act quickly and effectively."
+          },
+          {
+            "title": "Decision making",
+            "text": "A diet rich in omega-3s and antioxidants boosts cognitive function and supports better decisions."
+          },
+          {
+            "title": "Taking risks",
+            "text": "Good nutrition supports mental clarity and emotional stability, building the confidence to take calculated risks."
+          }
         ],
         "outcomes": [
           "Build better networking skills",
@@ -117,9 +172,18 @@
         "photo_description": "Stacy smiling at an outdoor table with a vase of hydrangeas and dahlias",
         "bio": "A retired Deloitte Principal after 37 years in financial services and consulting, Stacy is passionate about trying new recipes, healthy cooking, building long-lasting relationships, and sharing. She loves making every kind of bread and cooking dishes from around the world.",
         "details": [
-          { "label": "Credentials", "text": "Plant-Forward certified, Culinary Institute of America · Member, Teaching Kitchen Collaborative · Board member" },
-          { "label": "Superpower", "text": "Networking, sharing, and getting things done" },
-          { "label": "Fun fact", "text": "She has a twin brother who is a full foot taller than she is." }
+          {
+            "label": "Credentials",
+            "text": "Plant-Forward certified, Culinary Institute of America · Member, Teaching Kitchen Collaborative · Board member"
+          },
+          {
+            "label": "Superpower",
+            "text": "Networking, sharing, and getting things done"
+          },
+          {
+            "label": "Fun fact",
+            "text": "She has a twin brother who is a full foot taller than she is."
+          }
         ],
         "quote": "How choices in cooking align to create long-lasting personal and professional relationships."
       },
@@ -130,9 +194,18 @@
         "photo_description": "Noah smiling in sunglasses on the coast of Cinque Terre",
         "bio": "A retired physician with more than 30 years in medicine, Noah is passionate about gardening and growing food, finding new ways to transform his harvest, serving the community, and assisting Stacy in the kitchen.",
         "details": [
-          { "label": "Background", "text": "Former wrestler and wrestling coach · Certified personal trainer · Runner and triathlete" },
-          { "label": "Superpower", "text": "Consummate learner. Ask him about viticulture, resin, stained glass, and cement." },
-          { "label": "Fun fact", "text": "83 marathons, 18 Ironman races, and countless half marathons." }
+          {
+            "label": "Background",
+            "text": "Former wrestler and wrestling coach · Certified personal trainer · Runner and triathlete"
+          },
+          {
+            "label": "Superpower",
+            "text": "Consummate learner. Ask him about viticulture, resin, stained glass, and cement."
+          },
+          {
+            "label": "Fun fact",
+            "text": "83 marathons, 18 Ironman races, and countless half marathons."
+          }
         ],
         "quote": "There is a difference between being vegan and being a healthy vegan. Personally, it has helped my overall physical well-being."
       }
@@ -148,26 +221,69 @@
     "eyebrow": "How it works",
     "heading": "From *welcome* to the last bite",
     "steps": [
-      { "title": "Reach out", "text": "Tell us about your group and a few dates that work. We will plan the experience together." },
-      { "title": "Get the recipes", "text": "Before class you will receive a welcome note, the recipes, and everything you need to know about arrival." },
-      { "title": "Share any dietary needs", "text": "Let us know about allergies or restrictions in advance so everyone can enjoy the meal safely." },
-      { "title": "Cook, then gather", "text": "Arrive, meet Stacy and Noah, pair up, and cook. Then sit down together for the meal you created." },
-      { "title": "Gather feedback", "text": "After class, we will check in to hear what you loved and what you would like to cook next, so every experience keeps getting better." }
+      {
+        "title": "Reach out",
+        "text": "Tell us about your Crew and a few dates that work. We will plan the experience together."
+      },
+      {
+        "title": "Get the recipes",
+        "text": "Before class you will receive a welcome note, the recipes, and everything you need to know about arrival."
+      },
+      {
+        "title": "Share any dietary needs",
+        "text": "Let us know about allergies or restrictions in advance so everyone can enjoy the meal safely."
+      },
+      {
+        "title": "Cook, then gather",
+        "text": "Arrive, meet Stacy and Noah, pair up, and cook. Then sit down together for the meal you created."
+      },
+      {
+        "title": "Gather feedback",
+        "text": "After class, we will check in to hear what you loved and what you would like to cook next, so every experience keeps getting better."
+      }
     ],
     "faq": [
-      { "question": "Do I need any cooking experience?", "answer": "Not at all. Every recipe is broken down step by step, from mise en place to plating, and we are right there with you the whole time." },
-      { "question": "Who is the experience for?", "answer": "Groups of friends, families, teams, and anyone curious about plant-forward cooking. It is a wonderful setting for celebrations and team building." },
-      { "question": "Is everything vegan?", "answer": "Yes. Every dish is plant-based, and we love showing skeptics just how flavorful plants can be." },
-      { "question": "Can you accommodate allergies?", "answer": "Please tell us about any allergies or dietary restrictions when you book, and we will plan the menu around them." },
-      { "question": "Where do classes take place?", "answer": "In our home kitchen in San Francisco. The address and arrival details are shared with your group once your date is confirmed." }
+      {
+        "question": "Do I need any cooking experience?",
+        "answer": "Not at all. Every recipe is broken down step by step, from mise en place to plating, and we are right there with you the whole time."
+      },
+      {
+        "question": "Who is the experience for?",
+        "answer": "Groups of friends, families, teams, and anyone curious about plant-forward cooking. Each group cooks together as its own Crew, which makes it a wonderful setting for celebrations and team building."
+      },
+      {
+        "question": "When do classes meet?",
+        "answer": "Classes typically meet on Thursdays at 4:00 PM. If another day works better for your Crew, just ask."
+      },
+      {
+        "question": "Is everything vegan?",
+        "answer": "Yes. Every dish is plant-based, and we love showing skeptics just how flavorful plants can be."
+      },
+      {
+        "question": "Can you accommodate allergies?",
+        "answer": "Please tell us about any allergies or dietary restrictions when you book, and we will plan the menu around them."
+      },
+      {
+        "question": "Where do classes take place?",
+        "answer": "In our home kitchen in San Francisco. The address and arrival details are shared with your group once your date is confirmed."
+      }
     ]
   },
   "booking": {
-    "eyebrow": "Book an experience",
+    "eyebrow": "Get in touch",
     "heading": "Pull up a chair at *our table*",
-    "intro": "Tell us a little about your group and we will be in touch to plan your afternoon, including dates, menu, and pricing.",
+    "intro": "Every Crew is planned personally. Send me a note about your group and I will reach out to plan your afternoon together, from the menu to the last bite.",
+    "schedule": "Classes typically meet on Thursdays at 4:00 PM.",
+    "note_title": "In your note, tell us",
+    "note_items": [
+      "Who is in your Crew, and how many of you",
+      "The occasion, if there is one",
+      "A few dates that work for you",
+      "Any allergies or dietary needs"
+    ],
+    "button_label": "Email Stacy",
     "email": "thegreenertable@gmail.com",
-    "occasions": ["Friends & family", "Team or corporate", "Celebration", "Something else"]
+    "signoff": "We can’t wait to cook with you. Stacy & Noah"
   },
   "footer": {
     "tagline": "Cheers to a life full of food, friends and fun."

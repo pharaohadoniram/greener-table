@@ -217,6 +217,7 @@ content:
         fields:
           - { name: eyebrow, label: Small heading, type: string }
           - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Line under the heading, type: text }
           - name: steps
             label: Steps
             type: object
@@ -334,14 +335,18 @@ content:
               - { name: question, label: Question, type: string }
               - { name: answer, label: Answer, type: text }
       - name: booking
-        label: Booking section
+        label: Get in touch (bottom of the page)
         type: object
         fields:
           - { name: eyebrow, label: Small heading, type: string }
           - { name: heading, label: Heading, type: string }
-          - { name: intro, label: Introduction, type: text }
+          - { name: intro, label: Personal note, type: text }
+          - { name: schedule, label: When classes meet, type: string }
+          - { name: note_title, label: Heading above the checklist, type: string }
+          - { name: note_items, label: What to include in their email, type: string, list: true }
+          - { name: button_label, label: Email button text, type: string }
           - { name: email, label: Contact email, type: string }
-          - { name: occasions, label: Occasion choices in the form, type: string, list: true }
+          - { name: signoff, label: Sign-off line, type: string }
       - name: footer
         label: Footer
         type: object

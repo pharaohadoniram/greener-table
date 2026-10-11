@@ -259,7 +259,17 @@ input:focus, select:focus, textarea:focus { border-color: var(--olive); }
 textarea { resize: vertical; min-height: 96px; }
 form .btn { justify-self: start; }
 .hidden { display: none; }
-.form-status { font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--olive); }
+
+/* Contact card (replaces the booking form) */
+.steps-intro { margin-top: 16px; color: var(--muted); font-size: 18px; }
+.schedule { font-variant-numeric: lining-nums; margin-top: 22px; font-family: var(--serif); font-style: italic; font-size: 24px; color: var(--olive); }
+.contact-card { background: var(--cream); padding: clamp(28px, 5vw, 52px); }
+.contact-card ul { list-style: none; margin: 14px 0 30px; }
+.contact-card li { position: relative; padding: 10px 0 10px 26px; border-bottom: 1px solid var(--stone); font-size: 17px; }
+.contact-card li::before { content: ""; position: absolute; left: 2px; top: 20px; width: 8px; height: 8px; border-radius: 50%; background: var(--sage); }
+.contact-email { margin-top: 16px; font-size: 15px; }
+.contact-email a { color: var(--olive); }
+.signoff { margin-top: 26px; font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--ink); }
 
 /* Footer */
 footer { padding: 64px 0 40px; text-align: center; }

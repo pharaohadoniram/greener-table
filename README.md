@@ -20,4 +20,4 @@ To work locally: `node build/build.js`, then serve `_site/` (for example `python
 
 ## Settings
 
-`content/settings.json` holds the site address and the booking form endpoint. It is not editable in Pages CMS.
+`content/settings.json` holds the site address. It is not editable in Pages CMS. Inquiries come in by email (the Get in touch section links to Stacy’s address).
