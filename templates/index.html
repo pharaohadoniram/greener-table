@@ -26,7 +26,7 @@
       <li><a href="#experience">The Experience</a></li>
       <li><a href="#philosophy">Philosophy</a></li>
       <li><a href="#hosts">Your Hosts</a></li>
-      <li><a href="#menu">The Menu</a></li>
+      <li><a href="#recipes">Recipes</a></li>
       <li><a href="gallery.html">Gallery</a></li>
       <li><a href="#how">How It Works</a></li>
       <li><a class="btn" href="#book">Book a Class</a></li>
@@ -44,7 +44,7 @@
         <p class="lede">{{hero.intro}}</p>
         <div class="actions">
           <a class="btn" href="#book">Book an experience</a>
-          <a class="btn ghost" href="#menu">See a sample menu</a>
+          <a class="btn ghost" href="#recipes">Explore recipes</a>
         </div>
         <div class="facts">
           {{#each hero.facts as f}}<div><strong>{{f.title}}</strong>{{f.text}}</div>{{/each}}
@@ -176,27 +176,31 @@
     </div>
   </section>
 
-  <section class="menu" id="menu">
+  <section class="recipes-home" id="recipes">
     <div class="wrap">
       <div class="head reveal">
-        <p class="eyebrow">{{menu.eyebrow}}</p>
-        <h2>{{menu.heading}}</h2>
-        <p>{{menu.intro}}</p>
+        <p class="eyebrow">{{recipes_section.eyebrow}}</p>
+        <h2>{{recipes_section.heading}}</h2>
+        <p>{{recipes_section.intro}}</p>
       </div>
-      <div class="menu-card reveal">
-        <div class="rule">The Greener Table</div>
+      <ul class="rcards">
         {{#each featured as r}}
-        <div class="dish">
-          <div class="origin">{{r.region}}</div>
-          <h3>{{r.title}}</h3>
-          <div class="with">{{r.subtitle}}</div>
-          <p>{{r.menu_blurb}}</p>
-          <div class="meta">Prep {{r.prep_minutes}} min · Cook {{r.cook_minutes}} min · Serves {{r.serves}}</div>
-          <a class="recipe-link" href="recipe.html?r={{attr:r.slug}}">View the full recipe <span aria-hidden="true">→</span></a>
-        </div>
+        <li class="rcard reveal">
+          <a href="recipe.html?r={{attr:r.slug}}">
+            {{#if r.photo}}<span class="rcard-photo"><img src="{{attr:r.photo}}" alt="{{attr:r.title}}" loading="lazy"></span>{{/if}}
+            <span class="rcard-body">
+              <span class="rcard-region">{{r.region}}</span>
+              <span class="rcard-title">{{r.title}}</span>
+              <span class="rcard-sub">{{r.subtitle}}</span>
+              <span class="rcard-text">{{r.menu_blurb}}</span>
+              <span class="rcard-meta"><span class="nw">Prep {{r.prep_minutes}} min</span> · <span class="nw">Cook {{r.cook_minutes}} min</span> · <span class="nw">Serves {{r.serves}}</span></span>
+              <span class="rcard-link">View the recipe <span aria-hidden="true">→</span></span>
+            </span>
+          </a>
+        </li>
         {{/each}}
-      </div>
-      <p class="menu-note">{{menu.note}} <a class="recipe-link" href="recipes.html">Browse all recipes <span aria-hidden="true">→</span></a></p>
+      </ul>
+      <p class="rcards-all reveal"><a class="btn ghost" href="recipes.html">{{recipes_section.button_label}}</a></p>
     </div>
   </section>
 
@@ -251,8 +255,7 @@
       <a href="#experience">The Experience</a>
       <a href="#philosophy">Philosophy</a>
       <a href="#hosts">Your Hosts</a>
-      <a href="#menu">The Menu</a>
-      <a href="recipes.html">Recipes</a>
+      <a href="#recipes">Recipes</a>
       <a href="gallery.html">Gallery</a>
       <a href="#how">How It Works</a>
       <a href="#book">Book</a>

@@ -230,6 +230,27 @@ h1 em, h2 em { font-style: italic; color: var(--olive); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .menu-note { text-align: center; margin-top: 32px; font-size: 15px; color: var(--muted); }
 
+/* Recipes on the home page */
+.recipes-home { background: var(--linen); padding: clamp(80px, 10vw, 136px) 0; }
+.recipes-home .head { text-align: center; max-width: 660px; margin: 0 auto 52px; }
+.recipes-home .head h2 { margin: 14px 0 18px; }
+.recipes-home .head p:not(.eyebrow) { color: var(--muted); }
+.rcards { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 22px; }
+.rcard a { display: flex; flex-direction: column; height: 100%; background: var(--cream); text-decoration: none; border-top: 3px solid var(--olive); transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.rcard a:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(45, 42, 37, 0.08); }
+.rcard-photo { display: block; aspect-ratio: 4 / 3; overflow: hidden; background: var(--stone); }
+.rcard-photo img { width: 100%; height: 100%; object-fit: cover; }
+.rcard-body { display: flex; flex-direction: column; flex: 1; padding: 28px 28px 26px; }
+.rcard-region { font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--terracotta); }
+.rcard-title { font-family: var(--serif); font-size: 32px; line-height: 1.15; color: var(--ink); margin-top: 10px; }
+.rcard-sub { font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--olive); margin-top: 2px; }
+.rcard-text { color: var(--muted); font-size: 15.5px; line-height: 1.6; margin-top: 14px; flex: 1; }
+.rcard-meta { font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sage); margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--stone); }
+.rcard-link { margin-top: 14px; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: var(--olive); }
+.rcard a:hover .rcard-link { color: var(--terracotta); }
+.rcards-all { text-align: center; margin-top: 44px; }
+.nw { white-space: nowrap; }
+
 /* How it works */
 .how { padding: clamp(80px, 10vw, 136px) 0; }
 .how .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 7vw, 100px); }

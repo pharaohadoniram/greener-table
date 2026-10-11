@@ -227,11 +227,12 @@
       }
     ]
   },
-  "menu": {
-    "eyebrow": "A taste of the table",
-    "heading": "A *sample* menu",
-    "intro": "Every class travels the world through plants. Here is a menu from a recent experience. Recipes are shared ahead of time so you can get familiar before you arrive, and you can read the full recipes for this menu below.",
-    "note": "Menus change with the seasons and the group."
+  "recipes_section": {
+    "eyebrow": "Recipes",
+    "heading": "From our *kitchen* to yours",
+    "intro": "Plant-forward dishes from our classes, with new recipes added regularly. Each one comes with its story, step-by-step directions, and Stacy’s notes, so you can cook along at home.",
+    "max_on_home": 6,
+    "button_label": "Browse all recipes"
   },
   "how_it_works": {
     "eyebrow": "How it works",

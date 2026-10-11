@@ -100,7 +100,7 @@ function loadRecipes() {
     const slug = slugify(path.basename(f, '.json'));
     return {
       slug, order: Number(r.order) || 999, featured: !!r.show_on_home_menu,
-      home: { slug, title: r.title, subtitle: r.subtitle, region: r.region, menu_blurb: r.menu_blurb || r.intro, prep_minutes: r.prep_minutes, cook_minutes: r.cook_minutes, serves: r.serves },
+      home: { slug, photo: r.photo ? sitePath(r.photo) : '', title: r.title, subtitle: r.subtitle, region: r.region, menu_blurb: r.menu_blurb || r.intro, prep_minutes: r.prep_minutes, cook_minutes: r.cook_minutes, serves: r.serves },
       data: {
         slug,
         pdf: r.pdf ? sitePath(r.pdf).replace(/^recipes\//, '') : '',
@@ -138,7 +138,7 @@ const home = readJSON('content/home.json');
 const settings = readJSON('content/settings.json');
 const html = render(read('templates/index.html'), {
   ...home, settings, year: String(new Date().getFullYear()),
-  featured: recipes.filter(r => r.featured).map(r => r.home),
+  featured: recipes.filter(r => r.featured).slice(0, Number((home.recipes_section || {}).max_on_home) || 6).map(r => r.home),
 });
 fs.writeFileSync(path.join(OUT, 'index.html'), html);
 

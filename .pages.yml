@@ -25,7 +25,7 @@ content:
     filename: "{primary}.json"
     view:
       primary: title
-      fields: [title, region, show_on_home_menu]
+      fields: [title, region, show_on_home_menu, order]
       sort: order
     fields:
       - name: title
@@ -42,17 +42,22 @@ content:
         type: string
         description: For example, Chiang Mai, Northern Thailand.
       - name: show_on_home_menu
-        label: Show on the home page menu
+        label: Feature on the home page
         type: boolean
-        description: Turn on to feature this recipe in the sample menu on the home page.
+        description: Turn on to show this recipe in the Recipes section of the home page. Every recipe always appears on the All recipes page.
       - name: order
         label: Position
         type: number
-        description: 1 shows first. Controls the order on the home page menu and the recipes page.
+        description: 1 shows first. Controls the order on the home page and the All recipes page.
       - name: menu_blurb
-        label: Short menu description
+        label: Short description
         type: text
-        description: One or two sentences shown on the home page menu.
+        description: One or two sentences shown on the recipe’s card on the home page.
+      - name: photo
+        label: Photo (optional)
+        type: image
+        description: Shown at the top of the recipe’s card on the home page.
+        options: { media: photos }
       - name: intro
         label: Introduction
         type: text
@@ -323,15 +328,16 @@ content:
                   - { name: label, label: "Label (for example Fun fact)", type: string }
                   - { name: text, label: Text, type: text }
               - { name: quote, label: Quote (no quotation marks needed), type: text }
-      - name: menu
-        label: Sample menu
+      - name: recipes_section
+        label: Recipes section
         type: object
-        description: The dishes come from recipes with “Show on the home page menu” turned on.
+        description: The cards come from recipes with “Feature on the home page” turned on, in order of their Position.
         fields:
           - { name: eyebrow, label: Small heading, type: string }
-          - { name: heading, label: Heading, type: string }
+          - { name: heading, label: Heading, type: string, description: "Put *single asterisks* around words to make them green italic." }
           - { name: intro, label: Introduction, type: text }
-          - { name: note, label: Note under the menu, type: string }
+          - { name: max_on_home, label: Most recipes to show on the home page, type: number }
+          - { name: button_label, label: Button text, type: string }
       - name: how_it_works
         label: How it works and FAQ
         type: object
