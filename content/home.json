@@ -151,7 +151,8 @@
       { "title": "Reach out", "text": "Tell us about your group and a few dates that work. We will plan the experience together." },
       { "title": "Get the recipes", "text": "Before class you will receive a welcome note, the recipes, and everything you need to know about arrival." },
       { "title": "Share any dietary needs", "text": "Let us know about allergies or restrictions in advance so everyone can enjoy the meal safely." },
-      { "title": "Cook, then gather", "text": "Arrive, meet Stacy and Noah, pair up, and cook. Then sit down together for the meal you created." }
+      { "title": "Cook, then gather", "text": "Arrive, meet Stacy and Noah, pair up, and cook. Then sit down together for the meal you created." },
+      { "title": "Gather feedback", "text": "After class, we will check in to hear what you loved and what you would like to cook next, so every experience keeps getting better." }
     ],
     "faq": [
       { "question": "Do I need any cooking experience?", "answer": "Not at all. Every recipe is broken down step by step, from mise en place to plating, and we are right there with you the whole time." },
