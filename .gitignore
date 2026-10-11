@@ -1,9 +1,12 @@
-# Only the website and logo source are tracked.
-# Everything else here (deck, raw photos, GoDaddy screenshots, welcome note) stays private.
+# Only the website source is tracked.
+# Everything else here (deck, raw photos, GoDaddy screenshots, welcome note, preview file) stays private.
 /*
 !/.gitignore
 !/README.md
-!/netlify.toml
+!/.pages.yml
+!/.github/
 !/site/
+!/templates/
+!/content/
+!/build/
 .DS_Store
-.netlify/

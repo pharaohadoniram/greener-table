@@ -1,0 +1,317 @@
+{
+  "title": "Khao Soi",
+  "subtitle": "Thai coconut noodle soup",
+  "region": "Chiang Mai, Northern Thailand",
+  "show_on_home_menu": true,
+  "order": 2,
+  "menu_blurb": "A fragrant, rich coconut curry broth with crispy tofu, mushrooms, lemongrass and lime, coating every noodle. A true crowd pleaser.",
+  "intro": "My son Max introduced me to this soup. The coconut broth is fragrant and rich, coating every noodle. It is crazy flavorful and a crowd pleaser!",
+  "origin": "Khao soi hails from Chiang Mai in Northern Thailand, where the weather stays a bit cooler.",
+  "prep_minutes": "20",
+  "cook_minutes": "30",
+  "serves": "6 to 8",
+  "pdf": "recipes/khao-soi-thai-coconut-noodle-soup.pdf",
+  "mise_en_place": [
+    {
+      "label": "Air fry",
+      "task": "Tofu, seasoned with salt and pepper and a light coat of cooking spray"
+    },
+    {
+      "label": "Soak",
+      "task": "Kaffir lime leaves for 20 minutes"
+    },
+    {
+      "label": "Chop",
+      "task": "Garlic, lemongrass, and shallots"
+    },
+    {
+      "label": "Slice",
+      "task": "Mushrooms finely, and julienne the bell peppers"
+    },
+    {
+      "label": "Tools",
+      "task": "An air fryer and a soup pot"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Firm or extra firm tofu, sliced lengthwise about 1 inch thick",
+          "amount": "2 blocks"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce & aromatics",
+      "items": [
+        {
+          "name": "Baby bella mushrooms, thinly sliced and halved",
+          "amount": "3 cups"
+        },
+        {
+          "name": "Shallots, finely chopped",
+          "amount": "2"
+        },
+        {
+          "name": "Red bell peppers",
+          "amount": "2"
+        },
+        {
+          "name": "Limes (one for the broth, one for garnish)",
+          "amount": "2"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Noodles",
+      "items": [
+        {
+          "name": "Lo mein noodles (fresh is best)",
+          "amount": "1 package"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the broth",
+      "items": [
+        {
+          "name": "Coconut oil",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Shallots, finely diced (or half an onion)",
+          "amount": "2 large"
+        },
+        {
+          "name": "Lemongrass, minced",
+          "amount": "6 tbsp"
+        },
+        {
+          "name": "Garlic, roughly chopped",
+          "amount": "8 cloves"
+        },
+        {
+          "name": "Thai red curry paste (more for extra heat)",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Turmeric",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Curry powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Cardamom",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Light coconut milk",
+          "amount": "2 cans (14 oz each)"
+        },
+        {
+          "name": "Vegetable broth, plus 2 cups water",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Kaffir lime leaves",
+          "amount": "15"
+        },
+        {
+          "name": "Fish sauce",
+          "amount": "4 tbsp"
+        },
+        {
+          "name": "Soy sauce (2 dark, 2 light)",
+          "amount": "4 tbsp"
+        },
+        {
+          "name": "Brown sugar",
+          "amount": "4 tbsp"
+        },
+        {
+          "name": "Chili garlic sauce",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Salt and pepper",
+          "amount": "to taste"
+        },
+        {
+          "name": "Lime",
+          "amount": "1"
+        }
+      ],
+      "note": "Plant-based swap: use a vegan fish sauce."
+    },
+    {
+      "group": "To finish",
+      "items": [
+        {
+          "name": "Bean sprouts, cilantro or crunchy noodles, Thai basil, and lime wedges",
+          "amount": "for garnish"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "For the lemongrass, trim the woody top and stay away from the purple ring, then slice the rest and mince it finely.",
+  "steps": [
+    {
+      "title": "Prepare",
+      "instructions": [
+        "Cut each vegetable and arrange each type on its own plate."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Pre-cook",
+      "instructions": [
+        "Cook the tofu in the air fryer, or lightly sauté it on both sides on a griddle."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Make the broth",
+      "instructions": [
+        "Have all of your ingredients in front of you.",
+        "In a large pot, heat the oil over medium heat. Add the shallot, garlic, and lemongrass and sauté until fragrant and golden, about 3 to 4 minutes.",
+        "Add the mushrooms and cook until softened. Add the red curry paste and spices and sauté for 1 minute.",
+        "Add the coconut milk, broth, and lime leaves and bring to a simmer, stirring. Once gently simmering, add the fish sauce, sugar, soy sauce, and chili garlic sauce.",
+        "Add the tofu and simmer gently, covered. Avoid a high flame so the coconut milk doesn’t separate.",
+        "Add the peppers and simmer for 20 to 30 minutes.",
+        "Give it a generous squeeze of lime. Taste, adding more lime, salt, pepper, or curry paste as needed. Find the balance between salty, sweet, sour, and spicy."
+      ],
+      "note_title": "If the broth lacks depth",
+      "note": [
+        "Add more fish sauce, soy sauce, or salt, and make sure it is piping hot."
+      ]
+    },
+    {
+      "title": "Cook the noodles",
+      "instructions": [
+        "Place the fresh noodles in boiling water for 4 minutes, then rinse in cold water."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Serve",
+      "instructions": [
+        "Divide the noodles among bowls and ladle the hot soup over the top, which makes it easier to handle.",
+        "Garnish with bean sprouts, cilantro or crunchy noodles, Thai basil, and more lime wedges."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add more soy sauce and chili to taste."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Add bok choy, and any mushrooms you enjoy."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keeps well for days in the refrigerator, and it freezes beautifully."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Firm tofu",
+      "facts": [
+        "90 to 144 calories per 100 g",
+        "10 to 14 g protein",
+        "7 g fiber",
+        "2 g carbs",
+        "0 cholesterol"
+      ],
+      "notes": "Heart-healthy polyunsaturated fat. Includes calcium, manganese, iron, copper, selenium, phosphorus, magnesium, zinc, and vitamins A, B1, B2 and B5."
+    },
+    {
+      "ingredient": "Mushrooms",
+      "facts": [
+        "28 calories per cup",
+        "2.9 g protein",
+        "5.2 g carbs",
+        "0.3 g fat"
+      ],
+      "notes": "High in B vitamins, vitamin D2, and antioxidants. May help lower cholesterol, regulate blood sugar, and support the immune system."
+    },
+    {
+      "ingredient": "Bell peppers",
+      "facts": [
+        "28 calories per 100 g",
+        "2 g fiber",
+        "1 g protein",
+        "very low fat"
+      ],
+      "notes": "Packed with vitamins (especially C, A, B6, K and E) and minerals (potassium, folate), with antioxidants and fiber for digestive health."
+    },
+    {
+      "ingredient": "Wheat noodles",
+      "facts": [
+        "123 to 340 calories per 100 g",
+        "5 to 9 g protein",
+        "2 to 5 g fiber",
+        "0 to 3 g fat"
+      ],
+      "notes": "Low in fat and cholesterol-free, and high in complex carbohydrates for sustained energy, with iron, potassium, and B vitamins (thiamin, niacin). Whole wheat versions provide more fiber."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What is tofu, and is it good for you?",
+      "answer": [
+        "Tofu is a nutrient-dense, plant-based protein made from curdled soy milk pressed into blocks. It is a complete protein, containing all nine essential amino acids, and it is high in iron and calcium. It is generally considered very healthy: it supports heart health, may reduce the risk of certain cancers, and aids weight management. It is low in fat, cholesterol-free, and safe to eat every day.",
+        "Its nutrition varies mainly with firmness. Firmer varieties hold less water, so they carry more protein, fat, and calories per serving."
+      ],
+      "table_title": "By firmness",
+      "table": [
+        {
+          "label": "Extra firm",
+          "text": "15 to 17 g protein and about 145 calories"
+        },
+        {
+          "label": "Firm",
+          "text": "8 to 10 g protein and 70 to 80 calories"
+        },
+        {
+          "label": "Silken or soft",
+          "text": "Higher in water, with about 4 to 7 g protein and 40 to 62 calories"
+        }
+      ],
+      "benefits_title": "Key health benefits",
+      "benefits": [
+        {
+          "label": "Heart health",
+          "text": "Cholesterol-free and low in saturated fat, tofu may help reduce LDL cholesterol. Studies show eating at least one serving a week may lower heart disease risk by 18%."
+        },
+        {
+          "label": "Nutrient-rich",
+          "text": "A good source of iron, manganese, selenium, phosphorus, and calcium, especially when made with calcium sulfate."
+        },
+        {
+          "label": "Cancer risk reduction",
+          "text": "Tofu contains isoflavones, which have antioxidant and anti-inflammatory properties and potential protective effects against breast, prostate, and colorectal cancers."
+        },
+        {
+          "label": "Bone health",
+          "text": "Its high calcium and magnesium content helps prevent osteoporosis."
+        }
+      ]
+    }
+  ]
+}

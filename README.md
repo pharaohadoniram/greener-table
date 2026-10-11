@@ -1,11 +1,23 @@
 # The Greener Table website
 
-Static site for The Greener Table, published from the `site/` folder on Netlify.
+Static site for The Greener Table, published to GitHub Pages and edited through Pages CMS.
 
-- `site/index.html`: home page
-- `site/recipe.html`: the recipe page template (shows `recipe.html?r=<slug>`)
-- `site/recipes.html`: list of all recipes
-- `site/recipes/recipes.js`: all recipe content; add new recipes here
-- `site/brand/`: the logo (Stacy’s original artwork, recolored to the site palette) and favicon
+## How it fits together
 
-Booking inquiries come in through Netlify Forms.
+- `content/home.json`: all home page text and photos
+- `content/recipes/*.json`: one file per recipe
+- `templates/index.html`: the home page layout (text comes from `content/home.json`)
+- `site/`: everything else served as-is (styles, recipe page template, photos, logo, PDFs)
+- `build/build.js`: combines the above into the finished site in `_site/`
+- `.pages.yml`: the forms shown in Pages CMS
+- `.github/workflows/deploy.yml`: rebuilds and publishes on every push to `main`
+
+## Editing
+
+Stacy edits through Pages CMS (app.pagescms.org). Every save commits to this repository, and GitHub publishes the site about a minute later.
+
+To work locally: `node build/build.js`, then serve `_site/` (for example `python3 -m http.server -d _site`).
+
+## Settings
+
+`content/settings.json` holds the site address and the booking form endpoint. It is not editable in Pages CMS.

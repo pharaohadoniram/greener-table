@@ -1,0 +1,289 @@
+{
+  "title": "Black Pepper Soy Curls",
+  "subtitle": "with sticky rice",
+  "region": "Inspired by Sichuan, China",
+  "show_on_home_menu": true,
+  "order": 3,
+  "menu_blurb": "Protein-rich soy curls stir-fried with peppers, onion, broccoli, garlic and ginger in a bold black pepper sauce, inspired by classic Sichuan chicken.",
+  "intro": "Delicious flavor with colorful veggies, and it’s vegan! Super easy, too. Soy curls are a great staple for vegetarians and vegans because they are protein-based and so versatile: spice them up or marinate them, bake them, pan fry them, shred them, crisp them.",
+  "origin": "Inspired by Sichuan pepper chicken. Szechuan chicken comes from Sichuan province in southwestern China, a region renowned for its bold, spicy, aromatic cuisine. It is defined by “mala” flavor, a combination of numbing Sichuan peppercorns and spicy chili peppers. Authentic versions stir-fry crispy chicken with dried chilies and peppercorns.",
+  "prep_minutes": "15",
+  "cook_minutes": "35",
+  "serves": "6 to 8",
+  "pdf": "recipes/black-pepper-soy-curls.pdf",
+  "mise_en_place": [
+    {
+      "label": "Soak",
+      "task": "Soy curls in water for 10 minutes, then marinate them in broth"
+    },
+    {
+      "label": "Rinse",
+      "task": "The rice"
+    },
+    {
+      "label": "Blanch",
+      "task": "Broccoli in boiling water for 4 minutes, then drain into ice water"
+    },
+    {
+      "label": "Chop",
+      "task": "Peppers, onions, broccoli, garlic, and ginger"
+    },
+    {
+      "label": "Assemble",
+      "task": "All of the sauces and spices"
+    },
+    {
+      "label": "Tools",
+      "task": "A knife, a rice cooker, and a bowl of ice water for blanching"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "For the soy curls",
+      "items": [
+        {
+          "name": "Soy curls",
+          "amount": "2½ cups"
+        },
+        {
+          "name": "Vegetable broth",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Garlic powder",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Ground pepper",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Soy sauce",
+          "amount": "4 tsp"
+        },
+        {
+          "name": "Rice flour, enough to coat",
+          "amount": "about ¼ cup"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the sauce",
+      "items": [
+        {
+          "name": "Soy sauce",
+          "amount": "4 tbsp"
+        },
+        {
+          "name": "Maple syrup",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Oyster sauce",
+          "amount": "3 tbsp"
+        },
+        {
+          "name": "Crushed black pepper",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Mirin",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Vegetable broth (powder or homemade)",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Arrowroot",
+          "amount": "4 tsp"
+        }
+      ],
+      "note": "Plant-based swap: use a vegetarian (mushroom) oyster sauce."
+    },
+    {
+      "group": "For the vegetables",
+      "items": [
+        {
+          "name": "Sesame oil",
+          "amount": "4 tsp"
+        },
+        {
+          "name": "Green and red bell peppers, chopped medium",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Broccoli, cut medium and blanched",
+          "amount": "½ bunch"
+        },
+        {
+          "name": "Onion, in ½ inch pieces",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Scallions",
+          "amount": "1 bunch"
+        },
+        {
+          "name": "Garlic, minced",
+          "amount": "4 cloves"
+        },
+        {
+          "name": "Ginger, minced",
+          "amount": "1 inch"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To serve",
+      "items": [
+        {
+          "name": "Sticky rice",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Sesame seeds and peanuts",
+          "amount": "for garnish"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Make the rice",
+      "instructions": [
+        "Add 2 cups of rice to the rice cooker and rinse until the water is no longer cloudy. Add water up to the first line of your pointer finger ☺"
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Soak the soy curls",
+      "instructions": [
+        "Warm the broth in a medium bowl in the microwave, add the soy curls, and soak for 15 minutes.",
+        "Drain, reserving the soaking liquid, and press lightly to remove excess moisture. Transfer to a bowl."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Crisp the soy curls",
+      "instructions": [
+        "In a small bowl, mix the garlic powder, black pepper, and rice flour.",
+        "Toss the soy curls with the soy sauce, then coat them with the rice flour mixture.",
+        "Pan fry in a skillet over medium heat with a generous coat of cooking spray and 1 teaspoon of oil, crisping each side for 3 to 4 minutes. Move to a separate bowl.",
+        "Meanwhile, mix all of the sauce ingredients in a bowl and set aside."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Sauté the vegetables",
+      "instructions": [
+        "Once the soy curls are done, heat a large nonstick skillet over medium heat and add the oil.",
+        "When the oil is hot, add the onions and peppers. Once half cooked, add the garlic and ginger, then the broccoli and a pinch of salt. Toss well.",
+        "Cook for a minute or two. The vegetables should stay crunchy, and the garlic should just start to turn golden."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Bring it together",
+      "instructions": [
+        "As soon as the garlic turns golden, add the sauce mixture. Bring to a boil and cook for about a minute, until the sauce thickens.",
+        "Add the crispy soy curls, toss well, and take off the heat.",
+        "Taste and adjust: a little more maple syrup for sweetness, more oyster sauce for depth, or more black pepper or red pepper flakes for heat."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Serve",
+      "instructions": [
+        "Spoon over a small bowl of rice or cooked grains, garnish with sesame seeds and peanuts, and enjoy!"
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "The longer you marinate the soy curls, the tastier they will be."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Try other vegetables, like water chestnuts, bamboo shoots, carrots, green beans, or Chinese eggplant. You can also swap the soy curls for seitan."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Broccoli",
+      "facts": [
+        "35 calories",
+        "2.3 g protein",
+        "5.6 g carbs",
+        "2.2 g fiber",
+        "0.3 g fat"
+      ],
+      "notes": "A nutrient powerhouse rich in vitamins C, K, A and folate, minerals, fiber, and antioxidants that support immunity, digestion, heart health, and brain function, and may reduce inflammation and the risk of certain cancers."
+    },
+    {
+      "ingredient": "Bell peppers",
+      "facts": [
+        "26 to 31 calories per 100 g",
+        "2 to 2.1 g fiber",
+        "1 g protein",
+        "very low fat"
+      ],
+      "notes": "Packed with vitamins (especially C, A, B6, K and E) and minerals (potassium, folate), with antioxidants and fiber for digestive health."
+    },
+    {
+      "ingredient": "Onions",
+      "facts": [
+        "38 calories",
+        "0.8 g protein",
+        "8.6 g carbs",
+        "1.9 g fiber",
+        "0.1 g fat"
+      ],
+      "notes": "Rich in antioxidants like quercetin and prebiotic fibers, supporting gut health and heart health by helping lower cholesterol and blood pressure."
+    },
+    {
+      "ingredient": "Soy curls",
+      "facts": [
+        "120 calories per 30 g",
+        "11 g protein",
+        "0 mg sodium"
+      ],
+      "notes": "Very low in saturated fat, with no cholesterol."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What are soy curls, and are they good for you?",
+      "answer": [
+        "Yes! Soy curls are made from non-GMO whole soybeans, without chemical pesticides, preservatives, or additives. They are also a great source of protein, fiber, iron, and potassium."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What’s the difference between soy curls and tofu?",
+      "answer": [
+        "Tofu is minimally processed but not a whole food. It provides high-quality protein, healthy fats, and often added calcium. Soy curls are closer to a whole food than most processed soy products, retaining the fiber and protein of whole soybeans, though some nutrients are lost in processing."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    }
+  ]
+}

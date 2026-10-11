@@ -1,0 +1,313 @@
+<!doctype html>
+<!-- Home page template. Text comes from content/home.json and content/recipes/; run node build/build.js to produce _site/index.html. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Greener Table · Plant-Forward Cooking Experiences in San Francisco</title>
+  <meta name="description" content="Hands-on, plant-forward cooking experiences hosted by Stacy and Noah in San Francisco. Cook together, share the meal, and leave inspired.">
+  <meta property="og:title" content="The Greener Table">
+  <meta property="og:description" content="Plant-forward cooking experiences in San Francisco, hosted by Stacy and Noah.">
+  <meta property="og:image" content="{{attr:hero.photo}}">
+  <link rel="icon" href="brand/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="The Greener Table home"><img src="brand/logo.png" alt="The Greener Table"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <ul>
+      <li><a href="#experience">The Experience</a></li>
+      <li><a href="#philosophy">Philosophy</a></li>
+      <li><a href="#hosts">Your Hosts</a></li>
+      <li><a href="#menu">The Menu</a></li>
+      <li><a href="#how">How It Works</a></li>
+      <li><a class="btn" href="#book">Book a Class</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="eyebrow">{{hero.eyebrow}}</p>
+        <h1>{{hero.headline_line_1}}<br>{{hero.headline_line_2}}</h1>
+        <p class="lede">{{hero.intro}}</p>
+        <div class="actions">
+          <a class="btn" href="#book">Book an experience</a>
+          <a class="btn ghost" href="#menu">See a sample menu</a>
+        </div>
+        <div class="facts">
+          {{#each hero.facts as f}}<div><strong>{{f.title}}</strong>{{f.text}}</div>{{/each}}
+        </div>
+      </div>
+      <figure class="hero-figure reveal">
+        <div class="arch"><img src="{{attr:hero.photo}}" alt="{{attr:hero.photo_description}}"></div>
+        {{#if hero.caption}}<figcaption>{{hero.caption}}</figcaption>{{/if}}
+      </figure>
+    </div>
+  </section>
+
+  <section class="steps">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">{{what_to_expect.eyebrow}}</p>
+        <h2>{{what_to_expect.heading}}</h2>
+      </div>
+      <div class="step-grid">
+        {{#each what_to_expect.steps as s}}
+        <div class="step reveal">
+          <div class="num">{{@roman}}.</div>
+          <h3>{{s.title}}</h3>
+          <p>{{s.text}}</p>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="eyebrow">{{purpose.eyebrow}}</p>
+        <h2>{{purpose.heading}}</h2>
+        {{#each purpose.paragraphs as p}}<p class="lede"{{#if @notfirst}} style="margin-top:18px"{{/if}}>{{p}}</p>{{/each}}
+      </div>
+      <div class="benefits reveal">
+        <p class="eyebrow">The benefits</p>
+        <ol>
+          {{#each purpose.benefits as b}}<li>{{b}}</li>{{/each}}
+        </ol>
+        {{#if purpose.closing}}<p class="bold-fun">{{purpose.closing}}</p>{{/if}}
+      </div>
+    </div>
+  </section>
+
+  <section class="philosophy" id="philosophy">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">{{philosophy.eyebrow}}</p>
+        <h2>{{philosophy.heading}}</h2>
+      </div>
+      <div class="tabs reveal" role="tablist" aria-label="The three pillars">
+        {{#each philosophy.pillars as t}}<button role="tab" id="tab-{{slug:t.name}}" aria-controls="panel-{{slug:t.name}}" aria-selected="{{#if @first}}true{{/if}}{{#if @notfirst}}false{{/if}}">{{t.name}}</button>{{/each}}
+      </div>
+      {{#each philosophy.pillars as t}}
+      <div class="panel" role="tabpanel" id="panel-{{slug:t.name}}" aria-labelledby="tab-{{slug:t.name}}">
+        <div class="panel-intro">
+          {{{icon:t.icon}}}
+          <h3>{{t.name}}</h3>
+          <p>{{t.intro}}</p>
+          {{#if t.quote}}<blockquote>“{{t.quote}}”</blockquote>{{/if}}
+        </div>
+        <div class="choices">
+          <p class="eyebrow">Choices</p>
+          <h4>{{t.question}}</h4>
+          <dl>
+            {{#each t.choices as c}}<dt>{{c.title}}</dt><dd>{{c.text}}</dd>{{/each}}
+          </dl>
+        </div>
+        <div class="outcomes">
+          <p class="eyebrow">Outcomes</p>
+          <ul>
+            {{#each t.outcomes as o}}<li>{{o}}</li>{{/each}}
+          </ul>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap reveal">
+      <p>{{banner.text}}</p>
+      <span>{{banner.caption}}</span>
+    </div>
+  </section>
+
+  <section class="hosts" id="hosts">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">{{hosts.eyebrow}}</p>
+        <h2>{{hosts.heading}}</h2>
+        <p class="lede">{{hosts.intro}}</p>
+      </div>
+      <div class="host-grid">
+        {{#each hosts.people as h}}
+        <article class="host reveal">
+          <div class="arch"><img src="{{attr:h.photo}}" alt="{{attr:h.photo_description}}"></div>
+          <h3>{{h.name}}</h3>
+          <p class="role">{{h.role}}</p>
+          <p>{{h.bio}}</p>
+          <dl>
+            {{#each h.details as d}}<dt>{{d.label}}</dt><dd>{{d.text}}</dd>{{/each}}
+          </dl>
+          {{#if h.quote}}<blockquote>“{{h.quote}}”</blockquote>{{/if}}
+        </article>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">{{menu.eyebrow}}</p>
+        <h2>{{menu.heading}}</h2>
+        <p>{{menu.intro}}</p>
+      </div>
+      <div class="menu-card reveal">
+        <div class="rule">The Greener Table</div>
+        {{#each featured as r}}
+        <div class="dish">
+          <div class="origin">{{r.region}}</div>
+          <h3>{{r.title}}</h3>
+          <div class="with">{{r.subtitle}}</div>
+          <p>{{r.menu_blurb}}</p>
+          <div class="meta">Prep {{r.prep_minutes}} min · Cook {{r.cook_minutes}} min · Serves {{r.serves}}</div>
+          <a class="recipe-link" href="recipe.html?r={{attr:r.slug}}">View the full recipe <span aria-hidden="true">→</span></a>
+        </div>
+        {{/each}}
+      </div>
+      <p class="menu-note">{{menu.note}} <a class="recipe-link" href="recipes.html">Browse all recipes <span aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="eyebrow">{{how_it_works.eyebrow}}</p>
+        <h2>{{how_it_works.heading}}</h2>
+        <ol class="timeline">
+          {{#each how_it_works.steps as s}}<li><h4>{{s.title}}</h4><p>{{s.text}}</p></li>{{/each}}
+        </ol>
+      </div>
+      <div class="faq reveal">
+        <p class="eyebrow" style="margin-bottom:18px">Questions</p>
+        {{#each how_it_works.faq as q}}
+        <details{{#if @first}} open{{/if}}>
+          <summary>{{q.question}}</summary>
+          <p>{{q.answer}}</p>
+        </details>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  <section class="book" id="book">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="eyebrow">{{booking.eyebrow}}</p>
+        <h2>{{booking.heading}}</h2>
+        <p class="lede">{{booking.intro}}</p>
+        <p class="contact">Prefer email? Write to <a href="mailto:{{attr:booking.email}}">{{booking.email}}</a></p>
+      </div>
+      <form class="reveal" id="booking-form" name="booking" method="POST" action="{{attr:settings.booking_form_action}}">
+        <input type="hidden" name="_subject" value="New Greener Table inquiry">
+        <p class="hidden"><label>Leave this empty <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+        <div><label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name"></div>
+        <div><label for="f-email">Email</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+        <div>
+          <label for="f-occasion">Occasion</label>
+          <select id="f-occasion" name="occasion">
+            {{#each booking.occasions as o}}<option>{{o}}</option>{{/each}}
+          </select>
+        </div>
+        <div><label for="f-size">Group size</label><input id="f-size" name="group_size" type="number" min="1" inputmode="numeric"></div>
+        <div class="full"><label for="f-dates">Preferred dates</label><input id="f-dates" name="dates"></div>
+        <div class="full"><label for="f-diet">Allergies or dietary needs</label><input id="f-diet" name="dietary"></div>
+        <div class="full"><label for="f-msg">Anything else we should know?</label><textarea id="f-msg" name="message"></textarea></div>
+        <button class="btn full" type="submit">Send inquiry</button>
+        <p class="full form-status" id="form-status" role="status" hidden></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="brand/logo.png" alt="The Greener Table">
+    <p class="tag">{{footer.tagline}}</p>
+    <nav>
+      <a href="#experience">The Experience</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#hosts">Your Hosts</a>
+      <a href="#menu">The Menu</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="#how">How It Works</a>
+      <a href="#book">Book</a>
+    </nav>
+    <small>© {{year}} The Greener Table · San Francisco</small>
+  </div>
+</footer>
+
+<script>
+  const header = document.querySelector('.site-header');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  const toggle = document.querySelector('.menu-toggle');
+  const links = document.querySelector('.nav ul');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', false);
+  }));
+
+  const tabs = document.querySelectorAll('[role=tab]');
+  const show = id => tabs.forEach(t => {
+    const on = t.id === id;
+    t.setAttribute('aria-selected', on);
+    t.tabIndex = on ? 0 : -1;
+    document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+  });
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => show(t.id));
+    t.addEventListener('keydown', e => {
+      const d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (d) { const n = tabs[(i + d + tabs.length) % tabs.length]; show(n.id); n.focus(); }
+    });
+  });
+  if (tabs.length) show(tabs[0].id);
+
+  // Booking form: sends to the form service in the background and thanks the guest in place.
+  const form = document.getElementById('booking-form');
+  const status = document.getElementById('form-status');
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const say = msg => { status.hidden = false; status.textContent = msg; };
+    if (!form.action || form.getAttribute('action') === '') { say('The booking form is not connected yet. Please email us instead.'); return; }
+    const button = form.querySelector('button[type=submit]');
+    button.disabled = true;
+    try {
+      const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+      if (!res.ok) throw new Error();
+      form.reset();
+      say('Thank you! Stacy will be in touch soon to plan your experience.');
+    } catch {
+      say('Sorry, something went wrong. Please email us instead.');
+    } finally {
+      button.disabled = false;
+    }
+  });
+
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

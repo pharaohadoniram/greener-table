@@ -1,0 +1,379 @@
+{
+  "title": "Vietnamese Rice Paper Rolls",
+  "subtitle": "with peanut dipping sauce",
+  "region": "South Vietnam",
+  "show_on_home_menu": true,
+  "order": 1,
+  "menu_blurb": "Gỏi cuốn: marinated tofu, butter lettuce, cucumber, carrot, avocado and fresh mint, wrapped in delicate rice paper. Fresh, light, and never fried.",
+  "intro": "Packed with bright, fresh ingredients and served with an insanely delicious peanut dipping sauce. Also known as gỏi cuốn, or summer rolls, they make a fresh, light, and healthy Vietnamese appetizer or snack.",
+  "origin": "Rice paper rolls (gỏi cuốn) come from South Vietnam, a staple dish born from local agricultural traditions. They are characterized by fresh herbs, a protein (tofu, pork, or shrimp), and vermicelli wrapped in thin, edible rice paper (bánh tráng). Known as “salad rolls” in the South and “nem cuốn” in the North, they are a healthy, fresh, non-fried alternative to traditional spring rolls.",
+  "prep_minutes": "20",
+  "cook_minutes": "30",
+  "serves": "6 to 8",
+  "pdf": "recipes/vietnamese-rice-paper-rolls.pdf",
+  "mise_en_place": [
+    {
+      "label": "Marinate",
+      "task": "Tofu in soy sauce, ponzu, garlic, and red pepper flakes"
+    },
+    {
+      "label": "Soak",
+      "task": "Rice noodles in boiling water until softened"
+    },
+    {
+      "label": "Chop",
+      "task": "Lettuce, tofu, carrots, cucumbers, and avocado"
+    },
+    {
+      "label": "Tools",
+      "task": "A griddle"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Extra firm tofu",
+          "amount": "2 packages"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce & aromatics",
+      "items": [
+        {
+          "name": "Butter lettuce",
+          "amount": "8 leaves"
+        },
+        {
+          "name": "Persian cucumbers, julienned",
+          "amount": "6"
+        },
+        {
+          "name": "Large carrots, julienned or shredded",
+          "amount": "2"
+        },
+        {
+          "name": "Avocados, thinly sliced",
+          "amount": "2"
+        },
+        {
+          "name": "Fresh mint",
+          "amount": "a handful"
+        },
+        {
+          "name": "Bean sprouts",
+          "amount": "for the gỏi cuốn"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Pantry staples & seasonings",
+      "items": [
+        {
+          "name": "Garlic cloves, finely chopped",
+          "amount": "3"
+        },
+        {
+          "name": "Red pepper flakes",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Soy sauce",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Ponzu",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Rice paper",
+          "amount": "1 package"
+        },
+        {
+          "name": "Rice noodles (vermicelli)",
+          "amount": "1 package"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To finish",
+      "items": [
+        {
+          "name": "Sesame seeds",
+          "amount": "for garnish"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Prepare",
+      "instructions": [
+        "**Tofu:** slice and marinate in the soy sauce, ponzu, and chopped garlic.",
+        "**Vegetables:** cut each one and arrange each type on its own plate.",
+        "**Rice noodles:** place in a bowl of boiling water to soften, about 5 to 8 minutes."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Pre-cook",
+      "instructions": [
+        "Place the tofu on the griddle (or air fry it) and lightly sauté on both sides. Set on a plate to cool.",
+        "Soften the noodles."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Form the rolls",
+      "instructions": [
+        "Have all of your ingredients in front of you.",
+        "Hold a sheet of rice paper and quickly dip it under water.",
+        "Lay it on a plate and gently massage it until pliable.",
+        "Add the fillings one at a time."
+      ],
+      "note_title": "We will make two versions",
+      "note": [
+        "**Authentic gỏi cuốn:** lettuce, tofu, bean sprouts, rice noodles, carrots, and mint, with sesame seeds on top, folded into a square. *Tip:* wrap the tofu, bean sprouts, vermicelli, and mint in the lettuce first, then roll or lightly scrunch it so it holds together before rolling it in the rice paper. Much easier to handle!",
+        "**My summer rolls:** tofu, avocado, carrots, and cucumbers, folded like an egg roll."
+      ]
+    },
+    {
+      "title": "Fold and roll tightly",
+      "instructions": [
+        "Fold the sides in first, then roll to the end, like an egg roll. You can also fold them into a square."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Griddle to crisp",
+      "instructions": [
+        "Place some of the rolls on the griddle with a sprinkle of sesame seeds and turn until crispy on both sides."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": {
+    "eyebrow": "For dipping",
+    "title": "Peanut Sauce",
+    "method": "Combine the sauce ingredients and mix briefly (it won’t come together right away), then microwave for 30 seconds. Mix again until smooth and set aside to cool. Adjust the sourness with vinegar, the saltiness with salt, and the spice to taste. Once cooled, thin with milk or water as needed.",
+    "versions": [
+      {
+        "name": "Classic",
+        "items": [
+          {
+            "name": "Peanut butter, preferably smooth (crunchy is fine too)",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Hoisin sauce",
+            "amount": "2 tbsp"
+          },
+          {
+            "name": "Vinegar or lime juice",
+            "amount": "½ tbsp"
+          },
+          {
+            "name": "Water",
+            "amount": "⅓ cup"
+          },
+          {
+            "name": "Garlic clove, minced",
+            "amount": "1"
+          },
+          {
+            "name": "Crushed chili flakes",
+            "amount": "½ tsp"
+          }
+        ]
+      },
+      {
+        "name": "Less authentic, still yummy",
+        "items": [
+          {
+            "name": "Smooth peanut butter",
+            "amount": "½ cup"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Hoisin sauce",
+            "amount": "4 tbsp"
+          },
+          {
+            "name": "Sweet soy sauce (kecap manis, thick like syrup)",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Garlic, minced",
+            "amount": "2 small cloves or 1 large"
+          },
+          {
+            "name": "Bird’s eye chili, finely chopped",
+            "amount": "1"
+          },
+          {
+            "name": "Sesame oil",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Lime juice",
+            "amount": "2 tbsp"
+          },
+          {
+            "name": "Water",
+            "amount": "as needed"
+          }
+        ]
+      }
+    ]
+  },
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add mint."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Vary the fillings. Firm tofu works too, but press out all the water before cooking. You can also add other cooked proteins, such as shrimp, chicken, or pork."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Don’t make these ahead. Prepare them and serve immediately, since the rolls don’t last long in the refrigerator. A damp paper towel on top helps keep them fresh."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Firm tofu",
+      "facts": [
+        "90 to 144 calories per 100 g",
+        "10 to 14 g protein",
+        "7 g fiber",
+        "2 g carbs",
+        "0 cholesterol"
+      ],
+      "notes": "Heart-healthy polyunsaturated fat. Includes calcium, manganese, iron, copper, selenium, phosphorus, magnesium, zinc, and vitamins A, B1, B2 and B5."
+    },
+    {
+      "ingredient": "Carrots",
+      "facts": [
+        "25 calories per carrot",
+        "9 to 9.6 g carbs, with 3 to 5 g natural sugars",
+        "2.7 to 3 g fiber",
+        "0.8 to 1 g protein",
+        "under 0.3 g fat"
+      ],
+      "notes": "A micronutrient “superfood,” especially for vitamins A, K1, B6, and B7, and potassium."
+    },
+    {
+      "ingredient": "Cucumbers",
+      "facts": [
+        "28 calories per 100 g",
+        "2 g fiber",
+        "1 g protein",
+        "very low fat"
+      ],
+      "notes": "Packed with vitamins (especially C, A, B6, K and E) and minerals (potassium, folate), with antioxidants and fiber for digestive health."
+    },
+    {
+      "ingredient": "Avocado",
+      "facts": [
+        "160 calories per 100 g",
+        "2 g protein",
+        "7 g fiber",
+        "8.5 g carbs",
+        "15 g healthy fats, mostly monounsaturated"
+      ],
+      "notes": "Around 20 different vitamins and minerals, notably potassium, vitamins K, B9, C, E and B6, magnesium, and copper."
+    },
+    {
+      "ingredient": "Lettuce",
+      "facts": [
+        "17 calories per 100 g",
+        "2 g fiber",
+        "1 g protein",
+        "3 g carbs",
+        "very little fat"
+      ],
+      "notes": "Dense in micronutrients, including vitamins K, A, C and B9, and potassium."
+    },
+    {
+      "ingredient": "Rice noodles",
+      "facts": [
+        "100 calories per 100 g",
+        "1 g fiber",
+        "2 g protein",
+        "24 g carbs",
+        "very low fat and sodium"
+      ],
+      "notes": "Made from rice flour, rice noodles are a quickly digested, high-energy carb. Gluten-free, a good source of selenium, with modest manganese and phosphorus."
+    },
+    {
+      "ingredient": "Peanut butter",
+      "facts": [
+        "188 calories per 2 tbsp",
+        "7 g protein",
+        "16 g fat",
+        "7 g carbs",
+        "2 g fiber",
+        "3 g sugar"
+      ],
+      "notes": "Nutrient dense, with protein, monounsaturated fats, fiber, and minerals like phosphorus, potassium, and niacin. Its fat and protein keep you full longer, which can help with weight management."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What is tofu, and is it good for you?",
+      "answer": [
+        "Tofu is a nutrient-dense, plant-based protein made from curdled soy milk pressed into blocks. It is a complete protein, containing all nine essential amino acids, and it is high in iron and calcium. It is generally considered very healthy: it supports heart health, may reduce the risk of certain cancers, and aids weight management. It is low in fat, cholesterol-free, and safe to eat every day.",
+        "Its nutrition varies mainly with firmness. Firmer varieties hold less water, so they carry more protein, fat, and calories per serving."
+      ],
+      "table_title": "By firmness",
+      "table": [
+        {
+          "label": "Extra firm",
+          "text": "15 to 17 g protein and about 145 calories"
+        },
+        {
+          "label": "Firm",
+          "text": "8 to 10 g protein and 70 to 80 calories"
+        },
+        {
+          "label": "Silken or soft",
+          "text": "Higher in water, with about 4 to 7 g protein and 40 to 62 calories"
+        }
+      ],
+      "benefits_title": "Key health benefits",
+      "benefits": [
+        {
+          "label": "Heart health",
+          "text": "Cholesterol-free and low in saturated fat, tofu may help reduce LDL cholesterol. Studies show eating at least one serving a week may lower heart disease risk by 18%."
+        },
+        {
+          "label": "Nutrient-rich",
+          "text": "A good source of iron, manganese, selenium, phosphorus, and calcium, especially when made with calcium sulfate."
+        },
+        {
+          "label": "Cancer risk reduction",
+          "text": "Tofu contains isoflavones, which have antioxidant and anti-inflammatory properties and potential protective effects against breast, prostate, and colorectal cancers."
+        },
+        {
+          "label": "Bone health",
+          "text": "Its high calcium and magnesium content helps prevent osteoporosis."
+        }
+      ]
+    }
+  ]
+}

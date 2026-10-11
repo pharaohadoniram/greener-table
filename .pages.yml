@@ -1,0 +1,349 @@
+# Pages CMS setup for The Greener Table: the forms Stacy sees when she edits the site.
+# Docs: https://pagescms.org/docs/configuration/
+
+media:
+  - name: photos
+    label: Photos
+    input: site/assets
+    output: assets
+    categories: [image]
+    rename: safe
+  - name: recipe-pdfs
+    label: Recipe PDFs
+    input: site/recipes
+    output: recipes
+    extensions: [pdf]
+    rename: safe
+
+content:
+  # ---------------------------------------------------------------- recipes
+  - name: recipes
+    label: Recipes
+    type: collection
+    path: content/recipes
+    format: json
+    filename: "{primary}.json"
+    view:
+      primary: title
+      fields: [title, region, show_on_home_menu]
+      sort: order
+    fields:
+      - name: title
+        label: Recipe name
+        type: string
+        required: true
+        description: For example, Khao Soi. This also becomes the web address of the recipe.
+      - name: subtitle
+        label: Subtitle
+        type: string
+        description: A short line under the name, for example “Thai coconut noodle soup.”
+      - name: region
+        label: Where the dish is from
+        type: string
+        description: For example, Chiang Mai, Northern Thailand.
+      - name: show_on_home_menu
+        label: Show on the home page menu
+        type: boolean
+        description: Turn on to feature this recipe in the sample menu on the home page.
+      - name: order
+        label: Position
+        type: number
+        description: 1 shows first. Controls the order on the home page menu and the recipes page.
+      - name: menu_blurb
+        label: Short menu description
+        type: text
+        description: One or two sentences shown on the home page menu.
+      - name: intro
+        label: Introduction
+        type: text
+        description: Your personal intro at the top of the recipe page.
+      - name: origin
+        label: Origin story
+        type: text
+      - name: prep_minutes
+        label: Prep time (minutes)
+        type: string
+      - name: cook_minutes
+        label: Cook time (minutes)
+        type: string
+      - name: serves
+        label: Servings
+        type: string
+        description: For example, 6 to 8.
+      - name: pdf
+        label: Original PDF (optional)
+        type: file
+        options:
+          media: recipe-pdfs
+          extensions: [pdf]
+      - name: mise_en_place
+        label: Mise en place
+        type: object
+        description: The prep tasks before cooking starts.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{label}: {task}"
+        fields:
+          - { name: label, label: "Task type (for example Soak, Chop, Tools)", type: string }
+          - { name: task, label: What to do, type: string }
+      - name: ingredients
+        label: Ingredients
+        type: object
+        description: Group ingredients under headings like “For the sauce.”
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{group}"
+        fields:
+          - { name: group, label: Group heading, type: string }
+          - name: items
+            label: Ingredients in this group
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Ingredient, type: string }
+              - { name: amount, label: Amount, type: string }
+          - { name: note, label: Note under this group (optional), type: string }
+      - name: prep_note
+        label: Extra prep note (optional)
+        type: text
+      - name: steps
+        label: Directions
+        type: object
+        description: Each step has a title and one or more instructions. Use **double asterisks** around words to make them bold.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{index}. {title}"
+        fields:
+          - { name: title, label: Step title, type: string }
+          - { name: instructions, label: Instructions, type: text, list: true }
+          - { name: note_title, label: Highlighted note title (optional), type: string }
+          - { name: note, label: Highlighted note (optional), type: text, list: true }
+      - name: sauce
+        label: Sauce or side recipe (optional)
+        type: object
+        fields:
+          - { name: eyebrow, label: Small label above it (for example For dipping), type: string }
+          - { name: title, label: Name, type: string }
+          - name: versions
+            label: Versions
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Version name, type: string }
+              - name: items
+                label: Ingredients
+                type: object
+                list: true
+                fields:
+                  - { name: name, label: Ingredient, type: string }
+                  - { name: amount, label: Amount, type: string }
+          - { name: method, label: Method, type: text }
+      - name: tips
+        label: Quick tips
+        type: object
+        list: true
+        fields:
+          - { name: label, label: "Tip type (for example Flavor boost)", type: string }
+          - { name: tip, label: Tip, type: text }
+      - name: nutrition
+        label: Nutritional information
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{ingredient}"
+        fields:
+          - { name: ingredient, label: Ingredient, type: string }
+          - { name: facts, label: "Quick facts (one per line, for example 2 g fiber)", type: string, list: true }
+          - { name: notes, label: Notes, type: text }
+      - name: notebook
+        label: From Stacy’s notebook
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{question}"
+        fields:
+          - { name: question, label: Question, type: string }
+          - { name: answer, label: Answer paragraphs, type: text, list: true }
+          - { name: table_title, label: Small table title (optional), type: string }
+          - name: table
+            label: Small table (optional)
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Label, type: string }
+              - { name: text, label: Text, type: string }
+          - { name: benefits_title, label: Benefits title (optional), type: string }
+          - name: benefits
+            label: Benefits (optional)
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Benefit, type: string }
+              - { name: text, label: Explanation, type: text }
+
+  # ---------------------------------------------------------------- home page
+  - name: home
+    label: Home page
+    type: file
+    path: content/home.json
+    format: json
+    fields:
+      - name: hero
+        label: Top of the page
+        type: object
+        fields:
+          - { name: eyebrow, label: Small line above the headline, type: string }
+          - { name: headline_line_1, label: Headline line 1, type: string }
+          - { name: headline_line_2, label: Headline line 2, type: string, description: "Put *single asterisks* around a word to make it green italic." }
+          - { name: intro, label: Introduction, type: text }
+          - name: facts
+            label: Three quick facts
+            type: object
+            list: { max: 3 }
+            fields:
+              - { name: title, label: Fact, type: string }
+              - { name: text, label: Detail, type: string }
+          - { name: photo, label: Photo, type: image, options: { media: photos } }
+          - { name: photo_description, label: Photo description (for screen readers), type: string }
+          - { name: caption, label: Caption on the photo, type: string }
+      - name: what_to_expect
+        label: What to expect
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: steps
+            label: Steps
+            type: object
+            list: { max: 4 }
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: text, label: Description, type: text }
+      - name: purpose
+        label: Our purpose
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: paragraphs, label: Paragraphs, type: text, list: true }
+          - { name: benefits, label: Benefits, type: string, list: true }
+          - { name: closing, label: Closing line, type: string }
+      - name: philosophy
+        label: Philosophy (the three pillars)
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: pillars
+            label: Pillars
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - { name: name, label: Pillar name, type: string }
+              - name: icon
+                label: Icon
+                type: select
+                options:
+                  values:
+                    - { name: sun, label: Sun }
+                    - { name: leaf, label: Leaf }
+                    - { name: people, label: People }
+              - { name: intro, label: Description, type: text }
+              - { name: quote, label: Quote (no quotation marks needed), type: string }
+              - { name: question, label: Question above the choices, type: string }
+              - name: choices
+                label: Choices
+                type: object
+                list: true
+                fields:
+                  - { name: title, label: Choice, type: string }
+                  - { name: text, label: Explanation, type: text }
+              - { name: outcomes, label: Outcomes, type: string, list: true }
+      - name: banner
+        label: Green banner
+        type: object
+        fields:
+          - { name: text, label: Banner text, type: text }
+          - { name: caption, label: Small caption, type: string }
+      - name: hosts
+        label: Meet your hosts
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - name: people
+            label: Hosts
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: role, label: Role line, type: string }
+              - { name: photo, label: Photo, type: image, options: { media: photos } }
+              - { name: photo_description, label: Photo description (for screen readers), type: string }
+              - { name: bio, label: Bio, type: text }
+              - name: details
+                label: Details
+                type: object
+                list: true
+                fields:
+                  - { name: label, label: "Label (for example Fun fact)", type: string }
+                  - { name: text, label: Text, type: text }
+              - { name: quote, label: Quote (no quotation marks needed), type: text }
+      - name: menu
+        label: Sample menu
+        type: object
+        description: The dishes come from recipes with “Show on the home page menu” turned on.
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: note, label: Note under the menu, type: string }
+      - name: how_it_works
+        label: How it works and FAQ
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - name: steps
+            label: Steps
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: text, label: Description, type: text }
+          - name: faq
+            label: Questions and answers
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{question}"
+            fields:
+              - { name: question, label: Question, type: string }
+              - { name: answer, label: Answer, type: text }
+      - name: booking
+        label: Booking section
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: email, label: Contact email, type: string }
+          - { name: occasions, label: Occasion choices in the form, type: string, list: true }
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - { name: tagline, label: Tagline, type: string }

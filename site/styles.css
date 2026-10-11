@@ -258,6 +258,7 @@ input:focus, select:focus, textarea:focus { border-color: var(--olive); }
 textarea { resize: vertical; min-height: 96px; }
 form .btn { justify-self: start; }
 .hidden { display: none; }
+.form-status { font-family: var(--serif); font-style: italic; font-size: 20px; color: var(--olive); }
 
 /* Footer */
 footer { padding: 64px 0 40px; text-align: center; }
