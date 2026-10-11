@@ -22,6 +22,22 @@
     "photo_description": "Baskets of strawberries, apricots, plums and figs at a farmers’ market",
     "caption": "Gain an interest in global foods, one recipe at a time."
   },
+  "mission": {
+    "eyebrow": "Our mission",
+    "heading": "Two things *bring us to the table*",
+    "aims": [
+      {
+        "icon": "leaf",
+        "title": "Teach people how to be creative with plants",
+        "text": "We show you how to turn everyday vegetables, grains, and legumes into bold, global dishes, so plant-forward cooking feels inspiring, never limiting."
+      },
+      {
+        "icon": "people",
+        "title": "Building community through veganism",
+        "text": "Every class gathers a Crew around one table, turning a shared, plant-based meal into lasting connections and new friendships."
+      }
+    ]
+  },
   "what_to_expect": {
     "eyebrow": "What to expect",
     "heading": "An afternoon in *three courses*",

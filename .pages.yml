@@ -211,6 +211,27 @@ content:
           - { name: photo, label: Photo, type: image, options: { media: photos } }
           - { name: photo_description, label: Photo description (for screen readers), type: string }
           - { name: caption, label: Caption on the photo, type: string }
+      - name: mission
+        label: Our mission
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string, description: "Put *single asterisks* around words to make them green italic." }
+          - name: aims
+            label: Mission points
+            type: object
+            list: { max: 3 }
+            fields:
+              - name: icon
+                label: Icon
+                type: select
+                options:
+                  values:
+                    - { name: leaf, label: Leaf }
+                    - { name: people, label: People }
+                    - { name: sun, label: Sun }
+              - { name: title, label: Mission point, type: string }
+              - { name: text, label: Supporting line, type: text }
       - name: what_to_expect
         label: What to expect
         type: object
