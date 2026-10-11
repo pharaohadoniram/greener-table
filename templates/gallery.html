@@ -1,0 +1,163 @@
+<!doctype html>
+<!-- Gallery page template. Content comes from content/gallery.json; run node build/build.js to produce _site/gallery.html. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery · The Greener Table</title>
+  <meta name="description" content="Photos and kind words from The Greener Table cooking experiences in San Francisco and Napa.">
+  {{#if show_sample_notice}}<meta name="robots" content="noindex">{{/if}}
+  <link rel="icon" href="brand/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="gallery.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="gallery-page">
+
+{{#if show_sample_notice}}<div class="sample-bar">Sample photos and testimonials, shown for layout only.</div>{{/if}}
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="The Greener Table home"><img src="brand/logo.png" alt="The Greener Table"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <ul>
+      <li><a href="index.html#experience">The Experience</a></li>
+      <li><a href="index.html#philosophy">Philosophy</a></li>
+      <li><a href="index.html#hosts">Your Hosts</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+      <li><a href="index.html#how">How It Works</a></li>
+      <li><a class="btn" href="index.html#book">Book a Class</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="g-hero">
+    <div class="wrap reveal">
+      <p class="eyebrow">{{eyebrow}}</p>
+      <h1>{{heading}}</h1>
+      <p class="lede">{{intro}}</p>
+    </div>
+  </section>
+
+  <section class="g-photos">
+    <div class="wrap">
+      <ul class="g-grid">
+        {{#each photos as p}}
+        <li class="g-item reveal">
+          <button type="button" class="g-open" data-src="{{attr:p.image}}" data-caption="{{attr:p.caption}}" aria-label="View photo: {{attr:p.caption}}">
+            <img src="{{attr:p.image}}" alt="{{attr:p.description}}" loading="lazy">
+            {{#if p.caption}}<span class="g-cap">{{p.caption}}</span>{{/if}}
+          </button>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </section>
+
+  {{#each featured_testimonial as t}}
+  <section class="t-feature">
+    <div class="wrap reveal">
+      <p class="eyebrow">{{testimonials_eyebrow}}</p>
+      <blockquote>
+        <p>“{{t.quote}}”</p>
+        <footer><span class="t-name">{{t.name}}</span>{{#if t.crew}}<span class="t-crew">{{t.crew}}</span>{{/if}}</footer>
+      </blockquote>
+    </div>
+  </section>
+  {{/each}}
+
+  <section class="t-more">
+    <div class="wrap">
+      <div class="head reveal">
+        <h2>{{testimonials_heading}}</h2>
+      </div>
+      <ul class="t-grid">
+        {{#each more_testimonials as t}}
+        <li class="t-card reveal">
+          <span class="t-mark" aria-hidden="true">“</span>
+          <p>{{t.quote}}</p>
+          <div class="t-who"><span class="t-name">{{t.name}}</span>{{#if t.crew}}<span class="t-crew">{{t.crew}}</span>{{/if}}</div>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </section>
+
+  <section class="g-cta">
+    <div class="wrap reveal">
+      <p>Bring your <em>Crew</em> to our table</p>
+      <a class="btn" href="index.html#book">Get in touch</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="brand/logo.png" alt="The Greener Table">
+    <p class="tag">{{footer_tagline}}</p>
+    <nav>
+      <a href="index.html#experience">The Experience</a>
+      <a href="index.html#philosophy">Philosophy</a>
+      <a href="index.html#hosts">Your Hosts</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#how">How It Works</a>
+      <a href="index.html#book">Book</a>
+    </nav>
+    <small>© {{year}} The Greener Table · San Francisco &amp; Napa</small>
+  </div>
+</footer>
+
+<dialog class="lightbox" aria-label="Photo viewer">
+  <button type="button" class="lb-close" aria-label="Close">×</button>
+  <button type="button" class="lb-nav lb-prev" aria-label="Previous photo">‹</button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button type="button" class="lb-nav lb-next" aria-label="Next photo">›</button>
+</dialog>
+
+<script>
+  const header = document.querySelector('.site-header');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  const toggle = document.querySelector('.menu-toggle');
+  const links = document.querySelector('.nav ul');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+
+  // Photo viewer with previous/next and arrow keys.
+  const items = [...document.querySelectorAll('.g-open')];
+  const lb = document.querySelector('.lightbox');
+  const lbImg = lb.querySelector('img'), lbCap = lb.querySelector('figcaption');
+  let current = 0;
+  const showPhoto = i => {
+    current = (i + items.length) % items.length;
+    const b = items[current];
+    lbImg.src = b.dataset.src;
+    lbImg.alt = b.querySelector('img').alt;
+    lbCap.textContent = b.dataset.caption || '';
+  };
+  items.forEach((b, i) => b.addEventListener('click', () => { showPhoto(i); lb.showModal(); }));
+  lb.querySelector('.lb-close').addEventListener('click', () => lb.close());
+  lb.querySelector('.lb-prev').addEventListener('click', () => showPhoto(current - 1));
+  lb.querySelector('.lb-next').addEventListener('click', () => showPhoto(current + 1));
+  lb.addEventListener('click', e => { if (e.target === lb) lb.close(); });
+  lb.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft') showPhoto(current - 1);
+    if (e.key === 'ArrowRight') showPhoto(current + 1);
+  });
+
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

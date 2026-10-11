@@ -352,3 +352,44 @@ content:
         type: object
         fields:
           - { name: tagline, label: Tagline, type: string }
+
+  # ---------------------------------------------------------------- gallery
+  - name: gallery
+    label: Gallery & testimonials
+    type: file
+    path: content/gallery.json
+    format: json
+    fields:
+      - name: show_sample_notice
+        label: Show the “sample content” notice
+        type: boolean
+        description: Turn this off once the sample photos and testimonials are replaced with real ones.
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: heading, label: Heading, type: string, description: "Put *single asterisks* around words to make them green italic." }
+      - { name: intro, label: Introduction, type: text }
+      - name: photos
+        label: Photos
+        type: object
+        description: Drag to reorder. The grid fills top to bottom, one column at a time.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{caption}"
+        fields:
+          - { name: image, label: Photo, type: image, options: { media: photos } }
+          - { name: caption, label: Caption (shown on hover), type: string }
+          - { name: description, label: Photo description (for screen readers), type: string }
+      - { name: testimonials_eyebrow, label: Small heading above the featured testimonial, type: string }
+      - { name: testimonials_heading, label: Heading above the testimonial cards, type: string }
+      - name: testimonials
+        label: Testimonials
+        type: object
+        description: The first one is shown large at the top. Ask guests before using their names.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}, {crew}"
+        fields:
+          - { name: quote, label: What they said (no quotation marks needed), type: text }
+          - { name: name, label: Name, type: string }
+          - { name: crew, label: "Crew and location (for example Birthday Crew · Napa)", type: string }
