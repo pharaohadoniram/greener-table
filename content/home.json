@@ -33,19 +33,19 @@
       },
       {
         "icon": "people",
-        "title": "Building community through veganism",
-        "text": "Every class gathers a Crew around one table, turning a shared, plant-based meal into lasting connections and new friendships."
+        "title": "Building community",
+        "text": "Every class gathers a Crew of 6 around one table, turning a shared, plant-based meal into lasting connections and new friendships."
       }
     ]
   },
   "what_to_expect": {
     "eyebrow": "What to expect",
     "heading": "An afternoon in *three courses*",
-    "intro": "Every class is a Crew: a small group of friends, family, or colleagues who cook, laugh, and eat together.",
+    "intro": "Every class is a Crew: a group of 6 friends, family, or colleagues who cook, laugh, and eat together.",
     "steps": [
       {
         "title": "Cook together",
-        "text": "Pair up and take on one recipe per pair, with Stacy and Noah guiding every chop, simmer and taste."
+        "text": "Pair up and take on one recipe per pair, with Stacy guiding every chop, simmer and taste."
       },
       {
         "title": "Share the meal",
@@ -53,7 +53,7 @@
       },
       {
         "title": "Leave inspired",
-        "text": "Go home with the recipes, new techniques, and a fresh way of seeing what plants can do."
+        "text": "Go home with the recipes, new techniques, new ingredients, and a fresh way of seeing what plants can do."
       }
     ]
   },
@@ -62,7 +62,7 @@
     "heading": "A plant-forward *teaching kitchen*",
     "paragraphs": [
       "We guide you through a plant-forward teaching kitchen featuring interactive storytelling, designed to enhance both personal and professional performance.",
-      "Our goals are simple: learn to re-imagine plants, create a flavorful experience, and most importantly, have a great afternoon with friends and friends to be."
+      "Our goals are simple: learn to re-imagine plants, create a flavorful experience, and most importantly, have a great afternoon with friends and friends to be. "
     ],
     "benefits": [
       "Understand that not all vegan options are healthy",
@@ -240,11 +240,11 @@
     "steps": [
       {
         "title": "Reach out",
-        "text": "Tell us about your Crew and a few dates that work. We will plan the experience together."
+        "text": "Tell us about your Crew.  Talk to Stacy directly about available dates.   We will plan the experience together."
       },
       {
         "title": "Get the recipes",
-        "text": "Before class you will receive a welcome note, the recipes, and everything you need to know about arrival."
+        "text": "Before class you will receive a welcome note, the recipes, and everything you need to know about arrival.  It is encouraged to read the recipes ahead of time - the beginnings of Mis-en-place."
       },
       {
         "title": "Share any dietary needs",
@@ -252,11 +252,11 @@
       },
       {
         "title": "Cook, then gather",
-        "text": "Arrive, meet Stacy and Noah, pair up, and cook. Then sit down together for the meal you created."
+        "text": "Arrive, meet Stacy and Noah, pair up, and cook. Then sit down together , \"break bread\" for the meal you created."
       },
       {
         "title": "Gather feedback",
-        "text": "After class, we will check in to hear what you loved and what you would like to cook next, so every experience keeps getting better."
+        "text": "After class, we will ask you to complete a quick 5 question survey.  Stacy wants to hear what you loved, what can be improved, from the food to the cooking, so every experience keeps getting better."
       }
     ],
     "faq": [
@@ -283,19 +283,22 @@
       {
         "question": "Where do classes take place?",
         "answer": "In our home kitchens in San Francisco and Napa. Let us know which you prefer, and we will share the address and arrival details with your Crew once your date is confirmed."
+      },
+      {
+        "question": "Is there a fee?",
+        "answer": "No.  This is our contribution to creating community and paying it forward."
       }
     ]
   },
   "booking": {
     "eyebrow": "Get in touch",
     "heading": "Pull up a chair at *our table*",
-    "intro": "Every Crew is planned personally. Send me a note about your group and I will reach out to plan your afternoon together, from the menu to the last bite.",
+    "intro": "Every Crew is planned personally. Send Stacy a note about your group and she will reach out to plan your afternoon together, from the menu to the last bite.",
     "schedule": "Classes typically meet on Thursdays at 4:00 PM.",
     "note_title": "In your note, tell us",
     "note_items": [
-      "Who is in your Crew, and how many of you",
+      "Who is in your Crew: name, email and mobile number",
       "The occasion, if there is one",
-      "A few dates that work for you",
       "Any allergies or dietary needs"
     ],
     "button_label": "Email Stacy",
