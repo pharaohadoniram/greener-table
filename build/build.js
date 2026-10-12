@@ -167,4 +167,15 @@ fs.writeFileSync(path.join(OUT, 'recipes', 'recipes.js'), header + 'window.RECIP
 fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
 if (settings.site_url) fs.writeFileSync(path.join(OUT, 'CNAME'), new URL(settings.site_url).hostname + '\n');
 
+// Cache busting: stamp every stylesheet and script link with a fingerprint of its contents,
+// so browsers fetch the new file as soon as it changes instead of showing a saved copy.
+const crypto = require('crypto');
+const stamp = f => crypto.createHash('md5').update(fs.readFileSync(path.join(OUT, f))).digest('hex').slice(0, 8);
+for (const page of fs.readdirSync(OUT).filter(f => f.endsWith('.html'))) {
+  const file = path.join(OUT, page);
+  const htmlOut = fs.readFileSync(file, 'utf8').replace(/(href|src)="((?:[\w-]+\/)*[\w.-]+\.(?:css|js))"/g,
+    (m, attr, ref) => fs.existsSync(path.join(OUT, ref)) ? `${attr}="${ref}?v=${stamp(ref)}"` : m);
+  fs.writeFileSync(file, htmlOut);
+}
+
 console.log(`Built _site/ with ${recipes.length} recipes (${recipes.filter(r => r.featured).length} on the home menu).`);
