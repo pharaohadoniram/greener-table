@@ -181,6 +181,8 @@ h1 em, h2 em { font-style: italic; color: var(--olive); }
 .tabs button[aria-selected="true"] { background: var(--olive); border-color: var(--olive); color: var(--cream); }
 .panel { display: grid; grid-template-columns: 0.9fr 1.3fr 0.9fr; gap: clamp(28px, 4vw, 56px); align-items: start; }
 .panel[hidden] { display: none; }
+.panel-next { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; padding-top: 28px; margin-top: 8px; border-top: 1px solid var(--stone); }
+.panel-next .eyebrow { margin-right: 6px; }
 .panel-intro svg { width: 44px; height: 44px; stroke: var(--sage); fill: none; stroke-width: 1.2; margin-bottom: 14px; }
 .panel-intro h3 { font-size: 34px; margin-bottom: 12px; }
 .panel-intro p { color: var(--muted); }

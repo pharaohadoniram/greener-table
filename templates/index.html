@@ -331,6 +331,30 @@
   });
   if (tabs.length) show(tabs[0].id);
 
+  // Under each pillar, offer the other pillars so visitors explore all three.
+  const tabBar = document.querySelector('[role=tablist]');
+  tabs.forEach(t => {
+    const panel = document.getElementById(t.getAttribute('aria-controls'));
+    const others = [...tabs].filter(o => o !== t);
+    if (!others.length) return;
+    const nav = document.createElement('div');
+    nav.className = 'panel-next';
+    nav.innerHTML = '<p class="eyebrow">Keep exploring</p>';
+    others.forEach(o => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'btn ghost';
+      b.innerHTML = o.textContent + ' <span aria-hidden="true">→</span>';
+      b.addEventListener('click', () => {
+        show(o.id);
+        window.scrollTo({ top: tabBar.getBoundingClientRect().top + window.scrollY - 110, behavior: 'smooth' });
+        o.focus({ preventScroll: true });
+      });
+      nav.appendChild(b);
+    });
+    panel.appendChild(nav);
+  });
+
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
   }, { threshold: 0.12 });
