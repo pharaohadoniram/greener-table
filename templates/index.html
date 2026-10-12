@@ -39,7 +39,7 @@
   <section class="hero">
     <div class="wrap">
       <div class="reveal">
-        <p class="eyebrow">{{hero.eyebrow}}</p>
+        <p class="eyebrow hero-eyebrow">{{#each hero_eyebrow_parts as part}}{{#if @notfirst}}<span class="sep"> · </span>{{/if}}<span class="part">{{part}}</span>{{/each}}</p>
         <h1>{{hero.headline_line_1}}<br>{{hero.headline_line_2}}</h1>
         <p class="lede">{{hero.intro}}</p>
         <div class="actions">

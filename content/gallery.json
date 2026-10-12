@@ -9,9 +9,9 @@
       "intro": "Everything in its place before the first Crew member arrives.",
       "photos": [
         {
-          "image": "assets/gallery/table-is-set.jpg",
+          "image": "assets/gallery/table-set-for-class.jpg",
           "caption": "The table is set",
-          "description": "The class table set with cutting boards and aprons under a sculptural wall"
+          "description": "The class table set with cutting boards and colorful bowls under a glowing pendant light"
         },
         {
           "image": "assets/gallery/mise-en-place.jpg",
@@ -19,9 +19,9 @@
           "description": "A tray of measured spices and grains ready before cooking"
         },
         {
-          "image": "assets/gallery/produce-ready.jpg",
-          "caption": "Everything in its place",
-          "description": "A counter of fresh, prepped produce ready for class"
+          "image": "assets/gallery/ingredients-ready.jpg",
+          "caption": "Ingredients at the ready",
+          "description": "A counter of fresh produce and ingredients laid out before class"
         },
         {
           "image": "assets/gallery/welcome.jpg",
@@ -40,9 +40,9 @@
           "description": "Two guests cooking side by side at the stove with wooden spoons"
         },
         {
-          "image": "assets/gallery/laughing-at-the-counter.jpg",
-          "caption": "The fun part",
-          "description": "Two guests laughing together while cooking at the counter"
+          "image": "assets/gallery/prep-by-the-window.jpg",
+          "caption": "Prepping by the window",
+          "description": "Two guests prepping vegetables together by a sunny window"
         },
         {
           "image": "assets/gallery/paella-pair.jpg",
@@ -76,9 +76,9 @@
           "description": "Finished dishes lined up along the kitchen counter"
         },
         {
-          "image": "assets/gallery/fresh-bagels.jpg",
-          "caption": "Fresh from the oven",
-          "description": "Trays of homemade bagels"
+          "image": "assets/gallery/outdoor-spread.jpg",
+          "caption": "The spread, al fresco",
+          "description": "An overhead view of shakshuka, salads, fruit and sides on an outdoor table"
         }
       ]
     },

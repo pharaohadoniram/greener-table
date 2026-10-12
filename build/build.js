@@ -140,6 +140,8 @@ const home = readJSON('content/home.json');
 const settings = readJSON('content/settings.json');
 const html = render(read('templates/index.html'), {
   ...home, settings, year: String(new Date().getFullYear()),
+  // The line above the headline breaks only at its dot separators, never mid-phrase.
+  hero_eyebrow_parts: String((home.hero || {}).eyebrow || '').split(/\s*[·•]\s*|\.\s{2,}/).filter(Boolean),
   feedback: (readJSON('content/testimonials.json').feedback || {}),
   featured: recipes.filter(r => r.featured).slice(0, Number((home.recipes_section || {}).max_on_home) || 6).map(r => r.home),
 });

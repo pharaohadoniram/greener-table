@@ -3,7 +3,7 @@
     "button_label": "Request a Class"
   },
   "hero": {
-    "eyebrow": "Plant-forward cooking experience.  San Francisco & Napa",
+    "eyebrow": "Plant-forward cooking experience · San Francisco & Napa",
     "headline_line_1": "Re-imagine plants.",
     "headline_line_2": "*Gather* around the table.",
     "intro": "A hands-on cooking class hosted by Stacy in her San Francisco & Napa kitchens.  Cook global, plant-forward dishes side by side with friends, then sit down to share the meal you made together.",
@@ -197,8 +197,8 @@
     ]
   },
   "banner": {
-    "text": "Re-imagine and rethink plants. Create a flavor experience. Bring something different to your table.",
-    "caption": "The Greener Table experience"
+    "text": "“Re-imagine and rethink plants. Create a flavor experience. Bring something different to your table.”",
+    "caption": "Stacy, your host"
   },
   "hosts": {
     "eyebrow": "Meet your hosts",

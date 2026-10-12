@@ -90,6 +90,7 @@ h1 em, h2 em { font-style: italic; color: var(--olive); }
 .menu-toggle span { display: block; width: 24px; height: 1px; background: var(--ink); margin: 6px 0; }
 
 /* Hero */
+.hero-eyebrow .part { white-space: nowrap; }
 .hero { padding: clamp(40px, 7vw, 96px) 0 clamp(64px, 9vw, 120px); }
 .hero .wrap { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(32px, 6vw, 88px); align-items: center; }
 .hero h1 { margin: 22px 0 26px; }
