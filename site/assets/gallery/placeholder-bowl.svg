@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dfe4d6"/><stop offset="1" stop-color="#c9d1bd"/></linearGradient></defs>
-  <rect width="800" height="1000" fill="url(#g)"/>
-  <g transform="translate(400.0 470.0)" fill="none" stroke="#4f5b40" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".55"><path d="M-90 0h180c0 60-40 100-90 100S-90 60-90 0z"/><path d="M-110 0h220"/><path d="M-30-30c0-20 20-20 20-40M10-30c0-20 20-20 20-40"/></g>
-  <text x="400.0" y="620.0" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="34" fill="#4f5b40" opacity=".6">Photo coming soon</text>
-</svg>

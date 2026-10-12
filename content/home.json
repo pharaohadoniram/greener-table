@@ -1,4 +1,7 @@
 {
+  "top_menu": {
+    "button_label": "Request a Class"
+  },
   "hero": {
     "eyebrow": "Plant-forward cooking · San Francisco & Napa",
     "headline_line_1": "Re-imagine plants.",

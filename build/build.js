@@ -149,6 +149,12 @@ const gallery = readJSON('content/gallery.json');
 fs.writeFileSync(path.join(OUT, 'gallery.html'), render(read('templates/gallery.html'), {
   ...gallery, year: String(new Date().getFullYear()), footer_tagline: home.footer.tagline,
   photos: (gallery.photos || []).filter(p => p && p.image).map(p => ({ ...p, image: sitePath(p.image) })),
+  // Three columns, filled in list order (first third, second third, last third), so each column’s first photo gets the arch.
+  columns: (() => {
+    const ps = (gallery.photos || []).filter(p => p && p.image).map(p => ({ ...p, image: sitePath(p.image) }));
+    const per = Math.ceil(ps.length / 3);
+    return [0, 1, 2].map(c => ({ photos: ps.slice(c * per, (c + 1) * per) })).filter(c => c.photos.length);
+  })(),
 }));
 
 // Kind Words page: survey numbers plus testimonials (the first one is featured large).
@@ -166,6 +172,13 @@ fs.writeFileSync(path.join(OUT, 'recipes', 'recipes.js'), header + 'window.RECIP
 // GitHub Pages: serve files as-is, and answer for the custom domain.
 fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
 if (settings.site_url) fs.writeFileSync(path.join(OUT, 'CNAME'), new URL(settings.site_url).hostname + '\n');
+
+// The top menu button text is editable in Pages CMS (Home page > Top menu).
+const menuButton = plain((home.top_menu || {}).button_label || 'Request a Class');
+for (const page of fs.readdirSync(OUT).filter(f => f.endsWith('.html'))) {
+  const file = path.join(OUT, page);
+  fs.writeFileSync(file, fs.readFileSync(file, 'utf8').replace(/<!--menu-button-->[\s\S]*?<!--\/menu-button-->/g, menuButton));
+}
 
 // Cache busting: stamp every stylesheet and script link with a fingerprint of its contents,
 // so browsers fetch the new file as soon as it changes instead of showing a saved copy.

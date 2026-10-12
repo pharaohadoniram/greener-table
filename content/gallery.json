@@ -1,53 +1,98 @@
 {
-  "show_sample_notice": true,
+  "show_sample_notice": false,
   "eyebrow": "Gallery",
   "heading": "Moments from *our table*",
   "intro": "A look inside our kitchens in San Francisco and Napa: the markets, the prep, the laughter, and the meals our Crews create together.",
   "photos": [
     {
-      "image": "assets/market.jpg",
-      "caption": "Market morning",
-      "description": "Baskets of strawberries, apricots, plums and figs at a farmers’ market"
+      "image": "assets/gallery/crew-on-the-deck.jpg",
+      "caption": "A Crew by the water",
+      "description": "A Crew in matching aprons on a sunny deck by the water"
     },
     {
-      "image": "assets/gallery/placeholder-board.svg",
+      "image": "assets/gallery/paella-peppers.jpg",
+      "caption": "Paella, painted with peppers",
+      "description": "A paella pan topped with red, yellow and green peppers on the stove"
+    },
+    {
+      "image": "assets/gallery/at-the-stove.jpg",
+      "caption": "Stirring things up",
+      "description": "Two guests cooking side by side at the stove with wooden spoons"
+    },
+    {
+      "image": "assets/gallery/the-spread.jpg",
+      "caption": "The spread",
+      "description": "Arancini, dipping sauce and paella laid out on the counter"
+    },
+    {
+      "image": "assets/gallery/salad-duo.jpg",
+      "caption": "Proud of this one",
+      "description": "Two guests holding the salad they made"
+    },
+    {
+      "image": "assets/gallery/table-is-set.jpg",
+      "caption": "The table is set",
+      "description": "The class table set with cutting boards and aprons under a sculptural wall"
+    },
+    {
+      "image": "assets/gallery/welcome.jpg",
+      "caption": "Welcome to the table",
+      "description": "A host in a Greener Table apron welcoming guests with open arms"
+    },
+    {
+      "image": "assets/gallery/mise-en-place.jpg",
       "caption": "Mise en place",
-      "description": "Placeholder for a photo of prepped ingredients"
+      "description": "A tray of measured spices and grains ready before cooking"
     },
     {
-      "image": "assets/gallery/placeholder-leaf.svg",
-      "caption": "From Noah’s garden",
-      "description": "Placeholder for a garden photo"
+      "image": "assets/gallery/paella-pair.jpg",
+      "caption": "Paella, almost there",
+      "description": "Two cooks smiling over a pan of paella on the stove"
     },
     {
-      "image": "assets/stacy.jpg",
-      "caption": "Your host, Stacy",
-      "description": "Stacy smiling at an outdoor table with a vase of hydrangeas and dahlias"
+      "image": "assets/gallery/pupusas-by-the-water.jpg",
+      "caption": "Pupusas, fresh off the griddle",
+      "description": "Two guests holding a plate of pupusas outside by the water"
     },
     {
-      "image": "assets/gallery/placeholder-bowl.svg",
-      "caption": "Khao Soi, ready to share",
-      "description": "Placeholder for a photo of a finished dish"
+      "image": "assets/gallery/counter-feast.jpg",
+      "caption": "Dinner is served",
+      "description": "Finished dishes lined up along the kitchen counter"
     },
     {
-      "image": "assets/gallery/placeholder-pot.svg",
-      "caption": "Simmering",
-      "description": "Placeholder for a cooking photo"
+      "image": "assets/gallery/crew-in-the-kitchen.jpg",
+      "caption": "The whole Crew",
+      "description": "A Crew gathered in the kitchen under a glowing pendant light"
     },
     {
-      "image": "assets/stacy-noah.jpg",
-      "caption": "Stacy & Noah in Cinque Terre",
-      "description": "Stacy and Noah smiling in front of the colorful cliffside village of Manarola"
+      "image": "assets/gallery/shakshuka-outdoors.jpg",
+      "caption": "Shakshuka in the sunshine",
+      "description": "Two hosts behind pans of shakshuka at an outdoor table under the palms"
     },
     {
-      "image": "assets/gallery/placeholder-glass.svg",
-      "caption": "Cheers, Crew",
-      "description": "Placeholder for a photo of a toast"
+      "image": "assets/gallery/rice-paper-rolls.jpg",
+      "caption": "Rice paper rolls",
+      "description": "Two guests showing off platters of rice paper rolls"
     },
     {
-      "image": "assets/gallery/placeholder-table.svg",
-      "caption": "The shared table",
-      "description": "Placeholder for a photo of the meal"
+      "image": "assets/gallery/fresh-bagels.jpg",
+      "caption": "Fresh from the oven",
+      "description": "Trays of homemade bagels"
+    },
+    {
+      "image": "assets/gallery/salad-pride.jpg",
+      "caption": "Nailed it",
+      "description": "Two guests proudly holding a bowl of salad"
+    },
+    {
+      "image": "assets/gallery/noah-and-the-crew.jpg",
+      "caption": "Noah and the Crew",
+      "description": "Noah taking a selfie with a cheering Crew behind him"
+    },
+    {
+      "image": "assets/gallery/shakshuka-trio.jpg",
+      "caption": "Cooking by the lagoon",
+      "description": "Three cooks behind pans of shakshuka outdoors by the water"
     }
   ]
 }

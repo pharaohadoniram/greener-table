@@ -198,6 +198,11 @@ content:
     path: content/home.json
     format: json
     fields:
+      - name: top_menu
+        label: Top menu
+        type: object
+        fields:
+          - { name: button_label, label: Button text (top right of every page), type: string }
       - name: hero
         label: Top of the page
         type: object
@@ -450,3 +455,13 @@ content:
           - { name: quote, label: What they said (no quotation marks needed), type: text }
           - { name: name, label: Name (or Guest), type: string }
           - { name: crew, label: "Crew (for example March 2026 Crew)", type: string }
+      - name: feedback
+        label: Feedback survey box
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: button_label, label: Button text, type: string }
+          - { name: link, label: Survey link, type: string }
+          - { name: qr, label: QR code image, type: image, options: { media: photos } }

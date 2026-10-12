@@ -97,5 +97,13 @@
       "name": "Guest",
       "crew": "March 2026 Crew"
     }
-  ]
+  ],
+  "feedback": {
+    "eyebrow": "Took a class?",
+    "heading": "Tell us *how it went*",
+    "text": "Your feedback shapes every Crew that follows. It takes about a minute: five quick questions about the food, the cooking, and what we can do even better.",
+    "button_label": "Share your feedback",
+    "link": "https://form.typeform.com/to/Il8w755Z",
+    "qr": "assets/feedback-qr.png"
+  }
 }
