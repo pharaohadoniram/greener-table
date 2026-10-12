@@ -6,7 +6,7 @@
     "eyebrow": "Plant-forward cooking · San Francisco & Napa",
     "headline_line_1": "Re-imagine plants.",
     "headline_line_2": "*Gather* around the table.",
-    "intro": "A hands-on cooking class hosted by Stacy in her kitchens in San Francisco and Napa. Cook global, plant-forward dishes side by side with friends, then sit down to share the meal you made together.",
+    "intro": "A hands-on cooking class hosted by Stacy in her San Francisco & Napa kitchens.  Cook global, plant-forward dishes side by side with friends, then sit down to share the meal you made together.",
     "facts": [
       {
         "title": "Hands-on",
@@ -167,20 +167,23 @@
         "question": "Where else can the benefits be observed?",
         "choices": [
           {
+            "title": "Mis-en-place"
+          },
+          {
             "title": "Focus",
-            "text": "A nutrient-rich diet supports brain health, sharpening focus and concentration for better listening and teamwork."
+            "text": "A nutrient-rich diet supports brain health, sharpening focus and concentration for better listening and teamwork.  When building relationships, it is critical to be a great listener - this skill will allow you to focus on your clients, colleagues or friends needs.  Stop multi-tasking when you should be focusing and listenting - the results will be well worthi it. "
           },
           {
             "title": "Agility",
-            "text": "Nutrient-dense foods improve physical health and agility, helping you act quickly and effectively."
+            "text": "Nutrient-dense foods improve physical health and AGILITY, helping you act quickly and effectively. Agility is an important component of a relationship - it requires you to act and move swiftly with each interaction.  Some interactions may be positive - these are the easy ones; its the negative and surprising ones that require agility - here you need to be comfortable to shift to oftentimes places that you arent the most confident.  I challenge you to get comfortable with the uncomfortable - BE AGILE!"
           },
           {
             "title": "Decision making",
-            "text": "A diet rich in omega-3s and antioxidants boosts cognitive function and supports better decisions."
+            "text": "When cooking a meal you are constantly making decisions.. timing, temperature, cutting style, spices, etc.  Similar to relationships, its all about making swift, but thoughtful decisions.  Its as simple as when to start a relationship, nurture it and continuous building shooting for nirvana - a trusted relationship. "
           },
           {
             "title": "Taking risks",
-            "text": "Good nutrition supports mental clarity and emotional stability, building the confidence to take calculated risks."
+            "text": "When cooking, you take many risks, you may not follow a recipe completely;  you add more spices, ingredients, replace certain proteins because you want to enhance or improve the dish.  In relationship building, it is the same concept, you should consider taking risks when offering your opinions, providing honest direct feedback, even if it is controversial. Take a risk by calling your clients or potential clients - don't ask for anything other then getting to know them better and asking about thier family or loved ones. In cooking at building relationships, build your confidence to take risks!"
           }
         ],
         "outcomes": [
