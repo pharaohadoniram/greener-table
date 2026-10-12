@@ -1,0 +1,264 @@
+{
+  "title": "Hearts of Palm Salad",
+  "subtitle": "with spinach, farro and quinoa",
+  "region": "The Americas and Southeast Asia",
+  "show_on_home_menu": false,
+  "order": 15,
+  "menu_blurb": "Spinach, roasted asparagus, hearts of palm, tomatoes and avocado over toasted farro and quinoa, with a simple lemon and olive oil dressing.",
+  "photo": "",
+  "intro": "An incredibly flavorful salad with surprising ingredients that will exceed all expectations. Every time I make this salad, I get asked for the recipe.",
+  "origin": "Hearts of palm salads trace back to Central America, South America, and Southeast Asia, where Indigenous communities have harvested the tender inner cores of native palms for thousands of years. Civilizations like the Maya relied on wild palms such as açaí, peach palm, and palmetto, eating the soft white inner bud raw or boiled, often tossed with other native greens. In Florida, Native Americans and early settlers harvested sabal palms for a version known as “swamp cabbage” salad.",
+  "prep_minutes": "20 to 30",
+  "cook_minutes": "30",
+  "serves": "6 to 8",
+  "pdf": "recipes/hearts-of-palm-salad.pdf",
+  "mise_en_place": [
+    {
+      "label": "Roast",
+      "task": "Asparagus"
+    },
+    {
+      "label": "Cook",
+      "task": "Quinoa and farro"
+    },
+    {
+      "label": "Chop",
+      "task": "Spinach, avocado, hearts of palm, and tomatoes"
+    },
+    {
+      "label": "Tools",
+      "task": "A baking sheet, a pot, and a large serving bowl"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Grains",
+      "items": [
+        {
+          "name": "Quinoa, with 1¾ cups water",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Farro, with 2½ cups water",
+          "amount": "1 cup"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce",
+      "items": [
+        {
+          "name": "Spinach, roughly chopped",
+          "amount": "2 large packages"
+        },
+        {
+          "name": "Asparagus",
+          "amount": "2 bunches"
+        },
+        {
+          "name": "Cherry tomatoes, halved",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Avocados, cubed",
+          "amount": "2"
+        },
+        {
+          "name": "Hearts of palm, sliced into ½ inch pieces",
+          "amount": "1 jar or can"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the dressing",
+      "items": [
+        {
+          "name": "Lemons, juiced",
+          "amount": "2"
+        },
+        {
+          "name": "Olive oil",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Cook the grains",
+      "instructions": [
+        "Toast the quinoa and farro, then add the water with a sprinkle of salt.",
+        "Bring to a boil, cover, and simmer for 15 minutes. Let cool."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Roast the asparagus",
+      "instructions": [
+        "Preheat the oven to 400°F. Spray the asparagus lightly with olive oil and season with salt and pepper.",
+        "Roast until lightly crispy. Once cooled, cut into thirds."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Cut the vegetables",
+      "instructions": [
+        "Cube the avocado and sprinkle it with lemon juice.",
+        "Roughly chop the spinach, halve the cherry tomatoes, and slice the hearts of palm into ½ inch pieces."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Make the dressing",
+      "instructions": [
+        "Whisk the olive oil with the juice of 1 lemon and 1 tsp salt. Taste and add more as needed."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Bring it together",
+      "instructions": [
+        "Add the spinach to a large bowl, then the asparagus, hearts of palm, and tomatoes.",
+        "Add the cooled grains and top with the avocado.",
+        "Toss with the dressing, then taste and add more salt, lemon, or olive oil as needed."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add more grains if you want a less leafy salad."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Use different lettuces or cabbage."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keep anything you won’t serve right away separate, and add the dressing only when ready to serve."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Spinach",
+      "facts": [
+        "7 calories per cup",
+        "0.9 g protein",
+        "0.7 g fiber"
+      ],
+      "notes": "A low-calorie superfood and an excellent source of vitamins K and A, and folate."
+    },
+    {
+      "ingredient": "Tomatoes",
+      "facts": [
+        "27 calories per cup",
+        "6 g carbs",
+        "1.8 g fiber"
+      ],
+      "notes": "Powerful antioxidants and essential nutrients that help lower disease risk."
+    },
+    {
+      "ingredient": "Hearts of palm",
+      "facts": [
+        "20 calories per ½ cup",
+        "4 g carbs",
+        "4 g fiber",
+        "2 g protein"
+      ],
+      "notes": "Very low in fat and calories, high in water and fiber to keep you full, and rich in potassium."
+    },
+    {
+      "ingredient": "Farro",
+      "facts": [
+        "200 calories per cup",
+        "37 g carbs",
+        "7 g fiber",
+        "7 g protein",
+        "1.5 g fat"
+      ],
+      "notes": "Supports heart health and digestion with its high fiber and antioxidant content."
+    },
+    {
+      "ingredient": "Quinoa",
+      "facts": [
+        "222 calories per cup",
+        "8.1 g protein",
+        "39.4 g carbs",
+        "5.2 g fiber",
+        "3.6 g fat"
+      ],
+      "notes": "Supports metabolic health and digestion with its mix of fiber, minerals, and plant antioxidants."
+    },
+    {
+      "ingredient": "Avocado",
+      "facts": [
+        "160 calories per 100 g",
+        "2 g protein",
+        "7 g fiber",
+        "8.5 g carbs",
+        "15 g healthy fats, mostly monounsaturated"
+      ],
+      "notes": "Around 20 different vitamins and minerals, notably potassium, vitamins K, B9, C, E and B6, magnesium, and copper."
+    },
+    {
+      "ingredient": "Asparagus",
+      "facts": [
+        "20 calories per ½ cup",
+        "2 g protein",
+        "2 g fiber",
+        "very low fat"
+      ],
+      "notes": "Packed with vitamins A, C, E, K and B, minerals like folate, potassium, iron and copper, plus fiber and antioxidants for heart health, digestion, and immunity."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What are hearts of palm, and are they good for you?",
+      "answer": [
+        "A white, crunchy vegetable harvested from the inner core of certain palm trees, mostly coconut, açaí, and peach palms grown in Central and South America.",
+        "They are exceptionally good for you, packing essential nutrients into very few calories."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What is farro, and is it good for you?",
+      "answer": [
+        "Farro is a nutty, chewy ancient whole grain, a type of wheat that has been a staple of Mediterranean and Italian cooking for thousands of years.",
+        "It is a nutrient-dense whole grain with far more benefits than refined grains like white rice or standard pasta."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What is quinoa, and is it good for you?",
+      "answer": [
+        "Quinoa is a seed cooked and eaten like a grain, related to spinach and beets rather than true grains. It is naturally gluten-free and a complete protein, with all nine essential amino acids.",
+        "Its rare combination of complete protein, fiber, and minerals makes it a true functional superfood."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "title": "Mung-Nificent Breakfast Muffins",
+  "subtitle": "egg-free veggie egg bites",
+  "region": "Inspired by India",
+  "show_on_home_menu": false,
+  "order": 14,
+  "menu_blurb": "Fluffy, protein-packed breakfast bites made from blended split mung beans, baked with sautéed onion, peppers and spinach. No eggs needed.",
+  "photo": "",
+  "intro": "A great breakfast full of bean protein. Instead of eggs, we use a copycat of “Just Egg,” but much more flavorful and without any of the unhealthy additives. Think Starbucks egg bites without the egg. There are so many ways to use this recipe, and this version makes a great bite-size treat!",
+  "origin": "Mung beans come from the Indian subcontinent, where they were first domesticated around 4,500 years ago. Archaeologists have found carbonized mung bean seeds linked to the ancient Indus Valley (Harappan) civilization in modern-day India and Pakistan. Split yellow mung beans, known as moong dal, are green mung beans that have been skinned and split in half, exposing the bright yellow inside and changing how they behave in the kitchen.",
+  "prep_minutes": "20 to 30",
+  "cook_minutes": "25 to 35",
+  "serves": "6 to 8",
+  "pdf": "recipes/mung-nificent-breakfast-muffins.pdf",
+  "mise_en_place": [
+    {
+      "label": "Chop",
+      "task": "Onion, spinach, and peppers"
+    },
+    {
+      "label": "Gather",
+      "task": "Paprikas, onion powder, garlic powder, nutritional yeast, salt, pepper, turmeric, and baking powder"
+    },
+    {
+      "label": "Tools",
+      "task": "A muffin tin, a sauté pan, and a blender"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Fresh produce & aromatics",
+      "items": [
+        {
+          "name": "Red onion, chopped",
+          "amount": "1"
+        },
+        {
+          "name": "Bell peppers, chopped",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Spinach, roughly chopped",
+          "amount": "4 cups"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Mung-nificent blend",
+      "items": [
+        {
+          "name": "Split yellow mung beans (moong dal)",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Soy milk",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Avocado oil",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Nutritional yeast",
+          "amount": "4 heaping tbsp"
+        },
+        {
+          "name": "Garlic powder",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Onion powder",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Sweet paprika",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Spicy paprika",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Turmeric",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Baking powder",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "1½ tsp"
+        },
+        {
+          "name": "Black pepper",
+          "amount": "½ tsp"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To finish",
+      "items": [
+        {
+          "name": "Avocado oil spray",
+          "amount": "for the muffin tin"
+        },
+        {
+          "name": "Cilantro and tamarind date sauce",
+          "amount": "for serving"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Prepare",
+      "instructions": [
+        "Preheat the oven to 400°F.",
+        "Spray the muffin tin thoroughly with avocado oil spray.",
+        "Chop the onion and peppers, and roughly chop the spinach."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Sauté the vegetables",
+      "instructions": [
+        "Start with the onion, then layer in the peppers, then the spinach. Cook until soft."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Blend",
+      "instructions": [
+        "Blend all of the Mung-nificent blend ingredients until smooth."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Fill the tin",
+      "instructions": [
+        "Divide the vegetables among the muffin cups.",
+        "Pour the mung bean blend over the top to fill each cup."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Bake",
+      "instructions": [
+        "Bake for about 25 to 35 minutes, checking with a toothpick until cooked all the way through."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add more spices, or roasted potatoes."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Use different vegetables. Or make a frittata instead: pour the same mixture over the vegetables and roasted potatoes in a baking dish and bake at 400°F for 30 to 40 minutes."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keeps in the fridge or freezer."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Mung beans",
+      "facts": [
+        "347 calories per 100 g, dry",
+        "23.9 g protein",
+        "62 g carbs",
+        "16.3 g fiber"
+      ],
+      "notes": "Exceptional health benefits from a dense concentration of antioxidants, plant protein, and soluble fiber."
+    },
+    {
+      "ingredient": "Spinach",
+      "facts": [
+        "7 calories per cup",
+        "0.9 g protein",
+        "0.7 g fiber"
+      ],
+      "notes": "A low-calorie superfood and an excellent source of vitamins K and A, and folate."
+    },
+    {
+      "ingredient": "Bell peppers",
+      "facts": [
+        "26 to 31 calories per 100 g",
+        "2.1 g fiber",
+        "1 g protein",
+        "very low fat"
+      ],
+      "notes": "Packed with vitamins (especially C, A, B6, K and E) and minerals (potassium, folate), with antioxidants and fiber for digestive health."
+    },
+    {
+      "ingredient": "Onions",
+      "facts": [
+        "38 calories",
+        "0.8 g protein",
+        "8.6 g carbs",
+        "1.9 g fiber",
+        "0.1 g fat"
+      ],
+      "notes": "Rich in antioxidants like quercetin and prebiotic fibers, supporting gut health and heart health by helping lower cholesterol and blood pressure."
+    },
+    {
+      "ingredient": "Soy milk",
+      "facts": [
+        "80 to 100 calories per cup",
+        "7 to 8 g protein",
+        "4 g fat"
+      ],
+      "notes": "Close to cow’s milk in protein, and naturally free of dairy and lactose."
+    },
+    {
+      "ingredient": "Nutritional yeast",
+      "facts": [
+        "40 to 60 calories per 2 tbsp",
+        "4 to 5 g protein",
+        "3 to 5 g carbs",
+        "2 to 3 g fiber",
+        "0 g fat"
+      ],
+      "notes": "Nicknamed “nooch,” it adds a nutty, cheesy flavor and is an excellent source of plant protein, fiber, and B vitamins, especially B12."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "Are mung beans good for you?",
+      "answer": [
+        "Mung beans are an exceptionally nutrient-dense legume, with plant protein, fiber, and essential minerals. Their nutrition numbers look very different dry versus cooked, because the beans absorb a lot of water as they cook."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What is nutritional yeast, and is it good for you?",
+      "answer": [
+        "Nutritional yeast is a deactivated yeast from the same species used to bake bread and brew beer. The yeast cells are inactive, so it won’t make bread rise or ferment anything.",
+        "It is exceptionally good for you, with plant protein, fiber, and B vitamins in very few calories, which makes it a favorite in vegan and plant-based kitchens."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    }
+  ]
+}

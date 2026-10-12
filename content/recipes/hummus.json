@@ -1,0 +1,193 @@
+{
+  "title": "Hummus à la Noah",
+  "subtitle": "silky tahini hummus",
+  "region": "The Middle East",
+  "show_on_home_menu": false,
+  "order": 13,
+  "menu_blurb": "A very smooth, creamy hummus blended with tahini, lemon and garlic, finished with za’atar and pine nuts. A crowd pleaser every time.",
+  "photo": "",
+  "intro": "A very smooth, creamy, flavorful dip, perfect for pita chips, crudités, and sandwiches. This recipe is a crowd pleaser! Fun fact: my niece Lara, a hummus lover, will only eat Noah’s hummus.",
+  "origin": "Hummus comes from the Middle East, although which country can claim it is hotly debated. “Hummus” is the Arabic word for chickpea, and the dish’s full traditional name, hummus bi tahini, means “chickpeas with tahini.”",
+  "prep_minutes": "15",
+  "cook_minutes": "5",
+  "serves": "6 to 8",
+  "pdf": "recipes/hummus.pdf",
+  "mise_en_place": [
+    {
+      "label": "Prepare",
+      "task": "Peel the garlic and squeeze 2 lemons"
+    },
+    {
+      "label": "Tools",
+      "task": "A blender"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Chickpeas, drained (save the liquid)",
+          "amount": "2 cans"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce & aromatics",
+      "items": [
+        {
+          "name": "Garlic cloves",
+          "amount": "3 to 5"
+        },
+        {
+          "name": "Lemons, juiced (about 6 to 8 tsp)",
+          "amount": "2"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Pantry staples & seasonings",
+      "items": [
+        {
+          "name": "Aquafaba (the liquid from the chickpeas)",
+          "amount": "8 tbsp"
+        },
+        {
+          "name": "Tahini (Israeli tahini is the best)",
+          "amount": "4 tbsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "2 tsp"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To finish",
+      "items": [
+        {
+          "name": "Za’atar and pine nuts",
+          "amount": "for topping"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Prepare",
+      "instructions": [
+        "Peel the garlic.",
+        "Drain the chickpeas, saving the liquid from the can. This is called aquafaba.",
+        "Squeeze the lemons."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Blend",
+      "instructions": [
+        "Blend the garlic first.",
+        "Add the chickpeas, lemon juice, aquafaba, tahini, and salt, and blend until very smooth."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Taste",
+      "instructions": [
+        "Add more tahini, lemon, and salt as needed."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Serve",
+      "instructions": [
+        "Sprinkle with za’atar and pine nuts, and serve with pita chips and/or crudités."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add cumin, pine nuts, and salt as needed."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keeps in the fridge for many days."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Chickpeas",
+      "facts": [
+        "269 calories per cooked cup",
+        "14.5 g protein",
+        "45 g carbs",
+        "12.5 g fiber",
+        "4.3 g fat"
+      ],
+      "notes": "Nutrient-dense legumes packed with plant protein, complex carbohydrates, and fiber."
+    },
+    {
+      "ingredient": "Tahini",
+      "facts": [
+        "89 calories per tbsp",
+        "3 g protein",
+        "8 g fat",
+        "3 g carbs"
+      ],
+      "notes": "A nutrient-dense sesame paste, high in healthy fats, protein, and essential minerals."
+    },
+    {
+      "ingredient": "Garlic",
+      "facts": [
+        "4.5 calories per clove",
+        "1 g carbs",
+        "0.2 g protein"
+      ],
+      "notes": "Virtually fat-free and sodium-free."
+    },
+    {
+      "ingredient": "Lemon",
+      "facts": [
+        "17 calories per medium lemon",
+        "0.6 g protein",
+        "5.4 g carbs"
+      ],
+      "notes": "A low-calorie, fat-free fruit packed with vitamin C, water, and fiber."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What is aquafaba, and is it good for you?",
+      "answer": [
+        "Aquafaba is the thick, starchy liquid left over from canned chickpeas or other cooked legumes. Its mix of plant proteins and starches lets it whip, bind, and emulsify, which makes it a popular vegan substitute for egg whites and whole eggs.",
+        "It is safe and healthy as a plant-based egg and oil alternative, but it is very low in nutrients, with only trace amounts of protein and minerals, and it may cause gas or bloating for sensitive stomachs."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What is tahini, and is it good for you?",
+      "answer": [
+        "Tahini is a smooth, creamy paste made from ground sesame seeds, a staple of Middle Eastern and Mediterranean cooking best known in hummus and baba ghanoush.",
+        "Yes, it is very healthy. It provides healthy unsaturated fats, plant protein, and minerals like copper and iron, plus sesame compounds that help lower inflammation."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    }
+  ]
+}
