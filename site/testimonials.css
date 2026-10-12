@@ -1,0 +1,46 @@
+/* Kind Words page. Builds on the tokens in styles.css. */
+
+.nav a[aria-current="page"] { color: var(--olive); }
+
+/* Header */
+.kw-hero { padding: clamp(48px, 7vw, 96px) 0 clamp(32px, 4vw, 48px); text-align: center; }
+.kw-hero h1 { margin: 16px 0 18px; }
+.kw-hero h1 em { font-style: italic; color: var(--olive); }
+.kw-hero .lede { margin: 0 auto; }
+
+/* Survey numbers */
+.kw-stats { padding-bottom: clamp(56px, 7vw, 88px); }
+.kw-stats ul { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); max-width: 1000px; margin: 0 auto; border-top: 1px solid var(--sand); border-bottom: 1px solid var(--sand); }
+.kw-stats li { text-align: center; padding: 34px clamp(16px, 3vw, 40px); }
+.kw-stats li + li { border-left: 1px solid var(--sand); }
+.kw-num { display: block; font-family: var(--serif); font-size: clamp(56px, 6vw, 84px); line-height: 1; color: var(--olive); font-variant-numeric: lining-nums; }
+.kw-label { display: block; margin-top: 12px; font-size: 15px; color: var(--muted); max-width: 18em; margin-left: auto; margin-right: auto; }
+
+/* Featured quote */
+.kw-feature { background: var(--olive); color: var(--cream); padding: clamp(72px, 9vw, 120px) 0; text-align: center; }
+.kw-mark { display: block; font-family: var(--serif); font-size: 120px; line-height: 0.6; color: var(--sage); height: 50px; }
+.kw-feature blockquote { max-width: 900px; margin: 0 auto; }
+.kw-feature blockquote p:first-child { font-family: var(--serif); font-style: italic; font-size: clamp(26px, 3.1vw, 40px); line-height: 1.35; }
+.kw-feature .kw-who { margin-top: 26px; color: var(--sage-soft); }
+
+.kw-who { font-size: 13px; letter-spacing: 0.04em; color: var(--muted); }
+.kw-who span { font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; }
+
+/* Quote wall */
+.kw-wall { padding: clamp(72px, 9vw, 120px) 0; }
+.kw-grid { list-style: none; columns: 3 290px; column-gap: 22px; }
+.kw-card { break-inside: avoid; margin-bottom: 22px; background: var(--linen); padding: 34px 30px 26px; border-top: 3px solid var(--terracotta); position: relative; }
+.kw-card::before { content: "“"; position: absolute; top: 2px; left: 22px; font-family: var(--serif); font-size: 70px; line-height: 1; color: var(--sand); }
+.kw-card p:first-child { position: relative; font-family: var(--serif); font-style: italic; font-size: 21px; line-height: 1.45; }
+.kw-card .kw-who { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--sand); }
+.kw-card:nth-child(4n + 2) { background: var(--sage-soft); border-top-color: var(--olive); }
+
+/* Closing prompt */
+.kw-cta { background: var(--stone); padding: clamp(56px, 7vw, 88px) 0; text-align: center; }
+.kw-cta p { font-family: var(--serif); font-size: clamp(30px, 3.4vw, 44px); margin-bottom: 22px; }
+.kw-cta em { font-style: italic; color: var(--olive); }
+
+@media (max-width: 680px) {
+  .kw-stats ul { grid-template-columns: 1fr; }
+  .kw-stats li + li { border-left: 0; border-top: 1px solid var(--sand); }
+}

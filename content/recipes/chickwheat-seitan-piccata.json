@@ -1,0 +1,293 @@
+{
+  "title": "Chickwheat Seitan Piccata",
+  "subtitle": "with lemon, white wine and zucchini",
+  "region": "Inspired by Italy",
+  "show_on_home_menu": false,
+  "order": 10,
+  "menu_blurb": "Crispy chickwheat seitan in a bright lemon, shallot, garlic and white wine pan sauce with zucchini, served over spaghetti with toasted almonds.",
+  "photo": "",
+  "intro": "This vegan piccata is super delicious. It gets its flavor from lemons, shallots, garlic, and parsley.",
+  "origin": "“Piccata” is an Italian term meaning “pounded flat.” It usually refers to meat that has been pan-fried and served in a lemon, butter and caper sauce, and it is incredibly popular in the United States.",
+  "prep_minutes": "15",
+  "cook_minutes": "35",
+  "serves": "6 to 8",
+  "pdf": "recipes/chickwheat-seitan-piccata.pdf",
+  "mise_en_place": [
+    {
+      "label": "Prepare",
+      "task": "Chickwheat shreds, seasoned"
+    },
+    {
+      "label": "Boil",
+      "task": "Water for the pasta"
+    },
+    {
+      "label": "Toast",
+      "task": "Almonds"
+    },
+    {
+      "label": "Chop",
+      "task": "Zucchini, shallots, and garlic"
+    },
+    {
+      "label": "Assemble",
+      "task": "All of the spices"
+    },
+    {
+      "label": "Tools",
+      "task": "A knife, a pasta pot, and a large pan"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Chickwheat shreds",
+          "amount": "1 batch"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce & aromatics",
+      "items": [
+        {
+          "name": "Large zucchini, chopped small",
+          "amount": "2 to 3"
+        },
+        {
+          "name": "Shallots, chopped",
+          "amount": "3"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "amount": "8"
+        },
+        {
+          "name": "Lemons (1 juiced, 1 sliced)",
+          "amount": "2"
+        },
+        {
+          "name": "Chopped parsley",
+          "amount": "½ cup"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the pan sauce",
+      "items": [
+        {
+          "name": "Vegetable broth",
+          "amount": "2 cups"
+        },
+        {
+          "name": "White wine",
+          "amount": "½ cup"
+        },
+        {
+          "name": "Arrowroot",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Olive oil",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Salt and pepper",
+          "amount": "to taste"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Rice flour coating",
+      "items": [
+        {
+          "name": "Rice flour",
+          "amount": "⅓ cup"
+        },
+        {
+          "name": "Garlic powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Paprika",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Onion powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "½ tsp"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To serve",
+      "items": [
+        {
+          "name": "Spaghetti",
+          "amount": "1 package"
+        },
+        {
+          "name": "Toasted almonds",
+          "amount": "for topping"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "Make the [Chickwheat Shreds](recipe.html?r=chickwheat-shreds) ahead of time. They take about 2½ hours.",
+  "steps": [
+    {
+      "title": "Crisp the seitan",
+      "instructions": [
+        "Shred the seitan.",
+        "In a small bowl, mix the rice flour with the garlic powder, onion powder, paprika, salt, and pepper, and toss the seitan in it.",
+        "Pan fry in olive oil with 4 of the minced garlic cloves until crispy, then move to a separate bowl."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Cook the aromatics",
+      "instructions": [
+        "Sauté the shallots for 1 minute.",
+        "Add the zucchini and sauté until half cooked.",
+        "Add the remaining 4 garlic cloves and cook for another minute."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Make the pan sauce",
+      "instructions": [
+        "Add the broth and simmer for 2 to 3 minutes.",
+        "Dissolve the arrowroot in a little water and stir it into the sauce.",
+        "Add the wine and let it simmer.",
+        "Stir in the lemon juice and ¼ cup of the parsley."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Bring it together",
+      "instructions": [
+        "Add the seitan and the lemon slices.",
+        "Let it sit until warmed through."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Cook the pasta",
+      "instructions": [
+        "While the sauce simmers, cook the spaghetti al dente ☺ and toast the almonds."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Serve",
+      "instructions": [
+        "Serve over the spaghetti, topped with toasted almonds and the rest of the parsley."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "The longer you marinate the seitan, the tastier it will be."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Add mushrooms, swap the seitan for extra firm tofu, or swap the spaghetti for orzo or any pasta you like."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Zucchini",
+      "facts": [
+        "20 calories per cup",
+        "1.5 g protein",
+        "3.9 g carbs",
+        "1.2 g fiber",
+        "0.4 g fat"
+      ],
+      "notes": "Over 90% water, which makes it great for hydration and weight management. Rich in vitamins C and B6 and antioxidants that support heart and vision health."
+    },
+    {
+      "ingredient": "Shallots",
+      "facts": [
+        "72 calories per 100 g",
+        "2.5 g protein",
+        "16.8 g carbs",
+        "3.2 g fiber",
+        "0 g fat"
+      ],
+      "notes": "Rich in B vitamins, vitamin C, magnesium, and antioxidants that support heart health and reduce inflammation."
+    },
+    {
+      "ingredient": "Seitan",
+      "facts": [
+        "120 to 150 calories per 100 g",
+        "21 to 25 g protein",
+        "1 to 2 g fat",
+        "4 to 8 g carbs",
+        "1 to 2 g fiber"
+      ],
+      "notes": "A good source of iron, and one of the most protein-dense plant foods available."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What is seitan?",
+      "answer": [
+        "Seitan is a popular plant-based meat substitute made entirely from gluten, the main protein found in wheat. Often called “wheat meat,” it is prized by vegans and vegetarians for its dense, chewy, stringy texture."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "Is seitan healthy?",
+      "answer": [
+        "It can be an excellent, protein-rich addition to a plant-based diet."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "Why it is worth it",
+      "benefits": [
+        {
+          "label": "High in protein",
+          "text": "A 2-ounce serving packs about 17 g of protein."
+        },
+        {
+          "label": "Low in calories and fat",
+          "text": "It contains almost no fat and very few carbohydrates."
+        },
+        {
+          "label": "Nutrient dense",
+          "text": "It provides good amounts of iron, selenium, and calcium."
+        },
+        {
+          "label": "Soy-free",
+          "text": "A great plant-based protein for anyone with a soy allergy. It does contain gluten."
+        }
+      ]
+    }
+  ]
+}

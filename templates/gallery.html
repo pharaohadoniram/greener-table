@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gallery · The Greener Table</title>
-  <meta name="description" content="Photos and kind words from The Greener Table cooking experiences in San Francisco and Napa.">
+  <meta name="description" content="Photos from The Greener Table cooking experiences in San Francisco and Napa.">
   {{#if show_sample_notice}}<meta name="robots" content="noindex">{{/if}}
   <link rel="icon" href="brand/favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,7 @@
 </head>
 <body class="gallery-page">
 
-{{#if show_sample_notice}}<div class="sample-bar">Sample photos and testimonials, shown for layout only.</div>{{/if}}
+{{#if show_sample_notice}}<div class="sample-bar">Sample photos, shown for layout only.</div>{{/if}}
 
 <header class="site-header">
   <div class="wrap nav">
@@ -25,10 +25,10 @@
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     <ul>
       <li><a href="index.html#experience">The Experience</a></li>
-      <li><a href="index.html#philosophy">Philosophy</a></li>
       <li><a href="index.html#hosts">Your Hosts</a></li>
       <li><a href="recipes.html">Recipes</a></li>
       <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+      <li><a href="testimonials.html">Kind Words</a></li>
       <li><a href="index.html#how">How It Works</a></li>
       <li><a class="btn" href="index.html#book">Book a Class</a></li>
     </ul>
@@ -59,35 +59,6 @@
     </div>
   </section>
 
-  {{#each featured_testimonial as t}}
-  <section class="t-feature">
-    <div class="wrap reveal">
-      <p class="eyebrow">{{testimonials_eyebrow}}</p>
-      <blockquote>
-        <p>“{{t.quote}}”</p>
-        <footer><span class="t-name">{{t.name}}</span>{{#if t.crew}}<span class="t-crew">{{t.crew}}</span>{{/if}}</footer>
-      </blockquote>
-    </div>
-  </section>
-  {{/each}}
-
-  <section class="t-more">
-    <div class="wrap">
-      <div class="head reveal">
-        <h2>{{testimonials_heading}}</h2>
-      </div>
-      <ul class="t-grid">
-        {{#each more_testimonials as t}}
-        <li class="t-card reveal">
-          <span class="t-mark" aria-hidden="true">“</span>
-          <p>{{t.quote}}</p>
-          <div class="t-who"><span class="t-name">{{t.name}}</span>{{#if t.crew}}<span class="t-crew">{{t.crew}}</span>{{/if}}</div>
-        </li>
-        {{/each}}
-      </ul>
-    </div>
-  </section>
-
   <section class="g-cta">
     <div class="wrap reveal">
       <p>Bring your <em>Crew</em> to our table</p>
@@ -106,6 +77,7 @@
       <a href="index.html#hosts">Your Hosts</a>
       <a href="recipes.html">Recipes</a>
       <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Kind Words</a>
       <a href="index.html#how">How It Works</a>
       <a href="index.html#book">Book</a>
     </nav>

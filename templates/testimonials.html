@@ -1,0 +1,122 @@
+<!doctype html>
+<!-- Kind Words page template. Content comes from content/testimonials.json; run node build/build.js to produce _site/testimonials.html. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kind Words · The Greener Table</title>
+  <meta name="description" content="What guests say about The Greener Table plant-forward cooking experiences in San Francisco and Napa.">
+  <link rel="icon" href="brand/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="testimonials.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="kind-words-page">
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="index.html" aria-label="The Greener Table home"><img src="brand/logo.png" alt="The Greener Table"></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <ul>
+      <li><a href="index.html#experience">The Experience</a></li>
+      <li><a href="index.html#hosts">Your Hosts</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="testimonials.html" aria-current="page">Kind Words</a></li>
+      <li><a href="index.html#how">How It Works</a></li>
+      <li><a class="btn" href="index.html#book">Book a Class</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="kw-hero">
+    <div class="wrap reveal">
+      <p class="eyebrow">{{eyebrow}}</p>
+      <h1>{{heading}}</h1>
+      <p class="lede">{{intro}}</p>
+    </div>
+  </section>
+
+  {{#if stats}}
+  <section class="kw-stats">
+    <div class="wrap">
+      <ul>
+        {{#each stats as s}}<li class="reveal"><span class="kw-num">{{s.number}}</span><span class="kw-label">{{s.label}}</span></li>{{/each}}
+      </ul>
+    </div>
+  </section>
+  {{/if}}
+
+  {{#each featured as t}}
+  <section class="kw-feature">
+    <div class="wrap reveal">
+      <span class="kw-mark" aria-hidden="true">“</span>
+      <blockquote>
+        <p>{{t.quote}}</p>
+        <p class="kw-who"><span>{{t.name}}</span>{{#if t.crew}} · {{t.crew}}{{/if}}</p>
+      </blockquote>
+    </div>
+  </section>
+  {{/each}}
+
+  <section class="kw-wall">
+    <div class="wrap">
+      <ul class="kw-grid">
+        {{#each more as t}}
+        <li class="kw-card reveal">
+          <p>{{t.quote}}</p>
+          <p class="kw-who"><span>{{t.name}}</span>{{#if t.crew}} · {{t.crew}}{{/if}}</p>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </section>
+
+  <section class="kw-cta">
+    <div class="wrap reveal">
+      <p>Bring your <em>Crew</em> to our table</p>
+      <a class="btn" href="index.html#book">Get in touch</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="brand/logo.png" alt="The Greener Table">
+    <p class="tag">{{footer_tagline}}</p>
+    <nav>
+      <a href="index.html#experience">The Experience</a>
+      <a href="index.html#philosophy">Philosophy</a>
+      <a href="index.html#hosts">Your Hosts</a>
+      <a href="recipes.html">Recipes</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Kind Words</a>
+      <a href="index.html#how">How It Works</a>
+      <a href="index.html#book">Book</a>
+    </nav>
+    <small>© {{year}} The Greener Table · San Francisco &amp; Napa</small>
+  </div>
+</footer>
+
+<script>
+  const header = document.querySelector('.site-header');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  const toggle = document.querySelector('.menu-toggle');
+  const links = document.querySelector('.nav ul');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

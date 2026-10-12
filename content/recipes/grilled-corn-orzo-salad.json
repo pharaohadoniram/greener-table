@@ -1,0 +1,272 @@
+{
+  "title": "Grilled Corn Orzo Salad",
+  "subtitle": "with charred scallion dressing",
+  "region": "Inspired by the Mediterranean",
+  "show_on_home_menu": false,
+  "order": 7,
+  "menu_blurb": "Warm orzo tossed with charred corn, crispy artichokes, edamame and arugula in a smoky grilled scallion and dill dressing.",
+  "photo": "",
+  "intro": "An incredibly flavorful salad with surprising ingredients that will exceed all expectations. Every time I make it, someone asks for the recipe. My son Max turned me onto this one!",
+  "origin": "Pasta salad comes from the Mediterranean tradition of serving cold pasta with oil and herbs, like Italian pasta fredda made with fresh vegetables and olive oil. The creamy, mayonnaise-based versions popular today developed largely in the United States during the early to mid 20th century, when convenience foods took off after World War II.",
+  "prep_minutes": "20 to 30",
+  "cook_minutes": "30",
+  "serves": "6 to 8",
+  "pdf": "recipes/grilled-corn-orzo-salad.pdf",
+  "mise_en_place": [
+    {
+      "label": "Boil",
+      "task": "Water for the orzo"
+    },
+    {
+      "label": "Grill",
+      "task": "Corn, artichokes, and scallions"
+    },
+    {
+      "label": "Chop",
+      "task": "Arugula, scallions, and artichokes"
+    },
+    {
+      "label": "Tools",
+      "task": "A griddle, a baking sheet, a pot, and a large serving bowl"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Edamame (add more if you like)",
+          "amount": "12 oz"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Salad",
+      "items": [
+        {
+          "name": "Orzo",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Ears of corn",
+          "amount": "3"
+        },
+        {
+          "name": "Artichoke hearts, roughly chopped",
+          "amount": "2 cans"
+        },
+        {
+          "name": "Arugula, roughly chopped",
+          "amount": "3 to 4 cups"
+        },
+        {
+          "name": "Fresh oregano",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Red pepper flakes",
+          "amount": "¼ to ½ tsp"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the dressing",
+      "items": [
+        {
+          "name": "Green onions (scallions)",
+          "amount": "1 bunch"
+        },
+        {
+          "name": "Garlic cloves",
+          "amount": "5"
+        },
+        {
+          "name": "Avocado oil",
+          "amount": "1 to 2 tsp"
+        },
+        {
+          "name": "Lemon, zest and juice",
+          "amount": "1"
+        },
+        {
+          "name": "Fresh dill",
+          "amount": "¼ cup"
+        },
+        {
+          "name": "Miso paste",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Olive oil",
+          "amount": "¼ cup"
+        },
+        {
+          "name": "White vinegar",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "½ tsp"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Cook the orzo",
+      "instructions": [
+        "Cook the orzo in generously salted boiling water until al dente.",
+        "Let it cool, but don’t refrigerate it. Orzo is best slightly warm, not hot or cold ☺"
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Pre-cook the vegetables",
+      "instructions": [
+        "Roughly chop the artichokes, spray with a little olive oil, season with salt and pepper, and roast at 400°F until lightly crispy.",
+        "Wrap each ear of corn in a wet paper towel and microwave for 8 minutes. Then char it on a griddle or grill, turning often, and cut the kernels from the cob.",
+        "Steam the edamame until al dente, about 3 minutes. Taste and add more time if needed."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Char the scallions and garlic",
+      "instructions": [
+        "Trim the scallion roots and separate the white and dark green parts. Set the greens aside.",
+        "Sear the white parts in a hot grill pan for 1 to 2 minutes per side, pressing down gently with a spatula. The goal is char!",
+        "At the same time, sauté the garlic cloves in the avocado oil on the other side of the pan for 2 to 3 minutes, until fragrant and golden. Set aside."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Make the dressing",
+      "instructions": [
+        "In a blender, combine the sautéed garlic, 4 of the seared scallions, the lemon zest and juice, vinegar, olive oil, miso, and ½ tsp salt. Blend until smooth.",
+        "Add the dill and blend again until fully incorporated.",
+        "Taste and adjust the salt or acidity."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Bring it together",
+      "instructions": [
+        "Thinly slice the remaining cooked scallions and the raw scallion greens.",
+        "Add the corn, scallions, artichokes, edamame, oregano, arugula, and red pepper flakes to the orzo.",
+        "When ready to serve, pour about half the dressing over the top, adding more only if needed. Extra dressing makes a great dip or dressing for another salad.",
+        "Taste and adjust with more salt or lemon juice."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add more edamame or orzo for a less leafy salad."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Add avocado, charred asparagus, or cherry tomatoes."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "If you won’t serve it all at once, dress only what you are serving and keep the rest separate until you need it."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Artichokes",
+      "facts": [
+        "60 calories per ½ cup",
+        "4 g protein",
+        "7 g fiber",
+        "no fat or cholesterol"
+      ],
+      "notes": "Like other green vegetables, they are rich in vitamin C, an age-fighting antioxidant that boosts immune function and helps produce collagen."
+    },
+    {
+      "ingredient": "Edamame",
+      "facts": [
+        "93 calories per ½ cup",
+        "18 g protein",
+        "8 g fiber",
+        "8 g fat",
+        "14 g carbs"
+      ],
+      "notes": "A top source of plant protein. It is a complete protein with all the essential amino acids, a good source of fiber, and contains healthy omega-3 fats."
+    },
+    {
+      "ingredient": "Scallions",
+      "facts": [
+        "5 calories per scallion",
+        "0.3 g protein",
+        "0 g fat"
+      ],
+      "notes": "An excellent source of vitamins K, A and C, and folate, and very low in calories and fat."
+    },
+    {
+      "ingredient": "Arugula",
+      "facts": [
+        "5 calories",
+        "0.3 g protein",
+        "0.4 g carbs",
+        "0.2 g fiber",
+        "0.1 g fat"
+      ],
+      "notes": "A nutrient-dense cruciferous green rich in vitamins K, A and C, calcium, potassium and folate. High in antioxidants that may lower inflammation and support heart and bone health."
+    },
+    {
+      "ingredient": "Orzo",
+      "facts": [
+        "200 calories per ⅓ cup dry",
+        "7 g protein",
+        "1 g fat",
+        "2 g fiber",
+        "42 g carbs"
+      ],
+      "notes": "A great source of quick energy. Refined white orzo is lower in fiber and vitamins than whole grains."
+    },
+    {
+      "ingredient": "Corn",
+      "facts": [
+        "88 calories",
+        "2.7 g protein",
+        "2.3 g fiber",
+        "1 g fat",
+        "21 g carbs"
+      ],
+      "notes": "A starchy vegetable rich in fiber, antioxidants (lutein, zeaxanthin), and vitamins B and C. It supports eye health and digestion."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "Is edamame good for you?",
+      "answer": [
+        "Yes! These young soybeans are a complete, plant-based protein packed with fiber, iron, and nutrients like vitamin K and folate. They support heart health, help regulate blood sugar, and may help with weight management."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "Are soy products good for you?",
+      "answer": [
+        "Generally, yes. Soy is a nutrient-dense, plant-based protein that can lower cholesterol and reduce heart disease risk. Whole soy foods like tofu, edamame, and tempeh are packed with isoflavones and fiber, making them a healthy alternative to red meat."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "title": "Arancini",
+  "subtitle": "with tomato dipping sauce",
+  "region": "Sicily, Italy",
+  "show_on_home_menu": true,
+  "order": 4,
+  "menu_blurb": "Crispy, air-fried risotto balls with a melty cashew cheese center, rolled in herbed panko and served with a bright tomato dipping sauce.",
+  "photo": "",
+  "intro": "Surprisingly delicious! A crunchy outside, a flavorful inside, and a dipping sauce that pulls it all together.",
+  "origin": "Arancini come from Sicily, with roots in the 10th century under Arab rule. Arab settlers introduced rice and saffron between the 9th and 11th centuries, and the dish grew out of the tradition of serving large bowls of saffron rice with meat and vegetables at the center of the table. The crunchy breadcrumb coating is believed to have been added during the Norman period, around the 12th century, turning the rice balls into an ideal take-away snack for hunters, travelers, and laborers.",
+  "prep_minutes": "20 to 25",
+  "cook_minutes": "25",
+  "serves": "6 to 8",
+  "pdf": "",
+  "mise_en_place": [
+    {
+      "label": "Make ahead",
+      "task": "Cashew cheese, the day before"
+    },
+    {
+      "label": "Chop",
+      "task": "Onion and bell peppers"
+    },
+    {
+      "label": "Tools",
+      "task": "A pot for the rice, an air fryer or oven with a tray, a cutting board, and a knife"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Cashew cheese",
+          "amount": "about 12 small squares"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce & aromatics",
+      "items": [
+        {
+          "name": "Small onion, finely chopped",
+          "amount": "1"
+        },
+        {
+          "name": "Bell peppers, finely chopped",
+          "amount": "2"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the rice",
+      "items": [
+        {
+          "name": "Arborio (risotto) rice",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Vegetable broth",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Water",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Tomato sauce",
+          "amount": "¼ cup"
+        },
+        {
+          "name": "Herbes de Provence (oregano, rosemary and thyme)",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Sweet paprika",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Sea salt",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Nutritional yeast",
+          "amount": "3 tbsp"
+        },
+        {
+          "name": "Olive oil",
+          "amount": "a little"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the breadcrumb coating",
+      "items": [
+        {
+          "name": "Panko breadcrumbs",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Nutritional yeast",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Dried parsley",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Dried basil",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Dried oregano",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Sea salt",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Black pepper",
+          "amount": "a pinch"
+        },
+        {
+          "name": "Cayenne pepper",
+          "amount": "½ tsp"
+        },
+        {
+          "name": "Olive oil spray",
+          "amount": "for the air fryer"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To finish",
+      "items": [
+        {
+          "name": "Chopped parsley",
+          "amount": "for garnish"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "Make the cashew cheese the day before, using the [Cashew Cheese recipe](recipe.html?r=cashew-cheese).",
+  "steps": [
+    {
+      "title": "Cook the rice",
+      "instructions": [
+        "Sauté the onion and peppers in a little olive oil until softened.",
+        "Add the arborio rice with 1 cup of water and 1 cup of vegetable broth.",
+        "Stir in the tomato sauce, herbes de Provence, sea salt, and both paprikas.",
+        "Simmer until the rice is cooked through and soft."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Make the breadcrumb coating",
+      "instructions": [
+        "While the rice cooks, combine the panko with all of the coating spices in a bowl."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Chill the rice",
+      "instructions": [
+        "Once the rice is cooked, stir in the 3 tbsp of nutritional yeast.",
+        "Refrigerate for 30 minutes."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Form the balls",
+      "instructions": [
+        "Scoop a tablespoon-sized ball of rice, open it up, and tuck a square of cashew cheese inside. Wet your hands if the rice is too sticky.",
+        "Close it into a ball and roll it in the breadcrumbs.",
+        "Set on the air fryer tray, lined with foil and sprayed with olive oil. This makes 11 to 12 balls.",
+        "Spray the tops with olive oil."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Air fry",
+      "instructions": [
+        "Air fry at 400°F for 25 minutes, until golden and crisp."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Serve",
+      "instructions": [
+        "Serve with the dipping sauce and a sprinkle of chopped parsley."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": {
+    "eyebrow": "For dipping",
+    "title": "Tomato Dipping Sauce",
+    "method": "Blend everything together in a blender until smooth.",
+    "versions": [
+      {
+        "name": "Ingredients",
+        "items": [
+          {
+            "name": "Tomato sauce",
+            "amount": "1 cup"
+          },
+          {
+            "name": "Garlic clove",
+            "amount": "1"
+          },
+          {
+            "name": "Tahini",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Herbes de Provence",
+            "amount": "1 tsp"
+          },
+          {
+            "name": "Hot sauce",
+            "amount": "a splash"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1 tsp"
+          }
+        ]
+      }
+    ]
+  },
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add more paprika and salt as needed."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Use mozzarella instead of cashew cheese."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keep a bowl of cold water nearby to help shape the rice balls."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Cashew cheese",
+      "facts": [
+        "About 70 calories",
+        "4 g protein",
+        "6 to 9 g fat, mostly heart-healthy monounsaturated",
+        "1 to 2 g saturated fat"
+      ],
+      "notes": "Significantly lower in saturated fat than dairy cheese."
+    },
+    {
+      "ingredient": "Tomato sauce",
+      "facts": [
+        "60 calories per cup",
+        "3 g protein",
+        "4 g fiber",
+        "9 g sugar",
+        "0.5 g fat"
+      ],
+      "notes": "Nutrient dense and low in calories, and particularly high in antioxidants and essential minerals."
+    },
+    {
+      "ingredient": "Bell peppers",
+      "facts": [
+        "26 to 31 calories per 100 g",
+        "2 to 2.1 g fiber",
+        "1 g protein",
+        "very low fat"
+      ],
+      "notes": "Packed with vitamins (especially C, A, B6, K and E) and minerals (potassium, folate), with antioxidants and fiber for digestive health."
+    },
+    {
+      "ingredient": "Onions",
+      "facts": [
+        "38 calories",
+        "0.8 g protein",
+        "8.6 g carbs",
+        "1.9 g fiber",
+        "0.1 g fat"
+      ],
+      "notes": "Rich in antioxidants like quercetin and prebiotic fibers, supporting gut health and heart health by helping lower cholesterol and blood pressure."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "Is cashew cheese good for you?",
+      "answer": [
+        "Homemade cashew cheese is a nutrient-dense alternative to dairy, typically higher in fiber and healthy fats but lower in protein and calcium."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What’s the difference between cashew cheese and mozzarella?",
+      "answer": [
+        "They differ in nutrition, ingredients, and how they behave in cooking. Here is how they compare, per 1 oz (28 g)."
+      ],
+      "table_title": "Cashew cheese vs. mozzarella",
+      "table": [
+        {
+          "label": "Cholesterol",
+          "text": "Cashew cheese: 0 mg · Mozzarella: about 15 to 20 mg"
+        },
+        {
+          "label": "Saturated fat",
+          "text": "Cashew cheese: about 1 to 2 g · Mozzarella: about 3.5 to 5 g"
+        },
+        {
+          "label": "Protein",
+          "text": "Cashew cheese: about 2 to 4 g · Mozzarella: about 6 to 7 g"
+        },
+        {
+          "label": "Calcium",
+          "text": "Cashew cheese: low unless fortified · Mozzarella: high (about 15 to 20% DV)"
+        },
+        {
+          "label": "Fiber",
+          "text": "Cashew cheese: about 1 to 2 g · Mozzarella: 0 g"
+        },
+        {
+          "label": "Digestibility",
+          "text": "Cashew cheese is lactose-free · Mozzarella contains lactose"
+        }
+      ],
+      "benefits_title": "Key differences",
+      "benefits": [
+        {
+          "label": "Fat quality",
+          "text": "Cashew cheese contains mostly heart-healthy unsaturated fats from nuts, while dairy mozzarella is higher in saturated fat, which can raise LDL cholesterol."
+        },
+        {
+          "label": "Ingredients",
+          "text": "Cashew cheese is made from whole cashews, water, nutritional yeast, and lemon juice or cultures. Mozzarella is made from cow or buffalo milk, salt, and rennet."
+        },
+        {
+          "label": "Melt and stretch",
+          "text": "Mozzarella is prized for how it melts and stretches. Some cashew versions use tapioca starch or agar to mimic this, but they rarely match it exactly."
+        },
+        {
+          "label": "Micronutrients",
+          "text": "Cashew cheese is a good source of magnesium and manganese, but lacks the vitamins A and D found in or added to dairy."
+        },
+        {
+          "label": "Environmental impact",
+          "text": "Cashew cheese uses significantly less land and water than dairy production."
+        }
+      ]
+    }
+  ]
+}

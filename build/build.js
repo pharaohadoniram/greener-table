@@ -20,9 +20,11 @@ function smartQuotes(s) {
 }
 
 // Escape, then allow **bold** and *italic* from the editor.
+// Also allows [link text](recipe.html?r=slug) for links between pages on this site.
 const format = s => escapeHTML(smartQuotes(s))
   .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
-  .replace(/\*(.+?)\*/g, '<em>$1</em>');
+  .replace(/\*(.+?)\*/g, '<em>$1</em>')
+  .replace(/\[([^\]]+)\]\(([a-z0-9-]+\.html(?:\?r=[a-z0-9-]+)?(?:#[a-z0-9-]+)?)\)/g, '<a href="$2">$1</a>');
 const plain = s => escapeHTML(smartQuotes(String(s ?? '').replace(/\*/g, '')));
 const slugify = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const roman = n => ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x'][n - 1] || String(n);
@@ -109,7 +111,7 @@ function loadRecipes() {
         glance: { prep: String(r.prep_minutes ?? ''), cook: String(r.cook_minutes ?? ''), serves: String(r.serves ?? '') },
         mise: pairs(r.mise_en_place, 'label', 'task'),
         ingredients: (r.ingredients || []).map(g => ({ group: smartQuotes(g.group), items: pairs(g.items, 'name', 'amount'), ...(g.note ? { swap: smartQuotes(g.note) } : {}) })),
-        ...(r.prep_note ? { prepNote: smartQuotes(r.prep_note) } : {}),
+        ...(r.prep_note ? { prepNote: format(r.prep_note) } : {}),
         steps: (r.steps || []).map(s => ({
           title: smartQuotes(s.title),
           items: (s.instructions || []).filter(Boolean).map(md),
@@ -142,13 +144,19 @@ const html = render(read('templates/index.html'), {
 });
 fs.writeFileSync(path.join(OUT, 'index.html'), html);
 
-// Gallery page: photos plus testimonials (the first one is featured large).
+// Gallery page: photos.
 const gallery = readJSON('content/gallery.json');
-const quotes = (gallery.testimonials || []).filter(t => t && t.quote);
 fs.writeFileSync(path.join(OUT, 'gallery.html'), render(read('templates/gallery.html'), {
   ...gallery, year: String(new Date().getFullYear()), footer_tagline: home.footer.tagline,
   photos: (gallery.photos || []).filter(p => p && p.image).map(p => ({ ...p, image: sitePath(p.image) })),
-  featured_testimonial: quotes.slice(0, 1), more_testimonials: quotes.slice(1),
+}));
+
+// Kind Words page: survey numbers plus testimonials (the first one is featured large).
+const kind = readJSON('content/testimonials.json');
+const quotes = (kind.testimonials || []).filter(t => t && t.quote);
+fs.writeFileSync(path.join(OUT, 'testimonials.html'), render(read('templates/testimonials.html'), {
+  ...kind, year: String(new Date().getFullYear()), footer_tagline: home.footer.tagline,
+  stats: (kind.stats || []).filter(x => x && x.number), featured: quotes.slice(0, 1), more: quotes.slice(1),
 }));
 
 // recipe.html and recipes.html read this file.

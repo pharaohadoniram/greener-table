@@ -1,0 +1,280 @@
+{
+  "title": "Pupusas",
+  "subtitle": "stuffed with savory jackfruit",
+  "region": "El Salvador",
+  "show_on_home_menu": true,
+  "order": 6,
+  "menu_blurb": "Griddled masa cakes filled with spiced jackfruit and onion. Crispy outside, soft inside, and best with salsa and a simple cabbage salad.",
+  "photo": "",
+  "intro": "A very flavorful Salvadoran treat! Crispy on the outside and soft on the inside, best served with salsa and a simple cabbage salad.",
+  "origin": "The pupusa is the national dish of El Salvador, with origins reaching back some 2,000 to 3,000 years to the Indigenous Pipil people.",
+  "prep_minutes": "20",
+  "cook_minutes": "20",
+  "serves": "6 to 8",
+  "pdf": "",
+  "mise_en_place": [
+    {
+      "label": "Make",
+      "task": "The dough, then let it rest for 20 minutes"
+    },
+    {
+      "label": "Chop",
+      "task": "Onion and jackfruit, then cook the filling and let it cool"
+    },
+    {
+      "label": "Tools",
+      "task": "A griddle and a knife"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Jackfruit filling",
+      "items": [
+        {
+          "name": "Jackfruit in water",
+          "amount": "1 can"
+        },
+        {
+          "name": "Medium onion, chopped",
+          "amount": "1"
+        },
+        {
+          "name": "Garlic, minced",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Cumin",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Paprika",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Olive oil",
+          "amount": "for the pan"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Pupusa dough",
+      "items": [
+        {
+          "name": "Masa harina (not corn flour or cornmeal)",
+          "amount": "4 cups"
+        },
+        {
+          "name": "Salt",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Garlic powder",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Cumin",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Paprika",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Cold water",
+          "amount": "3 cups"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To serve",
+      "items": [
+        {
+          "name": "Salsa, cabbage salad, and/or guacamole",
+          "amount": "on the side"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Make the dough",
+      "instructions": [
+        "In a large bowl, mix the masa harina and salt. Add the spices if you like; in my opinion they add more flavor.",
+        "Pour the cold water over and stir with a spatula. When it gets hard to stir, knead by hand for 1 to 2 minutes until it feels like clay.",
+        "The dough will be slightly wet. Set it aside to rest for 15 to 20 minutes."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Cook the filling",
+      "instructions": [
+        "Finely chop the onion and jackfruit.",
+        "Cook in a little olive oil, add the spices, and cook until soft.",
+        "Remove from the heat and let it cool."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Shape the pupusas",
+      "instructions": [
+        "Wet your hands slightly and scoop out a ball of dough, about 3 tbsp.",
+        "Flatten it into a thick, even circle in the palm of your hand.",
+        "Fill the center with no more than 2 tsp of filling.",
+        "Close your hand to fold the dough into a pocket, and pinch the edges to seal."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Griddle",
+      "instructions": [
+        "Cook on a griddle or skillet over medium heat for 2 to 3 minutes per side.",
+        "They are ready when golden and crispy with dark spots."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Serve",
+      "instructions": [
+        "Serve with salsa, cabbage salad, and/or guacamole."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add more paprika, cumin, and salt as needed."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Fill with ⅓ cup of black or refried beans instead."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keeps in the fridge for several days, and freezes well."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Jackfruit",
+      "facts": [
+        "20 to 30 calories",
+        "1 to 2 g protein",
+        "3 to 6 g fiber",
+        "virtually fat-free"
+      ],
+      "notes": "Very low in sugar and cholesterol-free, and high in potassium and vitamin C."
+    },
+    {
+      "ingredient": "Onions",
+      "facts": [
+        "38 calories",
+        "0.8 g protein",
+        "8.6 g carbs",
+        "1.9 g fiber",
+        "0.1 g fat"
+      ],
+      "notes": "Rich in antioxidants like quercetin and prebiotic fibers, supporting gut health and heart health by helping lower cholesterol and blood pressure."
+    },
+    {
+      "ingredient": "Masa harina",
+      "facts": [
+        "360 calories per 100 g",
+        "6 to 12 g fiber",
+        "8 to 10 g protein",
+        "3 to 4 g fat"
+      ],
+      "notes": "Nixtamalization unlocks niacin (vitamin B3), calcium, iron, zinc and other B vitamins. Gluten-free with a low glycemic index."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What’s the difference between masa harina, corn flour, and cornmeal?",
+      "answer": [
+        "They all come from corn, but only masa harina makes a dough that holds together."
+      ],
+      "table_title": "Know your corn",
+      "table": [
+        {
+          "label": "Masa harina",
+          "text": "Made from corn soaked and cooked in an alkaline solution (nixtamalization). This lets it bind with water into a pliable dough, and makes niacin easier to absorb."
+        },
+        {
+          "label": "Corn flour",
+          "text": "Dried corn ground into a fine powder. It isn’t nixtamalized, so a tortilla made with it will crumble. (In the UK, “corn flour” means cornstarch.)"
+        },
+        {
+          "label": "Cornmeal",
+          "text": "A coarser grind of dried corn, used for crunch, like in cornbread. It doesn’t bind like masa harina."
+        }
+      ],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "Can they be substituted?",
+      "answer": [
+        "Generally, no. Cornmeal and corn flour won’t form a cohesive dough for tortillas or pupusas without added binders like wheat flour. Masa harina can sometimes stand in for finely ground cornmeal in baking, adding a savory depth."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What is jackfruit?",
+      "answer": [
+        "Jackfruit is a nutrient-dense tropical fruit, with India as its top producer. Some canned jackfruit is now marketed for its prebiotic fiber, which supports gut health."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What else can you use jackfruit for?",
+      "answer": [
+        "It’s best known as a “pulled pork” substitute, but it has become far more versatile."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "Ideas to try",
+      "benefits": [
+        {
+          "label": "Seafood alternatives",
+          "text": "Its flaky texture works for vegan “crab” cakes, “tuna” salad, or ceviche."
+        },
+        {
+          "label": "Latin favorites",
+          "text": "Carnitas tacos, enchiladas, burritos, and even ropa vieja."
+        },
+        {
+          "label": "Curries and stews",
+          "text": "Sri Lankan polos curry, Indonesian gudeg slow-simmered in coconut milk, or Indian kathal biryani."
+        },
+        {
+          "label": "Pasta and soups",
+          "text": "A meaty base for Bolognese, pot roast, tortilla soup, or chili."
+        },
+        {
+          "label": "Asian-inspired dishes",
+          "text": "Moo shu jackfruit, Korean BBQ bowls, or a filling for momos."
+        }
+      ]
+    }
+  ]
+}

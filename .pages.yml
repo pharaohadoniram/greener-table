@@ -237,6 +237,19 @@ content:
                     - { name: sun, label: Sun }
               - { name: title, label: Mission point, type: string }
               - { name: text, label: Supporting line, type: text }
+      - name: goals
+        label: Goals of every class
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string, description: "Put *single asterisks* around words to make them italic." }
+          - name: items
+            label: Goals
+            type: object
+            list: { max: 3 }
+            fields:
+              - { name: title, label: Goal, type: string }
+              - { name: text, label: Supporting line, type: text }
       - name: what_to_expect
         label: What to expect
         type: object
@@ -382,15 +395,15 @@ content:
 
   # ---------------------------------------------------------------- gallery
   - name: gallery
-    label: Gallery & testimonials
+    label: Gallery
     type: file
     path: content/gallery.json
     format: json
     fields:
       - name: show_sample_notice
-        label: Show the “sample content” notice
+        label: Show the “sample photos” notice
         type: boolean
-        description: Turn this off once the sample photos and testimonials are replaced with real ones.
+        description: Turn this off once the sample photos are replaced with real ones.
       - { name: eyebrow, label: Small heading, type: string }
       - { name: heading, label: Heading, type: string, description: "Put *single asterisks* around words to make them green italic." }
       - { name: intro, label: Introduction, type: text }
@@ -406,17 +419,34 @@ content:
           - { name: image, label: Photo, type: image, options: { media: photos } }
           - { name: caption, label: Caption (shown on hover), type: string }
           - { name: description, label: Photo description (for screen readers), type: string }
-      - { name: testimonials_eyebrow, label: Small heading above the featured testimonial, type: string }
-      - { name: testimonials_heading, label: Heading above the testimonial cards, type: string }
+
+  # ---------------------------------------------------------------- kind words
+  - name: testimonials
+    label: Kind Words (testimonials)
+    type: file
+    path: content/testimonials.json
+    format: json
+    fields:
+      - { name: eyebrow, label: Small heading, type: string }
+      - { name: heading, label: Heading, type: string, description: "Put *single asterisks* around words to make them green italic." }
+      - { name: intro, label: Introduction, type: text }
+      - name: stats
+        label: Survey numbers
+        type: object
+        description: Up to three highlights from the class survey.
+        list: { max: 3 }
+        fields:
+          - { name: number, label: "Number (for example 4.98 or 100%)", type: string }
+          - { name: label, label: What it means, type: string }
       - name: testimonials
         label: Testimonials
         type: object
-        description: The first one is shown large at the top. Ask guests before using their names.
+        description: The first one is shown large at the top. Drag to reorder.
         list:
           collapsible:
             collapsed: true
-            summary: "{name}, {crew}"
+            summary: "{crew}: {quote}"
         fields:
           - { name: quote, label: What they said (no quotation marks needed), type: text }
-          - { name: name, label: Name, type: string }
-          - { name: crew, label: "Crew and location (for example Birthday Crew · Napa)", type: string }
+          - { name: name, label: Name (or Guest), type: string }
+          - { name: crew, label: "Crew (for example March 2026 Crew)", type: string }

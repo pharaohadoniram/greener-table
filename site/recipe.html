@@ -20,10 +20,10 @@
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
     <ul>
       <li><a href="index.html#experience">The Experience</a></li>
-      <li><a href="index.html#philosophy">Philosophy</a></li>
       <li><a href="index.html#hosts">Your Hosts</a></li>
       <li><a href="recipes.html">Recipes</a></li>
       <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="testimonials.html">Kind Words</a></li>
       <li><a href="index.html#how">How It Works</a></li>
       <li><a class="btn" href="index.html#book">Book a Class</a></li>
     </ul>
@@ -44,6 +44,7 @@
       <a href="index.html#hosts">Your Hosts</a>
       <a href="recipes.html">Recipes</a>
       <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Kind Words</a>
       <a href="index.html#how">How It Works</a>
       <a href="index.html#book">Book</a>
     </nav>
@@ -113,7 +114,7 @@
             ${ingList(g.items)}
             ${g.swap ? `<p class="swap">${esc(g.swap)}</p>` : ''}
           </div>`).join('')}
-        ${r.prepNote ? `<p class="prep-note">${esc(r.prepNote)}</p>` : ''}
+        ${r.prepNote ? `<p class="prep-note">${r.prepNote}</p>` : ''}
       </aside>
       <div class="directions">
         <div class="col-head"><p class="eyebrow">Directions</p><p class="hint">Cook in layers</p></div>

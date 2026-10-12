@@ -38,6 +38,24 @@
       }
     ]
   },
+  "goals": {
+    "eyebrow": "The goals of every class",
+    "heading": "Why we *gather*",
+    "items": [
+      {
+        "title": "Re-imagine plants",
+        "text": "Discover how vegetables, grains, and legumes can be the star of the plate."
+      },
+      {
+        "title": "Create a flavorful experience",
+        "text": "Bold, global recipes that prove plant-based food is anything but bland."
+      },
+      {
+        "title": "Build community",
+        "text": "Most importantly, a great afternoon with friends and friends to be, around one shared table."
+      }
+    ]
+  },
   "what_to_expect": {
     "eyebrow": "What to expect",
     "heading": "An afternoon in *three courses*",
@@ -61,8 +79,7 @@
     "eyebrow": "Our purpose",
     "heading": "A plant-forward *teaching kitchen*",
     "paragraphs": [
-      "We guide you through a plant-forward teaching kitchen featuring interactive storytelling, designed to enhance both personal and professional performance.",
-      "Our goals are simple: learn to re-imagine plants, create a flavorful experience, and most importantly, building community by having a great afternoon with friends and friends to be. "
+      "We guide you through a plant-forward teaching kitchen featuring interactive storytelling, designed to enhance both personal and professional performance."
     ],
     "benefits": [
       "Understand that not all vegan options are healthy",

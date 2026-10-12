@@ -152,3 +152,6 @@
   .ing-list label { grid-template-columns: 1fr auto; }
   .step-num { background: none; color: var(--ink); border: 1px solid var(--ink); }
 }
+
+.prep-note a, .step-block a { color: var(--olive); text-decoration: underline; text-underline-offset: 3px; }
+.prep-note a:hover, .step-block a:hover { color: var(--terracotta); }

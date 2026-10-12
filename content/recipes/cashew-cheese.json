@@ -1,0 +1,231 @@
+{
+  "title": "Cashew Cheese",
+  "subtitle": "a sliceable, dairy-free “cheese”",
+  "region": "A modern plant-based staple",
+  "show_on_home_menu": false,
+  "order": 9,
+  "menu_blurb": "A creamy, sliceable cashew “cheese” set with agar, ready for pizza, eggplant parmesan, arancini, or a simple sandwich.",
+  "photo": "",
+  "intro": "A great alternative to cheese. Truthfully, I wouldn’t call it “cheese,” but it has a great taste and can replace cheese in many recipes.",
+  "origin": "Cashew cheese grew out of the raw food and vegan movements as a dairy-free alternative and became widely available in the early 21st century. Nut-based cheeses made from almonds date back to at least the 15th century, but using cashews is a relatively modern idea.",
+  "prep_minutes": "20 to 30",
+  "cook_minutes": "20, then overnight to set",
+  "serves": "Enough for about 4 dishes",
+  "pdf": "",
+  "mise_en_place": [
+    {
+      "label": "Soak",
+      "task": "Cashews in hot water for about 30 minutes"
+    },
+    {
+      "label": "Tools",
+      "task": "A small pot for the agar mixture, a blender, and a cup or container to set the cheese in"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "For the cheese",
+      "items": [
+        {
+          "name": "Cashews",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "amount": "2"
+        },
+        {
+          "name": "Avocado oil",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Nutritional yeast",
+          "amount": "½ cup"
+        },
+        {
+          "name": "Sweet paprika",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Sugar",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Lemon, juiced",
+          "amount": "1"
+        },
+        {
+          "name": "Salt",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "amount": "a pinch"
+        },
+        {
+          "name": "Water",
+          "amount": "1 cup"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the agar mixture",
+      "items": [
+        {
+          "name": "Water",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Agar agar powder (available online)",
+          "amount": "3 tsp"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Prepare",
+      "instructions": [
+        "Soak the cashews in just-boiled water for 30 minutes.",
+        "Measure out the spices for the cheese and the ingredients for the agar mixture.",
+        "Spray the inside of the cup or container with cooking spray."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Blend",
+      "instructions": [
+        "Drain and rinse the cashews.",
+        "Blend them with the rest of the cheese ingredients until thick and smooth."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Cook the agar",
+      "instructions": [
+        "Add the water and agar powder to a small saucepan and bring to a boil. Lower the heat and stir constantly until thickened, about 1 minute.",
+        "Add the blended cashew mixture and stir for another minute, until thick and combined."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Set overnight",
+      "instructions": [
+        "Pour into the greased cup and cover.",
+        "Let it set overnight before using.",
+        "Turn the cup upside down onto parchment paper to release it. For storage, wrap it in foil and a plastic bag."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Use it",
+      "instructions": [
+        "Add it to whatever you are making, like pizza, eggplant parmesan, [arancini](recipe.html?r=arancini), or a simple sandwich."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "For a more herby taste, add basil and oregano. For more color, add turmeric."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Swap the avocado oil for coconut oil."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keeps well in the fridge for 5 days or more, or in the freezer for a long time."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Cashew cheese",
+      "facts": [
+        "About 70 calories",
+        "4 g protein",
+        "6 to 9 g fat, mostly heart-healthy monounsaturated",
+        "1 to 2 g saturated fat"
+      ],
+      "notes": "Significantly lower in saturated fat than dairy cheese."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "Is cashew cheese good for you?",
+      "answer": [
+        "Homemade cashew cheese is a nutrient-dense alternative to dairy, typically higher in fiber and healthy fats but lower in protein and calcium."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What’s the difference between cashew cheese and mozzarella?",
+      "answer": [
+        "They differ in nutrition, ingredients, and how they behave in cooking. Here is how they compare, per 1 oz (28 g)."
+      ],
+      "table_title": "Cashew cheese vs. mozzarella",
+      "table": [
+        {
+          "label": "Cholesterol",
+          "text": "Cashew cheese: 0 mg · Mozzarella: about 15 to 20 mg"
+        },
+        {
+          "label": "Saturated fat",
+          "text": "Cashew cheese: about 1 to 2 g · Mozzarella: about 3.5 to 5 g"
+        },
+        {
+          "label": "Protein",
+          "text": "Cashew cheese: about 2 to 4 g · Mozzarella: about 6 to 7 g"
+        },
+        {
+          "label": "Calcium",
+          "text": "Cashew cheese: low unless fortified · Mozzarella: high (about 15 to 20% DV)"
+        },
+        {
+          "label": "Fiber",
+          "text": "Cashew cheese: about 1 to 2 g · Mozzarella: 0 g"
+        },
+        {
+          "label": "Digestibility",
+          "text": "Cashew cheese is lactose-free · Mozzarella contains lactose"
+        }
+      ],
+      "benefits_title": "Key differences",
+      "benefits": [
+        {
+          "label": "Fat quality",
+          "text": "Cashew cheese contains mostly heart-healthy unsaturated fats from nuts, while dairy mozzarella is higher in saturated fat, which can raise LDL cholesterol."
+        },
+        {
+          "label": "Ingredients",
+          "text": "Cashew cheese is made from whole cashews, water, nutritional yeast, and lemon juice or cultures. Mozzarella is made from cow or buffalo milk, salt, and rennet."
+        },
+        {
+          "label": "Melt and stretch",
+          "text": "Mozzarella is prized for how it melts and stretches. Some cashew versions use tapioca starch or agar to mimic this, but they rarely match it exactly."
+        },
+        {
+          "label": "Micronutrients",
+          "text": "Cashew cheese is a good source of magnesium and manganese, but lacks the vitamins A and D found in or added to dairy."
+        },
+        {
+          "label": "Environmental impact",
+          "text": "Cashew cheese uses significantly less land and water than dairy production."
+        }
+      ]
+    }
+  ]
+}

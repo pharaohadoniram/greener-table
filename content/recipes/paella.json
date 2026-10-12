@@ -1,0 +1,284 @@
+{
+  "title": "Paella",
+  "subtitle": "with soy curls and spring vegetables",
+  "region": "Valencia, Spain",
+  "show_on_home_menu": true,
+  "order": 5,
+  "menu_blurb": "Saffron rice with smoky paprika soy curls, roasted asparagus and artichokes, and colorful peppers, all cooked together in one beautiful pan.",
+  "photo": "",
+  "intro": "A beautiful, colorful, and very flavorful dish that will exceed all expectations.",
+  "origin": "Paella comes from the Valencia region of eastern Spain, from the rural lands around the Albufera lagoon. Its modern form emerged in the mid 19th century as a humble meal for farm laborers, but its roots are much older. It blends two cultural influences: the Moors, who brought rice cultivation and saffron to the region around the 10th century (the Spanish arroz comes from the Arabic al-ruzz), and the Romans, whose flat cooking dish, the patella, is believed to have given the paella pan its name.",
+  "prep_minutes": "20 to 30",
+  "cook_minutes": "30",
+  "serves": "6 to 8",
+  "pdf": "",
+  "mise_en_place": [
+    {
+      "label": "Soak",
+      "task": "Saffron in hot water, and soy curls in warm water"
+    },
+    {
+      "label": "Chop",
+      "task": "Onion, peppers, artichokes, garlic, and asparagus"
+    },
+    {
+      "label": "Tools",
+      "task": "A paella pan and a baking sheet"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Soy curls",
+          "amount": "2½ cups"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce & aromatics",
+      "items": [
+        {
+          "name": "Large onion, chopped",
+          "amount": "1"
+        },
+        {
+          "name": "Garlic cloves, finely chopped",
+          "amount": "5"
+        },
+        {
+          "name": "Large red peppers (or 10 small colorful peppers)",
+          "amount": "2"
+        },
+        {
+          "name": "Asparagus",
+          "amount": "1 bunch"
+        },
+        {
+          "name": "Artichoke hearts in water",
+          "amount": "2 cans"
+        },
+        {
+          "name": "Cherry tomatoes, quartered",
+          "amount": "1 package"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Pantry staples & seasonings",
+      "items": [
+        {
+          "name": "Bomba rice",
+          "amount": "1½ cups"
+        },
+        {
+          "name": "Vegetable broth",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Water, with the saffron",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Saffron",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Smoked paprika",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Sweet paprika",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Hot paprika",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Thyme",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Black pepper",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Olive oil",
+          "amount": "for the pan"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To finish",
+      "items": [
+        {
+          "name": "Chopped parsley",
+          "amount": "for garnish"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Prepare",
+      "instructions": [
+        "Steep 2 tsp of saffron in 2 cups of hot water.",
+        "Make the vegetable broth.",
+        "Soak the soy curls in warm water, enough to cover, for about 20 minutes."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Roast the asparagus and artichokes",
+      "instructions": [
+        "Trim the asparagus stems. Spray with olive oil, season with salt and pepper, and roast at 400°F.",
+        "Slice the artichokes lengthwise and roast them the same way.",
+        "Remove both from the oven once they get a little crispy, and cut the asparagus into 1-inch pieces."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Brown the soy curls",
+      "instructions": [
+        "Squeeze all of the water out of the soy curls.",
+        "Cook them in the paella pan with olive oil and half the garlic, 1 tsp of each paprika, 1 tsp of salt, and a little pepper. Stir until browned, adding oil as needed.",
+        "Taste and add more paprika, salt, and thyme if you like.",
+        "Push the soy curls to one side and cook the onion on the other side until soft."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Build the paella",
+      "instructions": [
+        "Add the tomatoes and mix well.",
+        "Add the rice and mix well.",
+        "Arrange the sliced peppers on top in a pretty pattern.",
+        "Add the rest of the spices: thyme, paprikas, salt, and pepper.",
+        "Pour in the vegetable broth and saffron water. The pan should be fully covered; add water if needed."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Simmer",
+      "instructions": [
+        "About halfway through, add the asparagus and artichokes.",
+        "Simmer on low until all the liquid is absorbed. Try not to stir until it is almost gone; if it starts sticking, stir a little.",
+        "Taste and add seasoning, or more water if the rice isn’t fully cooked."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Serve",
+      "instructions": [
+        "Garnish with chopped parsley."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add more paprika, thyme, and salt as needed."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Add spinach, carrots, beans, or other hearty vegetables you like."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keeps well in the fridge for several days, and it freezes well."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Artichokes",
+      "facts": [
+        "60 calories per ½ cup",
+        "4 g protein",
+        "7 g fiber",
+        "no fat or cholesterol"
+      ],
+      "notes": "Like other green vegetables, they are rich in vitamin C, an age-fighting antioxidant that boosts immune function and helps produce collagen."
+    },
+    {
+      "ingredient": "Asparagus",
+      "facts": [
+        "20 calories per ½ cup",
+        "2 g protein",
+        "2 g fiber",
+        "about 0.2 g fat"
+      ],
+      "notes": "Packed with vitamins A, C, E, K and B, minerals like folate, potassium, iron and copper, plus fiber and antioxidants for heart health, digestion, and immunity."
+    },
+    {
+      "ingredient": "Bell peppers",
+      "facts": [
+        "26 to 31 calories per 100 g",
+        "2 to 2.1 g fiber",
+        "1 g protein",
+        "very low fat"
+      ],
+      "notes": "Packed with vitamins (especially C, A, B6, K and E) and minerals (potassium, folate), with antioxidants and fiber for digestive health."
+    },
+    {
+      "ingredient": "Onions",
+      "facts": [
+        "38 calories",
+        "0.8 g protein",
+        "8.6 g carbs",
+        "1.9 g fiber",
+        "0.1 g fat"
+      ],
+      "notes": "Rich in antioxidants like quercetin and prebiotic fibers, supporting gut health and heart health by helping lower cholesterol and blood pressure."
+    },
+    {
+      "ingredient": "Soy curls",
+      "facts": [
+        "120 calories per 30 g",
+        "11 g protein",
+        "0 mg sodium"
+      ],
+      "notes": "Very low in saturated fat, with no cholesterol."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What are soy curls, and are they good for you?",
+      "answer": [
+        "Yes! Soy curls are made from non-GMO whole soybeans, without chemical pesticides, preservatives, or additives. They are also a great source of protein, fiber, iron, and potassium."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "What’s the difference between soy curls and tofu?",
+      "answer": [
+        "Tofu is minimally processed but not a whole food. It provides high-quality protein, healthy fats, and often added calcium. Soy curls are closer to a whole food than most processed soy products, retaining the fiber and protein of whole soybeans, though some nutrients are lost in processing."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    }
+  ]
+}

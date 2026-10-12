@@ -49,44 +49,5 @@
       "caption": "The shared table",
       "description": "Placeholder for a photo of the meal"
     }
-  ],
-  "testimonials_eyebrow": "Kind words",
-  "testimonials_heading": "From our *Crews*",
-  "testimonials": [
-    {
-      "quote": "I came in skeptical about tofu and left asking for seconds of the Khao Soi. Stacy and Noah made us feel like family from the moment we walked in.",
-      "name": "Sample guest",
-      "crew": "Birthday Crew · San Francisco"
-    },
-    {
-      "quote": "The perfect team outing. Cooking in pairs got everyone talking, and the meal at the end was a genuine feast.",
-      "name": "Sample guest",
-      "crew": "Team Crew · Napa"
-    },
-    {
-      "quote": "Every recipe came with a story. I have made the rice paper rolls three times since.",
-      "name": "Sample guest",
-      "crew": "Friends Crew · San Francisco"
-    },
-    {
-      "quote": "Noah’s energy is contagious, and Stacy’s attention to detail made the whole afternoon feel effortless.",
-      "name": "Sample guest",
-      "crew": "Family Crew · Napa"
-    },
-    {
-      "quote": "We learned more about healthy eating in one afternoon than in years of reading about it.",
-      "name": "Sample guest",
-      "crew": "Friends Crew · Napa"
-    },
-    {
-      "quote": "Thoughtful, delicious, and beautifully hosted. We are already planning our next Crew.",
-      "name": "Sample guest",
-      "crew": "Celebration Crew · San Francisco"
-    },
-    {
-      "quote": "The recipes, the stories, and the company made it one of our favorite afternoons of the year.",
-      "name": "Sample guest",
-      "crew": "Friends Crew · San Francisco"
-    }
   ]
 }

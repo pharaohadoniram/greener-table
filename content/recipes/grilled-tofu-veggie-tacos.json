@@ -1,0 +1,319 @@
+{
+  "title": "Grilled Tofu Veggie Tacos",
+  "subtitle": "with basil pesto",
+  "region": "Mexico, with an Italian twist",
+  "show_on_home_menu": false,
+  "order": 8,
+  "menu_blurb": "Soft tortillas filled with marinated grilled tofu, eggplant, mushrooms and spinach, layered with a bright, dairy-free basil pesto.",
+  "photo": "",
+  "intro": "A super yummy take on soft tacos with a delicious pesto. My favorite part is the eggplant. I can’t wait to see what you like best!",
+  "origin": "Tacos began in pre-Columbian Mexico, where Indigenous peoples, including the Aztecs, used flat corn tortillas as edible spoons for fish, beans, and chiles. The word taco comes from the Nahuatl tlahco, meaning “half” or “in the middle.” Pesto comes from Genoa in northern Italy and dates to the 16th century. Its name comes from the Italian pestare, “to pound,” and its true ancestor is the ancient Roman moretum, a pounded paste of herbs, garlic, and cheese.",
+  "prep_minutes": "20",
+  "cook_minutes": "20",
+  "serves": "6 to 8",
+  "pdf": "recipes/grilled-tofu-veggie-tacos.pdf",
+  "mise_en_place": [
+    {
+      "label": "Chop",
+      "task": "Eggplant, mushrooms, spinach, tofu, and red onion"
+    },
+    {
+      "label": "Grill",
+      "task": "The vegetables and tofu"
+    },
+    {
+      "label": "Tools",
+      "task": "A griddle or grill"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Firm tofu",
+          "amount": "1 package"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce",
+      "items": [
+        {
+          "name": "Large eggplant, sliced ¼ inch thick",
+          "amount": "1"
+        },
+        {
+          "name": "Mushrooms, sliced",
+          "amount": "2 packages"
+        },
+        {
+          "name": "Red onion, thinly sliced",
+          "amount": "1"
+        },
+        {
+          "name": "Spinach, roughly chopped",
+          "amount": "1 bag"
+        },
+        {
+          "name": "Avocados, thinly sliced",
+          "amount": "2"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Tofu marinade",
+      "items": [
+        {
+          "name": "Garlic cloves, finely chopped",
+          "amount": "3"
+        },
+        {
+          "name": "Red pepper flakes",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Soy sauce",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Ponzu",
+          "amount": "1 tbsp"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Basil pesto",
+      "items": [
+        {
+          "name": "Fresh basil, packed, large stems removed",
+          "amount": "2 cups"
+        },
+        {
+          "name": "Garlic cloves",
+          "amount": "3"
+        },
+        {
+          "name": "Lemon juice",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Nutritional yeast",
+          "amount": "4 tbsp"
+        },
+        {
+          "name": "Extra virgin olive oil",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Water, plus more as needed",
+          "amount": "4 tbsp"
+        },
+        {
+          "name": "Salt, plus more to taste",
+          "amount": "¼ tsp"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To assemble",
+      "items": [
+        {
+          "name": "Tortillas, mini or large",
+          "amount": "1 package"
+        },
+        {
+          "name": "Olive oil spray",
+          "amount": "for grilling"
+        },
+        {
+          "name": "Garlic powder, salt and pepper",
+          "amount": "to taste"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Marinate the tofu",
+      "instructions": [
+        "Slice the tofu and marinate it while you prepare the vegetables."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Grill the vegetables and tofu",
+      "instructions": [
+        "Slice the eggplant about ¼ inch thick, slice the mushrooms and red onion, and roughly chop the spinach.",
+        "Spray with olive oil, season with salt and pepper, and grill or griddle the vegetables in batches.",
+        "Do the same with the tofu, then set everything aside."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Make the pesto",
+      "instructions": [
+        "Blend all of the pesto ingredients until smooth.",
+        "Taste and adjust the salt or acidity."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Assemble",
+      "instructions": [
+        "Spread pesto on each tortilla.",
+        "Add the tofu, then layer in the vegetables and sliced avocado.",
+        "Fold over and toast on a griddle sprayed with olive oil, turning once.",
+        "Cut in half and serve."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add a spicy taco seasoning to the tofu."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Swap the eggplant for zucchini, and use mini or large tortillas."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Keeps for a couple of days in the fridge and makes a great appetizer. The pesto doubles as a salad dressing, a dip, or a mayonnaise replacement."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Firm tofu",
+      "facts": [
+        "90 to 144 calories per 100 g",
+        "10 to 14 g protein",
+        "7 g fiber",
+        "2 g carbs",
+        "0 cholesterol"
+      ],
+      "notes": "Heart-healthy polyunsaturated fat. Includes calcium, manganese, iron, copper, selenium, phosphorus, magnesium, zinc, and vitamins A, B1, B2 and B5."
+    },
+    {
+      "ingredient": "Eggplant",
+      "facts": [
+        "20 calories per cup",
+        "0.8 g protein",
+        "2.5 g fiber",
+        "0.1 g fat",
+        "4.8 g carbs"
+      ],
+      "notes": "A low-calorie nightshade valued for heart and brain benefits, driven by powerful antioxidants in its deep purple skin."
+    },
+    {
+      "ingredient": "Mushrooms",
+      "facts": [
+        "28 calories per cup",
+        "2.9 g protein",
+        "1.1 g carbs",
+        "0.3 g fat"
+      ],
+      "notes": "High in B vitamins, vitamin D2, and antioxidants. May help lower cholesterol, regulate blood sugar, and support the immune system."
+    },
+    {
+      "ingredient": "Spinach",
+      "facts": [
+        "7 calories per cup",
+        "0.9 g protein",
+        "0.7 g fiber"
+      ],
+      "notes": "A low-calorie superfood and an excellent source of vitamins K and A, and folate."
+    },
+    {
+      "ingredient": "Avocado",
+      "facts": [
+        "160 calories per 100 g",
+        "2 g protein",
+        "7 g fiber",
+        "8.5 g carbs",
+        "about 15 g healthy fats"
+      ],
+      "notes": "Mostly monounsaturated fat (oleic acid), which supports heart health and lowers LDL cholesterol. Provides about 20 vitamins and minerals, notably potassium, vitamin K, folate, vitamins C, E and B6, magnesium and copper."
+    },
+    {
+      "ingredient": "Basil",
+      "facts": [
+        "1 calorie per 2 tbsp"
+      ],
+      "notes": "Packed with antioxidants, vitamin K, and essential oils. It helps reduce inflammation and supports heart and digestive health."
+    },
+    {
+      "ingredient": "Nutritional yeast",
+      "facts": [
+        "40 to 60 calories per 2 tbsp",
+        "4 to 5 g protein",
+        "3 to 5 g carbs",
+        "2 to 3 g fiber",
+        "0 g fat"
+      ],
+      "notes": "Nicknamed “nooch,” it adds a nutty, cheesy flavor and is an excellent source of plant protein, fiber, and B vitamins, especially B12."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What is tofu, and is it good for you?",
+      "answer": [
+        "Tofu is a nutrient-dense, plant-based protein made from curdled soy milk pressed into blocks. It is a complete protein with all nine essential amino acids, and it is high in iron and calcium. It supports heart health, may reduce the risk of certain cancers, and aids weight management.",
+        "Its nutrition varies with firmness. Firmer varieties hold less water, so they carry more protein, fat, and calories per serving."
+      ],
+      "table_title": "By firmness",
+      "table": [
+        {
+          "label": "Extra firm",
+          "text": "15 to 17 g protein and about 145 calories"
+        },
+        {
+          "label": "Firm",
+          "text": "8 to 10 g protein and 70 to 80 calories"
+        },
+        {
+          "label": "Silken or soft",
+          "text": "About 4 to 7 g protein and 40 to 62 calories"
+        }
+      ],
+      "benefits_title": "Key health benefits",
+      "benefits": [
+        {
+          "label": "Heart health",
+          "text": "Cholesterol-free and low in saturated fat, tofu may help reduce LDL cholesterol. Studies show eating at least one serving a week may lower heart disease risk by 18%."
+        },
+        {
+          "label": "Nutrient-rich",
+          "text": "A good source of iron, manganese, selenium, phosphorus, and calcium, especially when made with calcium sulfate."
+        },
+        {
+          "label": "Bone health",
+          "text": "Its high calcium and magnesium content helps prevent osteoporosis."
+        }
+      ]
+    },
+    {
+      "question": "What is nutritional yeast, and is it good for you?",
+      "answer": [
+        "Nutritional yeast is a deactivated yeast from the same species used to bake bread and brew beer. The yeast cells are inactive, so it won’t make bread rise or ferment anything.",
+        "It is exceptionally good for you, with plant protein, fiber, and B vitamins in very few calories, which makes it a favorite in vegan and plant-based kitchens."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    }
+  ]
+}

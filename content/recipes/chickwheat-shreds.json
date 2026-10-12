@@ -1,0 +1,204 @@
+{
+  "title": "Chickwheat Shreds",
+  "subtitle": "homemade shreddable seitan",
+  "region": "A modern plant-based staple",
+  "show_on_home_menu": false,
+  "order": 11,
+  "menu_blurb": "A homemade seitan of chickpeas, miso and vital wheat gluten, steamed until it pulls apart in tender, chicken-like shreds.",
+  "photo": "",
+  "intro": "What makes this unique is the texture: this seitan looks like chicken. Chickwheat has a meaty bite and a different mouthfeel from other kinds of seitan. Chickpeas, miso, onion, garlic, and vinegar balance the natural flavor of the gluten.",
+  "origin": "Shreddable faux chicken has been around for a long time; Chinese and Taiwanese faux meat makers have been selling it for decades. Making it easily at home is newer. Shredded “chikun” was widely introduced by chef Skye Michael Conroy in his 2015 cookbook, Seitan and Beyond.",
+  "prep_minutes": "15",
+  "cook_minutes": "About 2½ hours",
+  "serves": "6 to 8",
+  "pdf": "recipes/chickwheat-shreds.pdf",
+  "mise_en_place": [
+    {
+      "label": "Gather",
+      "task": "All of the ingredients"
+    },
+    {
+      "label": "Tools",
+      "task": "A blender, a food processor, foil, and a steamer"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "For the chickwheat",
+      "items": [
+        {
+          "name": "Chickpeas, drained (save the liquid)",
+          "amount": "1 can (about 2 cups)"
+        },
+        {
+          "name": "Aquafaba (the chickpea liquid)",
+          "amount": "1 cup"
+        },
+        {
+          "name": "Miso paste",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Vegetable oil",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Salt",
+          "amount": "1½ tsp"
+        },
+        {
+          "name": "Onion powder",
+          "amount": "1 tbsp"
+        },
+        {
+          "name": "Garlic powder",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Apple cider vinegar",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Vital wheat gluten (weighing is best)",
+          "amount": "1¾ cups / 255 g"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Blend",
+      "instructions": [
+        "Blend everything except the vital wheat gluten in a high-speed blender until completely smooth, about 2 minutes."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Rest",
+      "instructions": [
+        "Combine the chickpea mixture and the vital wheat gluten in a large bowl.",
+        "Let it rest for 15 minutes so the gluten absorbs the moisture."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Knead in the food processor",
+      "instructions": [
+        "Divide the dough in two. Process each half until warm and stretchy; it will come together into a large ball.",
+        "If it is too crumbly, add a few more tablespoons of liquid."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Wrap and steam",
+      "instructions": [
+        "Wrap each piece of dough in foil, folded into a rectangular package with the ends sealed tightly, then wrap in a second sheet of foil.",
+        "Steam for 2 hours."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Shred",
+      "instructions": [
+        "Once cooled, shred gently along the grain.",
+        "Refrigerate for the best texture."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": null,
+  "tips": [
+    {
+      "label": "Kneading",
+      "tip": "The dough heats up as it processes. Let it cool a bit, then process again a few times until stretchy."
+    },
+    {
+      "label": "Flavor boost",
+      "tip": "Mix in your own flavorings of choice."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "Freezes well for another meal."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Chickpeas",
+      "facts": [
+        "269 calories per cup",
+        "14.5 g protein",
+        "45 g carbs",
+        "12.5 g fiber",
+        "4 g fat"
+      ],
+      "notes": "Nutrient-dense legumes full of plant protein, fiber and minerals. They support heart and digestive health, keep you full, and help regulate blood sugar."
+    },
+    {
+      "ingredient": "Miso paste",
+      "facts": [
+        "35 calories per tbsp",
+        "2 g protein",
+        "4 g carbs",
+        "about 2 g fiber"
+      ],
+      "notes": "A good source of vitamin K, manganese, copper and zinc, with probiotics that support gut health. Made from soy, it is a complete protein."
+    },
+    {
+      "ingredient": "Seitan",
+      "facts": [
+        "120 to 150 calories per 100 g",
+        "21 to 25 g protein",
+        "1 to 2 g fat",
+        "4 to 8 g carbs",
+        "1 to 2 g fiber"
+      ],
+      "notes": "A good source of iron, and one of the most protein-dense plant foods available."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What is seitan?",
+      "answer": [
+        "Seitan is a popular plant-based meat substitute made entirely from gluten, the main protein found in wheat. Often called “wheat meat,” it is prized by vegans and vegetarians for its dense, chewy, stringy texture."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "",
+      "benefits": []
+    },
+    {
+      "question": "Is seitan healthy?",
+      "answer": [
+        "It can be an excellent, protein-rich addition to a plant-based diet."
+      ],
+      "table_title": "",
+      "table": [],
+      "benefits_title": "Why it is worth it",
+      "benefits": [
+        {
+          "label": "High in protein",
+          "text": "A 2-ounce serving packs about 17 g of protein."
+        },
+        {
+          "label": "Low in calories and fat",
+          "text": "It contains almost no fat and very few carbohydrates."
+        },
+        {
+          "label": "Nutrient dense",
+          "text": "It provides good amounts of iron, selenium, and calcium."
+        },
+        {
+          "label": "Soy-free",
+          "text": "A great plant-based protein for anyone with a soy allergy. It does contain gluten."
+        }
+      ]
+    }
+  ]
+}
