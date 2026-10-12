@@ -214,7 +214,9 @@ h1 em, h2 em { font-style: italic; color: var(--olive); }
 .host dl { margin-top: 24px; display: grid; grid-template-columns: 110px 1fr; gap: 10px 18px; font-size: 15px; }
 .host dt { font-family: var(--serif); font-style: italic; font-size: 18px; color: var(--olive); }
 .host dd { color: var(--ink); }
-.host blockquote { margin-top: 26px; padding-left: 18px; border-left: 2px solid var(--sage); font-family: var(--serif); font-style: italic; font-size: 20px; line-height: 1.4; }
+.host { display: flex; flex-direction: column; }
+.host dl { margin-bottom: 26px; }
+.host blockquote { margin-top: auto; padding-left: 18px; border-left: 2px solid var(--sage); font-family: var(--serif); font-style: italic; font-size: 20px; line-height: 1.4; }
 
 /* Menu */
 .menu { background: var(--linen); padding: clamp(80px, 10vw, 136px) 0; }
