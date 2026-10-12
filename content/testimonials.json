@@ -105,5 +105,17 @@
     "button_label": "Share your feedback",
     "link": "https://form.typeform.com/to/Il8w755Z",
     "qr": "assets/feedback-qr.png"
+  },
+  "listened": {
+    "eyebrow": "You spoke, we listened",
+    "heading": "Better with *every Crew*",
+    "intro": "Your survey answers shape every class. Here is what we have added because you asked:",
+    "items": [
+      "Dessert!",
+      "Deeper introductions, so everyone gets to know each other",
+      "More time walking through the recipes before we start",
+      "Group activities that mix the pairs together",
+      "Cleaned-up, easier-to-follow recipes"
+    ]
   }
 }

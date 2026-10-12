@@ -44,24 +44,26 @@
     </div>
   </section>
 
-  <section class="g-photos">
+  {{#each sections as sec}}
+  <section class="g-section">
     <div class="wrap">
-      <div class="g-grid">
-        {{#each columns as col}}
-        <ul class="g-col">
-          {{#each col.photos as p}}
-          <li class="g-item reveal">
-            <button type="button" class="g-open" data-src="{{attr:p.image}}" data-caption="{{attr:p.caption}}" aria-label="View photo: {{attr:p.caption}}">
-              <img src="{{attr:p.image}}" alt="{{attr:p.description}}" loading="lazy">
-              {{#if p.caption}}<span class="g-cap">{{p.caption}}</span>{{/if}}
-            </button>
-          </li>
-          {{/each}}
-        </ul>
-        {{/each}}
+      <div class="g-head reveal">
+        <h2>{{sec.title}}</h2>
+        {{#if sec.intro}}<p>{{sec.intro}}</p>{{/if}}
       </div>
+      <ul class="g-row">
+        {{#each sec.photos as p}}
+        <li class="g-item reveal">
+          <button type="button" class="g-open" data-src="{{attr:p.image}}" data-caption="{{attr:p.caption}}" aria-label="View photo: {{attr:p.caption}}">
+            <img src="{{attr:p.image}}" alt="{{attr:p.description}}" loading="lazy">
+            {{#if p.caption}}<span class="g-cap">{{p.caption}}</span>{{/if}}
+          </button>
+        </li>
+        {{/each}}
+      </ul>
     </div>
   </section>
+  {{/each}}
 
   <section class="g-cta">
     <div class="wrap reveal">

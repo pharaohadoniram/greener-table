@@ -412,18 +412,28 @@ content:
       - { name: eyebrow, label: Small heading, type: string }
       - { name: heading, label: Heading, type: string, description: "Put *single asterisks* around words to make them green italic." }
       - { name: intro, label: Introduction, type: text }
-      - name: photos
-        label: Photos
+      - name: sections
+        label: Photo sections
         type: object
-        description: Drag to reorder. The grid fills top to bottom, one column at a time.
+        description: Each section shows a row of photos (four works best). The first photo in each row gets the arch frame.
         list:
           collapsible:
             collapsed: true
-            summary: "{caption}"
+            summary: "{title}"
         fields:
-          - { name: image, label: Photo, type: image, options: { media: photos } }
-          - { name: caption, label: Caption (shown on hover), type: string }
-          - { name: description, label: Photo description (for screen readers), type: string }
+          - { name: title, label: Section title, type: string }
+          - { name: intro, label: Short line beside the title, type: string }
+          - name: photos
+            label: Photos
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{caption}"
+            fields:
+              - { name: image, label: Photo, type: image, options: { media: photos } }
+              - { name: caption, label: Caption (shown on hover), type: string }
+              - { name: description, label: Photo description (for screen readers), type: string }
 
   # ---------------------------------------------------------------- kind words
   - name: testimonials
@@ -465,3 +475,11 @@ content:
           - { name: button_label, label: Button text, type: string }
           - { name: link, label: Survey link, type: string }
           - { name: qr, label: QR code image, type: image, options: { media: photos } }
+      - name: listened
+        label: You spoke, we listened
+        type: object
+        fields:
+          - { name: eyebrow, label: Small heading, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: intro, label: Introduction, type: text }
+          - { name: items, label: Improvements, type: string, list: true }

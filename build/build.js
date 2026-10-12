@@ -145,17 +145,12 @@ const html = render(read('templates/index.html'), {
 });
 fs.writeFileSync(path.join(OUT, 'index.html'), html);
 
-// Gallery page: photos.
+// Gallery page: photos in titled sections.
 const gallery = readJSON('content/gallery.json');
 fs.writeFileSync(path.join(OUT, 'gallery.html'), render(read('templates/gallery.html'), {
   ...gallery, year: String(new Date().getFullYear()), footer_tagline: home.footer.tagline,
-  photos: (gallery.photos || []).filter(p => p && p.image).map(p => ({ ...p, image: sitePath(p.image) })),
-  // Three columns, filled in list order (first third, second third, last third), so each column’s first photo gets the arch.
-  columns: (() => {
-    const ps = (gallery.photos || []).filter(p => p && p.image).map(p => ({ ...p, image: sitePath(p.image) }));
-    const per = Math.ceil(ps.length / 3);
-    return [0, 1, 2].map(c => ({ photos: ps.slice(c * per, (c + 1) * per) })).filter(c => c.photos.length);
-  })(),
+  // Sections (The setup, Making the food, ...), each a row of photos.
+  sections: (gallery.sections || []).map(sec => ({ ...sec, photos: (sec.photos || []).filter(p => p && p.image).map(p => ({ ...p, image: sitePath(p.image) })) })).filter(sec => sec.photos.length),
 }));
 
 // Kind Words page: survey numbers plus testimonials (the first one is featured large).

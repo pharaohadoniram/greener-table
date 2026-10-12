@@ -93,6 +93,19 @@
   </section>
 
 
+  {{#if listened.items}}
+  <section class="kw-listened">
+    <div class="wrap reveal">
+      <p class="eyebrow">{{listened.eyebrow}}</p>
+      <h2>{{listened.heading}}</h2>
+      <p class="kw-listened-intro">{{listened.intro}}</p>
+      <ul>
+        {{#each listened.items as i}}<li>{{i}}</li>{{/each}}
+      </ul>
+    </div>
+  </section>
+  {{/if}}
+
   <section class="kw-cta">
     <div class="wrap reveal">
       <p>Bring your <em>Crew</em> to our table</p>

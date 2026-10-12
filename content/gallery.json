@@ -3,156 +3,136 @@
   "eyebrow": "Gallery",
   "heading": "Moments from *our table*",
   "intro": "A look inside our kitchens in San Francisco and Napa: the markets, the prep, the laughter, and the meals our Crews create together.",
-  "photos": [
+  "sections": [
     {
-      "image": "assets/gallery/crew-on-the-deck.jpg",
-      "caption": "A Crew by the water",
-      "description": "A Crew in matching aprons on a sunny deck by the water"
+      "title": "The setup",
+      "intro": "Everything in its place before the first Crew member arrives.",
+      "photos": [
+        {
+          "image": "assets/gallery/table-is-set.jpg",
+          "caption": "The table is set",
+          "description": "The class table set with cutting boards and aprons under a sculptural wall"
+        },
+        {
+          "image": "assets/gallery/mise-en-place.jpg",
+          "caption": "Mise en place",
+          "description": "A tray of measured spices and grains ready before cooking"
+        },
+        {
+          "image": "assets/gallery/produce-ready.jpg",
+          "caption": "Everything in its place",
+          "description": "A counter of fresh, prepped produce ready for class"
+        },
+        {
+          "image": "assets/gallery/welcome.jpg",
+          "caption": "Welcome to the table",
+          "description": "A host in a Greener Table apron welcoming guests with open arms"
+        }
+      ]
     },
     {
-      "image": "assets/gallery/paella-peppers.jpg",
-      "caption": "Paella, painted with peppers",
-      "description": "A paella pan topped with red, yellow and green peppers on the stove"
+      "title": "Making the food",
+      "intro": "Pairs at the stove, one recipe each, lots of laughter.",
+      "photos": [
+        {
+          "image": "assets/gallery/at-the-stove.jpg",
+          "caption": "Stirring things up",
+          "description": "Two guests cooking side by side at the stove with wooden spoons"
+        },
+        {
+          "image": "assets/gallery/laughing-at-the-counter.jpg",
+          "caption": "The fun part",
+          "description": "Two guests laughing together while cooking at the counter"
+        },
+        {
+          "image": "assets/gallery/paella-pair.jpg",
+          "caption": "Paella, almost there",
+          "description": "Two cooks smiling over a pan of paella on the stove"
+        },
+        {
+          "image": "assets/gallery/laughing-at-the-stove.jpg",
+          "caption": "Laughing at the stove",
+          "description": "Two guests laughing together while cooking at the stove"
+        }
+      ]
     },
     {
-      "image": "assets/gallery/dinner-together.jpg",
-      "caption": "Dinner, together",
-      "description": "A Crew seated around the long table sharing the meal they cooked"
+      "title": "The food",
+      "intro": "Bold, global, and entirely plant-based.",
+      "photos": [
+        {
+          "image": "assets/gallery/paella-peppers.jpg",
+          "caption": "Paella, painted with peppers",
+          "description": "A paella pan topped with red, yellow and green peppers on the stove"
+        },
+        {
+          "image": "assets/gallery/the-spread.jpg",
+          "caption": "The spread",
+          "description": "Arancini, dipping sauce and paella laid out on the counter"
+        },
+        {
+          "image": "assets/gallery/counter-feast.jpg",
+          "caption": "Dinner is served",
+          "description": "Finished dishes lined up along the kitchen counter"
+        },
+        {
+          "image": "assets/gallery/fresh-bagels.jpg",
+          "caption": "Fresh from the oven",
+          "description": "Trays of homemade bagels"
+        }
+      ]
     },
     {
-      "image": "assets/gallery/at-the-stove.jpg",
-      "caption": "Stirring things up",
-      "description": "Two guests cooking side by side at the stove with wooden spoons"
+      "title": "Family pic",
+      "intro": "Every Crew gets its photo.",
+      "photos": [
+        {
+          "image": "assets/gallery/crew-on-the-deck.jpg",
+          "caption": "A Crew by the water",
+          "description": "A Crew in matching aprons on a sunny deck by the water"
+        },
+        {
+          "image": "assets/gallery/crew-in-the-kitchen.jpg",
+          "caption": "The whole Crew",
+          "description": "A Crew gathered in the kitchen under a glowing pendant light"
+        },
+        {
+          "image": "assets/gallery/noah-and-the-crew.jpg",
+          "caption": "Noah and the Crew",
+          "description": "Noah taking a selfie with a cheering Crew behind him"
+        },
+        {
+          "image": "assets/gallery/crew-goofing-around.jpg",
+          "caption": "Crew photo, take two",
+          "description": "A Crew striking playful poses around the kitchen table"
+        }
+      ]
     },
     {
-      "image": "assets/gallery/platter-proud.jpg",
-      "caption": "Plated with pride",
-      "description": "Two guests presenting a platter they cooked"
-    },
-    {
-      "image": "assets/gallery/the-spread.jpg",
-      "caption": "The spread",
-      "description": "Arancini, dipping sauce and paella laid out on the counter"
-    },
-    {
-      "image": "assets/gallery/produce-ready.jpg",
-      "caption": "Everything in its place",
-      "description": "A counter of fresh, prepped produce ready for class"
-    },
-    {
-      "image": "assets/gallery/salad-duo.jpg",
-      "caption": "Proud of this one",
-      "description": "Two guests holding the salad they made"
-    },
-    {
-      "image": "assets/gallery/table-is-set.jpg",
-      "caption": "The table is set",
-      "description": "The class table set with cutting boards and aprons under a sculptural wall"
-    },
-    {
-      "image": "assets/gallery/shakshuka-by-the-water.jpg",
-      "caption": "Shakshuka with a view",
-      "description": "Two guests behind pans of shakshuka at a table by the water"
-    },
-    {
-      "image": "assets/gallery/welcome.jpg",
-      "caption": "Welcome to the table",
-      "description": "A host in a Greener Table apron welcoming guests with open arms"
-    },
-    {
-      "image": "assets/gallery/mise-en-place.jpg",
-      "caption": "Mise en place",
-      "description": "A tray of measured spices and grains ready before cooking"
-    },
-    {
-      "image": "assets/gallery/laughing-at-the-counter.jpg",
-      "caption": "The fun part",
-      "description": "Two guests laughing together while cooking at the counter"
-    },
-    {
-      "image": "assets/gallery/khao-soi-night.jpg",
-      "caption": "Khao Soi night",
-      "description": "Two guests holding a pot and a bowl of Khao Soi"
-    },
-    {
-      "image": "assets/gallery/paella-pair.jpg",
-      "caption": "Paella, almost there",
-      "description": "Two cooks smiling over a pan of paella on the stove"
-    },
-    {
-      "image": "assets/gallery/pupusas-by-the-water.jpg",
-      "caption": "Pupusas, fresh off the griddle",
-      "description": "Two guests holding a plate of pupusas outside by the water"
-    },
-    {
-      "image": "assets/gallery/salad-bowl.jpg",
-      "caption": "Fresh and green",
-      "description": "Two guests holding a big bowl of green salad"
-    },
-    {
-      "image": "assets/gallery/soy-curls-bowl.jpg",
-      "caption": "Black pepper soy curls",
-      "description": "Two guests with a big bowl of black pepper soy curls"
-    },
-    {
-      "image": "assets/gallery/counter-feast.jpg",
-      "caption": "Dinner is served",
-      "description": "Finished dishes lined up along the kitchen counter"
-    },
-    {
-      "image": "assets/gallery/crew-in-the-kitchen.jpg",
-      "caption": "The whole Crew",
-      "description": "A Crew gathered in the kitchen under a glowing pendant light"
-    },
-    {
-      "image": "assets/gallery/shakshuka-outdoors.jpg",
-      "caption": "Shakshuka in the sunshine",
-      "description": "Two hosts behind pans of shakshuka at an outdoor table under the palms"
-    },
-    {
-      "image": "assets/gallery/rice-paper-rolls.jpg",
-      "caption": "Rice paper rolls",
-      "description": "Two guests showing off platters of rice paper rolls"
-    },
-    {
-      "image": "assets/gallery/crew-goofing-around.jpg",
-      "caption": "Crew photo, take two",
-      "description": "A Crew striking playful poses around the kitchen table"
-    },
-    {
-      "image": "assets/gallery/laughing-at-the-stove.jpg",
-      "caption": "Laughing at the stove",
-      "description": "Two guests laughing together while cooking at the stove"
-    },
-    {
-      "image": "assets/gallery/fresh-bagels.jpg",
-      "caption": "Fresh from the oven",
-      "description": "Trays of homemade bagels"
-    },
-    {
-      "image": "assets/gallery/salad-pride.jpg",
-      "caption": "Nailed it",
-      "description": "Two guests proudly holding a bowl of salad"
-    },
-    {
-      "image": "assets/gallery/noah-and-the-crew.jpg",
-      "caption": "Noah and the Crew",
-      "description": "Noah taking a selfie with a cheering Crew behind him"
-    },
-    {
-      "image": "assets/gallery/rice-paper-rolls-night.jpg",
-      "caption": "Rolled to perfection",
-      "description": "Two guests holding platters of rice paper rolls"
-    },
-    {
-      "image": "assets/gallery/paella-done.jpg",
-      "caption": "Paella, done",
-      "description": "Two guests showing off a finished pan of paella"
-    },
-    {
-      "image": "assets/gallery/shakshuka-trio.jpg",
-      "caption": "Cooking by the lagoon",
-      "description": "Three cooks behind pans of shakshuka outdoors by the water"
+      "title": "Breaking bread",
+      "intro": "The best part: sitting down together to share what we made.",
+      "photos": [
+        {
+          "image": "assets/gallery/dinner-together.jpg",
+          "caption": "Dinner, together",
+          "description": "A Crew seated around the long table sharing the meal they cooked"
+        },
+        {
+          "image": "assets/gallery/shakshuka-by-the-water.jpg",
+          "caption": "Shakshuka with a view",
+          "description": "Two guests behind pans of shakshuka at a table by the water"
+        },
+        {
+          "image": "assets/gallery/pupusas-by-the-water.jpg",
+          "caption": "Pupusas, fresh off the griddle",
+          "description": "Two guests holding a plate of pupusas outside by the water"
+        },
+        {
+          "image": "assets/gallery/shakshuka-outdoors.jpg",
+          "caption": "Shakshuka in the sunshine",
+          "description": "Two hosts behind pans of shakshuka at an outdoor table under the palms"
+        }
+      ]
     }
   ]
 }

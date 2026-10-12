@@ -35,6 +35,14 @@
 .kw-card .kw-who { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--sand); }
 .kw-card:nth-child(4n + 2) { background: var(--sage-soft); border-top-color: var(--olive); }
 
+/* You spoke, we listened */
+.kw-listened { padding: 0 0 clamp(72px, 9vw, 120px); text-align: center; }
+.kw-listened h2 { margin: 12px 0 12px; }
+.kw-listened h2 em { font-style: italic; color: var(--olive); }
+.kw-listened-intro { color: var(--muted); max-width: 34em; margin: 0 auto 28px; }
+.kw-listened ul { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; max-width: 900px; margin: 0 auto; }
+.kw-listened li { background: var(--linen); border: 1px solid var(--stone); padding: 12px 20px; font-family: var(--serif); font-style: italic; font-size: 20px; }
+
 /* Closing prompt */
 .kw-cta { background: var(--stone); padding: clamp(56px, 7vw, 88px) 0; text-align: center; }
 .kw-cta p { font-family: var(--serif); font-size: clamp(30px, 3.4vw, 44px); margin-bottom: 22px; }
