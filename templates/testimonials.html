@@ -51,6 +51,22 @@
   </section>
   {{/if}}
 
+  {{#if feedback.link}}
+  <section class="kw-feedback">
+    <div class="wrap">
+      <div class="kw-feedback-card reveal">
+        <div class="kw-feedback-text">
+          <p class="eyebrow">{{feedback.eyebrow}}</p>
+          <h2>{{feedback.heading}}</h2>
+          <p>{{feedback.text}}</p>
+          <a class="btn" href="{{attr:feedback.link}}" target="_blank" rel="noopener">{{feedback.button_label}}</a>
+        </div>
+        {{#if feedback.qr}}<figure class="kw-qr"><img src="{{attr:feedback.qr}}" alt="QR code linking to the feedback survey" width="180" height="180"><figcaption>Or scan with your phone</figcaption></figure>{{/if}}
+      </div>
+    </div>
+  </section>
+  {{/if}}
+
   {{#each featured as t}}
   <section class="kw-feature">
     <div class="wrap reveal">
@@ -76,21 +92,6 @@
     </div>
   </section>
 
-  {{#if feedback.link}}
-  <section class="kw-feedback">
-    <div class="wrap">
-      <div class="kw-feedback-card reveal">
-        <div class="kw-feedback-text">
-          <p class="eyebrow">{{feedback.eyebrow}}</p>
-          <h2>{{feedback.heading}}</h2>
-          <p>{{feedback.text}}</p>
-          <a class="btn" href="{{attr:feedback.link}}" target="_blank" rel="noopener">{{feedback.button_label}}</a>
-        </div>
-        {{#if feedback.qr}}<figure class="kw-qr"><img src="{{attr:feedback.qr}}" alt="QR code linking to the feedback survey" width="180" height="180"><figcaption>Or scan with your phone</figcaption></figure>{{/if}}
-      </div>
-    </div>
-  </section>
-  {{/if}}
 
   <section class="kw-cta">
     <div class="wrap reveal">

@@ -140,6 +140,7 @@ const home = readJSON('content/home.json');
 const settings = readJSON('content/settings.json');
 const html = render(read('templates/index.html'), {
   ...home, settings, year: String(new Date().getFullYear()),
+  feedback: (readJSON('content/testimonials.json').feedback || {}),
   featured: recipes.filter(r => r.featured).slice(0, Number((home.recipes_section || {}).max_on_home) || 6).map(r => r.home),
 });
 fs.writeFileSync(path.join(OUT, 'index.html'), html);

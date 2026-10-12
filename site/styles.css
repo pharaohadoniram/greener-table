@@ -328,6 +328,17 @@ form .btn { justify-self: start; }
 .contact-email a { color: var(--olive); }
 .signoff { margin-top: 26px; font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--ink); }
 
+/* Feedback survey */
+.kw-feedback { padding: 0 0 clamp(56px, 7vw, 88px); }
+.home-feedback { padding: 0 0 clamp(72px, 9vw, 120px); }
+.kw-feedback-card { display: grid; grid-template-columns: 1fr auto; gap: clamp(28px, 5vw, 64px); align-items: center; background: var(--sage-soft); padding: clamp(32px, 5vw, 56px); max-width: 980px; margin: 0 auto; }
+.kw-feedback-text h2 { margin: 12px 0 14px; }
+.kw-feedback-text h2 em { font-style: italic; color: var(--olive); }
+.kw-feedback-text p:not(.eyebrow) { color: var(--muted); margin-bottom: 24px; max-width: 34em; }
+.kw-qr { text-align: center; background: #fff; padding: 16px 16px 12px; }
+.kw-qr img { width: 180px; height: 180px; image-rendering: pixelated; }
+.kw-qr figcaption { margin-top: 8px; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+
 /* Footer */
 footer { padding: 64px 0 40px; text-align: center; }
 footer img { height: 210px; width: auto; margin: 0 auto 22px; }
@@ -362,6 +373,8 @@ footer small { font-size: 13px; color: var(--muted); }
   .host-grid { grid-template-columns: 1fr; gap: 72px; }
 }
 @media (max-width: 680px) {
+  .kw-feedback-card { grid-template-columns: 1fr; justify-items: start; }
+  .kw-qr img { width: 140px; height: 140px; }
   .goals-grid { grid-template-columns: 1fr; gap: 40px; }
   .goal + .goal { border-left: 0; border-top: 1px solid rgba(251, 248, 242, 0.25); padding-top: 40px; }
   .mission-grid { grid-template-columns: 1fr; gap: 40px; }
