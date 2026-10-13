@@ -222,8 +222,11 @@ h1 em, h2 em { font-style: italic; color: var(--olive); }
 .host dl { margin-bottom: 26px; }
 .host blockquote { margin-top: auto; padding-left: 18px; border-left: 2px solid var(--sage); font-family: var(--serif); font-style: italic; font-size: 20px; line-height: 1.4; }
 .hosts-together { margin-top: clamp(56px, 7vw, 96px); text-align: center; }
-.hosts-together img { width: 100%; max-width: 760px; aspect-ratio: 4 / 3; object-fit: cover; margin: 0 auto; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
-.hosts-together figcaption { margin-top: 16px; font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--olive); }
+/* Vine frame: box and photo position match the geometry in build/vine-frame.py (860 x 680, photo 760 x 570 at 50,50). */
+.vine-wrap { position: relative; max-width: 860px; margin: 0 auto; aspect-ratio: 860 / 680; }
+.vine-wrap img { position: absolute; left: 5.814%; top: 7.353%; width: 88.372%; height: 83.824%; object-fit: cover; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
+.vine-wrap .vine { left: 0; top: 0; width: 100%; height: 100%; border-radius: 0; object-fit: fill; pointer-events: none; }
+.hosts-together figcaption { margin-top: 0; font-family: var(--serif); font-style: italic; font-size: 22px; color: #5f7147; }
 
 /* Menu */
 .menu { background: var(--linen); padding: clamp(80px, 10vw, 136px) 0; }

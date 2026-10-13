@@ -192,7 +192,10 @@
       </div>
       {{#if hosts.together_photo}}
       <figure class="hosts-together reveal">
-        <img src="{{attr:hosts.together_photo}}" alt="{{attr:hosts.together_photo_description}}" loading="lazy">
+        <div class="vine-wrap">
+          <img src="{{attr:hosts.together_photo}}" alt="{{attr:hosts.together_photo_description}}" loading="lazy">
+          <img class="vine" src="assets/vine-frame.svg" alt="" aria-hidden="true">
+        </div>
         {{#if hosts.together_caption}}<figcaption>{{hosts.together_caption}}</figcaption>{{/if}}
       </figure>
       {{/if}}
