@@ -190,6 +190,12 @@
         </article>
         {{/each}}
       </div>
+      {{#if hosts.together_photo}}
+      <figure class="hosts-together reveal">
+        <img src="{{attr:hosts.together_photo}}" alt="{{attr:hosts.together_photo_description}}" loading="lazy">
+        {{#if hosts.together_caption}}<figcaption>{{hosts.together_caption}}</figcaption>{{/if}}
+      </figure>
+      {{/if}}
     </div>
   </section>
 

@@ -221,6 +221,9 @@ h1 em, h2 em { font-style: italic; color: var(--olive); }
 .host { display: flex; flex-direction: column; }
 .host dl { margin-bottom: 26px; }
 .host blockquote { margin-top: auto; padding-left: 18px; border-left: 2px solid var(--sage); font-family: var(--serif); font-style: italic; font-size: 20px; line-height: 1.4; }
+.hosts-together { margin-top: clamp(56px, 7vw, 96px); text-align: center; }
+.hosts-together img { width: 100%; max-width: 760px; aspect-ratio: 4 / 3; object-fit: cover; margin: 0 auto; border-radius: 50% 50% 0 0 / 30% 30% 0 0; }
+.hosts-together figcaption { margin-top: 16px; font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--olive); }
 
 /* Menu */
 .menu { background: var(--linen); padding: clamp(80px, 10vw, 136px) 0; }

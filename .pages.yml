@@ -325,6 +325,9 @@ content:
           - { name: eyebrow, label: Small heading, type: string }
           - { name: heading, label: Heading, type: string }
           - { name: intro, label: Introduction, type: text }
+          - { name: together_photo, label: Photo of the two of you (shown below both hosts), type: image, options: { media: photos } }
+          - { name: together_caption, label: Caption under that photo, type: string }
+          - { name: together_photo_description, label: Description of that photo (for screen readers), type: string }
           - name: people
             label: Hosts
             type: object
