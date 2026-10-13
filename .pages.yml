@@ -284,6 +284,7 @@ content:
         fields:
           - { name: eyebrow, label: Small heading, type: string }
           - { name: heading, label: Heading, type: string }
+          - { name: prompt, label: Small italic line under the heading, type: string, description: "Shown on its own line in smaller italic text, for example “Click on each to discover”." }
           - name: pillars
             label: Pillars
             type: object

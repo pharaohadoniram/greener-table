@@ -95,7 +95,8 @@
   },
   "philosophy": {
     "eyebrow": "The Greener Table",
-    "heading": "Healthy lifestyle, healthy eating, *healthy relationships*. *click on each to discover*",
+    "heading": "Healthy lifestyle, healthy eating, *healthy relationships*",
+    "prompt": "Click on each to discover",
     "pillars": [
       {
         "name": "Healthy Lifestyle",

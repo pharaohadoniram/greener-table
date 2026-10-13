@@ -132,6 +132,7 @@
       <div class="head reveal">
         <p class="eyebrow">{{philosophy.eyebrow}}</p>
         <h2>{{philosophy.heading}}</h2>
+        {{#if philosophy.prompt}}<p class="head-prompt">{{philosophy.prompt}}</p>{{/if}}
       </div>
       <div class="tabs reveal" role="tablist" aria-label="The three pillars">
         {{#each philosophy.pillars as t}}<button role="tab" id="tab-{{slug:t.name}}" aria-controls="panel-{{slug:t.name}}" aria-selected="{{#if @first}}true{{/if}}{{#if @notfirst}}false{{/if}}">{{t.name}}</button>{{/each}}
