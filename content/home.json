@@ -95,7 +95,7 @@
   },
   "philosophy": {
     "eyebrow": "The Greener Table",
-    "heading": "Healthy lifestyle, healthy eating, *healthy relationships*  Click on each to discover",
+    "heading": "Healthy lifestyle, healthy eating, *healthy relationships*. *click on each to discover*",
     "pillars": [
       {
         "name": "Healthy Lifestyle",
@@ -204,6 +204,9 @@
     "eyebrow": "Meet your hosts",
     "heading": "Stacy & *Noah*",
     "intro": "They met as camp counselors and have been cooking, building and adventuring together for forty years. Noah likes to call himself Stacy’s sous chef, but as you will see, he is so much more.",
+    "together_photo": "assets/stacy-and-noah-together.jpg",
+    "together_caption": "Stacy & Noah",
+    "together_photo_description": "Stacy and Noah sharing a kiss by the water, with pans of shakshuka in front of them",
     "people": [
       {
         "name": "Stacy",
@@ -249,10 +252,7 @@
         ],
         "quote": "There is a difference between being vegan and being a healthy vegan. Personally, it has helped my overall physical well-being."
       }
-    ],
-    "together_photo": "assets/stacy-and-noah-together.jpg",
-    "together_photo_description": "Stacy and Noah sharing a kiss by the water, with pans of shakshuka in front of them",
-    "together_caption": "Stacy & Noah"
+    ]
   },
   "recipes_section": {
     "eyebrow": "Recipes",
