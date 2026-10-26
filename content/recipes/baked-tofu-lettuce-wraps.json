@@ -1,0 +1,393 @@
+{
+  "title": "Baked Tofu Lettuce Wraps",
+  "subtitle": "with peanut sauce",
+  "region": "China & Southeast Asia",
+  "show_on_home_menu": false,
+  "order": 16,
+  "menu_blurb": "Baked tofu, mushrooms and water chestnuts tossed in a rich hoisin sauce, spooned into crisp butterhead lettuce cups and topped with carrot and crushed peanuts.",
+  "photo": "",
+  "intro": "A fresh, light, crunchy and surprisingly flavorful dish: baked tofu tossed in a rich sauce and served inside crisp, cup-shaped lettuce leaves. Great as an appetizer or a main dish.",
+  "origin": "Lettuce wraps come from China, where they are known in Cantonese as san choy bow (“lettuce package”), and from across Southeast Asia, with traditional dishes like Thai miang kham and Laotian and Thai larb (meat salads served in leaf cups). They continue to be popular in restaurants as more people move toward lighter, lower-carb meals.",
+  "prep_minutes": "20",
+  "cook_minutes": "15",
+  "serves": "6 to 8",
+  "pdf": "",
+  "mise_en_place": [
+    {
+      "label": "Chop",
+      "task": "Tofu, mushrooms, water chestnuts and scallions"
+    },
+    {
+      "label": "Mince",
+      "task": "Garlic and ginger"
+    },
+    {
+      "label": "Tools",
+      "task": "A wok"
+    }
+  ],
+  "ingredients": [
+    {
+      "group": "Plant protein",
+      "items": [
+        {
+          "name": "Baked tofu",
+          "amount": "20 oz (1½ packages)"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Fresh produce & aromatics",
+      "items": [
+        {
+          "name": "Baby bella mushrooms",
+          "amount": "1 package"
+        },
+        {
+          "name": "Oyster mushrooms",
+          "amount": "8 small or 2 large"
+        },
+        {
+          "name": "Green onions, thinly sliced",
+          "amount": "6"
+        },
+        {
+          "name": "Garlic cloves, minced",
+          "amount": "3"
+        },
+        {
+          "name": "Ginger, grated",
+          "amount": "2 tsp"
+        },
+        {
+          "name": "Butterhead lettuce",
+          "amount": "1 head"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "For the sauce",
+      "items": [
+        {
+          "name": "Hoisin sauce",
+          "amount": "3 tbsp"
+        },
+        {
+          "name": "Soy sauce",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Rice wine vinegar",
+          "amount": "2 tbsp"
+        },
+        {
+          "name": "Sesame oil",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "Red pepper flakes",
+          "amount": "¼ tsp"
+        },
+        {
+          "name": "Water",
+          "amount": "½ cup"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "Pantry staples & seasonings",
+      "items": [
+        {
+          "name": "Water chestnuts, chopped",
+          "amount": "1 can"
+        },
+        {
+          "name": "Avocado oil",
+          "amount": "2 tsp"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "group": "To finish",
+      "items": [
+        {
+          "name": "Shredded carrot",
+          "amount": "½ cup"
+        },
+        {
+          "name": "Crushed peanuts",
+          "amount": "¼ cup"
+        }
+      ],
+      "note": ""
+    }
+  ],
+  "prep_note": "",
+  "steps": [
+    {
+      "title": "Prepare",
+      "instructions": [
+        "Chop the tofu, mushrooms and water chestnuts all the same size, about ¼ inch cubes."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Make the sauce",
+      "instructions": [
+        "In a small bowl, stir together the hoisin, soy sauce, rice vinegar, water and sesame oil. Set aside."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Cook",
+      "instructions": [
+        "Heat the avocado oil in a wok over medium-high heat.",
+        "Once the oil is hot, add the tofu and cook until it browns a little, about 5 to 8 minutes.",
+        "Add the mushrooms and keep cooking for another 4 minutes.",
+        "Stir in the water chestnuts, garlic, ginger, red pepper flakes and half the green onions. Cook for a few more minutes.",
+        "Pour the sauce over the mixture and stir to coat, adding a little more water as needed.",
+        "Cook for another 5 minutes."
+      ],
+      "note_title": "",
+      "note": []
+    },
+    {
+      "title": "Plate",
+      "instructions": [
+        "Spoon the tofu mixture into the lettuce cups.",
+        "Garnish with the carrot, crushed peanuts and the rest of the green onions."
+      ],
+      "note_title": "",
+      "note": []
+    }
+  ],
+  "sauce": {
+    "eyebrow": "On the side",
+    "title": "Peanut Sauce",
+    "method": "Combine the sauce ingredients and mix briefly (it won’t come together right away), then microwave for 30 seconds. Mix again until smooth and set aside to cool. Adjust the sourness with vinegar, the saltiness with salt, and the spice to taste. Once cooled, thin with milk or water as needed.",
+    "versions": [
+      {
+        "name": "Classic",
+        "items": [
+          {
+            "name": "Peanut butter, preferably smooth (crunchy is fine too)",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Hoisin sauce",
+            "amount": "2 tbsp"
+          },
+          {
+            "name": "Vinegar or lime juice",
+            "amount": "½ tbsp"
+          },
+          {
+            "name": "Water",
+            "amount": "⅓ cup"
+          },
+          {
+            "name": "Garlic clove, minced",
+            "amount": "1"
+          },
+          {
+            "name": "Crushed chili flakes",
+            "amount": "½ tsp"
+          }
+        ]
+      },
+      {
+        "name": "Less authentic, still yummy",
+        "items": [
+          {
+            "name": "Smooth peanut butter",
+            "amount": "½ cup"
+          },
+          {
+            "name": "Sugar",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Hoisin sauce",
+            "amount": "4 tbsp"
+          },
+          {
+            "name": "Sweet soy sauce (kecap manis, thick like syrup)",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Garlic, minced",
+            "amount": "2 small cloves or 1 large"
+          },
+          {
+            "name": "Bird’s eye chili, finely chopped",
+            "amount": "1"
+          },
+          {
+            "name": "Sesame oil",
+            "amount": "1 tbsp"
+          },
+          {
+            "name": "Lime juice",
+            "amount": "2 tbsp"
+          },
+          {
+            "name": "Water",
+            "amount": "as needed"
+          }
+        ]
+      }
+    ]
+  },
+  "tips": [
+    {
+      "label": "Flavor boost",
+      "tip": "Add more red pepper flakes to make it spicier."
+    },
+    {
+      "label": "Substitution",
+      "tip": "Any kind of mushroom works, as long as you chop it small. Romaine works in place of butterhead lettuce, or serve the filling over rice."
+    },
+    {
+      "label": "Meal prep hack",
+      "tip": "The filling keeps for a couple of days in the refrigerator, so it’s easy to make ahead for appetizers or a main meal."
+    }
+  ],
+  "nutrition": [
+    {
+      "ingredient": "Baked tofu",
+      "facts": [
+        "132 to 165 calories per 100 g",
+        "11 to 16 g protein",
+        "2 to 3 g carbs"
+      ],
+      "notes": "Includes calcium, manganese, iron, copper, selenium, phosphorus, magnesium, zinc, and vitamins A, B1, B2 and B5."
+    },
+    {
+      "ingredient": "Lettuce",
+      "facts": [
+        "17 calories per 100 g",
+        "2 g fiber",
+        "1 g protein",
+        "3 g carbs",
+        "very little fat"
+      ],
+      "notes": "Dense in micronutrients, including vitamins K, A, C and B9, and potassium."
+    },
+    {
+      "ingredient": "Mushrooms",
+      "facts": [
+        "28 calories per cup",
+        "2.9 g protein",
+        "1.1 g carbs",
+        "0.3 g fat"
+      ],
+      "notes": "High in B vitamins, vitamin D2 and antioxidants. May help lower cholesterol, regulate blood sugar and support your immune system."
+    },
+    {
+      "ingredient": "Water chestnuts (canned)",
+      "facts": [
+        "40 calories per 140 g",
+        "3 g fiber",
+        "2 g protein",
+        "24 g carbs",
+        "0 g fat"
+      ],
+      "notes": "Vitamins B6, C and other B vitamins (B1, B2, B3). Canned water chestnuts are very gut-friendly and high in the antioxidant ferulic acid."
+    },
+    {
+      "ingredient": "Scallions",
+      "facts": [
+        "5 calories per onion",
+        "0.3 g protein",
+        "no fat",
+        "low sodium"
+      ],
+      "notes": "An excellent source of vitamins K, A and C, and folate. Low in calories and fat, though not a big source of protein or fiber."
+    },
+    {
+      "ingredient": "Garlic",
+      "facts": [
+        "4.5 calories per clove",
+        "1 g carbs",
+        "virtually no fat"
+      ],
+      "notes": "The amounts per clove are small, but garlic is rich in sulfur compounds like allicin, which are responsible for most of its health benefits."
+    },
+    {
+      "ingredient": "Ginger",
+      "facts": [
+        "80 calories per 100 g",
+        "17.8 g carbs",
+        "2 g fiber",
+        "2 g protein",
+        "0.75 g fat"
+      ],
+      "notes": "A low-calorie, nutrient-dense root famous for its sharp flavor and medicinal properties. Great for digestion and nausea relief, with anti-inflammatory properties."
+    },
+    {
+      "ingredient": "Peanut butter",
+      "facts": [
+        "188 calories per 2 tbsp",
+        "7 g protein",
+        "16 g fat",
+        "7 g carbs",
+        "2 g fiber",
+        "3 g sugar"
+      ],
+      "notes": "Nutrient dense, with protein, monounsaturated fats, fiber, and minerals like phosphorus, potassium, and niacin. Its fat and protein keep you full longer, which can help with weight management."
+    }
+  ],
+  "notebook": [
+    {
+      "question": "What is tofu, and is it good for you?",
+      "answer": [
+        "Yes, tofu is exceptionally good for you. It is a nutrient-dense, plant-based protein made from curdled soy milk pressed into blocks. It is a complete protein, containing all nine essential amino acids your body can’t make on its own, which makes it an excellent alternative to meat. It is high in iron and calcium, low in fat, cholesterol-free, and safe to eat every day.",
+        "Its nutrition varies mainly with firmness. Firmer varieties hold less water, so they carry more protein, fat, and calories per serving."
+      ],
+      "table_title": "Types of tofu",
+      "table": [
+        {
+          "label": "Baked",
+          "text": "Pre-cooked, dense, exceptionally firm and chewy. The most protein, about 150 calories and 14 to 16 g protein per 100 g. Best sliced into sandwiches, tossed into salads, or in quick stir-fries."
+        },
+        {
+          "label": "Extra firm or firm",
+          "text": "A solid block packed in water that holds its shape but needs pressing. About 90 calories and 9 to 10 g protein per 100 g. Best cubed for baking, pan-fried, grilled, or crumbled into a breakfast scramble."
+        },
+        {
+          "label": "Medium or soft",
+          "text": "Delicate, smooth, and crumbles easily. About 70 calories and 7 g protein per 100 g. Best steamed whole, dropped into hot soups, or in mapo tofu."
+        },
+        {
+          "label": "Silken",
+          "text": "Custard-like, smooth and glossy, and turns liquid when blended. About 55 calories and 5 g protein per 100 g. Best blended into creamy sauces, vegan desserts, smoothies, or as an egg substitute in baking."
+        }
+      ],
+      "benefits_title": "Key health benefits",
+      "benefits": [
+        {
+          "label": "Heart health",
+          "text": "Cholesterol-free and low in saturated fat, tofu may help reduce LDL cholesterol. Studies show eating at least one serving a week may lower heart disease risk by 18%."
+        },
+        {
+          "label": "Nutrient-rich",
+          "text": "A good source of iron, manganese, selenium, phosphorus, and calcium, especially when made with calcium sulfate."
+        },
+        {
+          "label": "Cancer risk reduction",
+          "text": "Tofu contains isoflavones, which have antioxidant and anti-inflammatory properties and potential protective effects against breast, prostate, and colorectal cancers."
+        },
+        {
+          "label": "Bone health",
+          "text": "Its high calcium and magnesium content helps prevent osteoporosis."
+        }
+      ]
+    }
+  ]
+}
