@@ -26,7 +26,7 @@ jobs:
           node-version: 22
       - name: Straighten and shrink large photos
         run: |
-          sudo apt-get install -y -qq imagemagick > /dev/null
+          sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick > /dev/null
           # -auto-orient applies the phone’s rotation tag before -strip removes it, so photos never end up sideways.
           find site/assets -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) -size +400k \
             -exec mogrify -auto-orient -resize '1600x1600>' -quality 80 -strip {} \;
